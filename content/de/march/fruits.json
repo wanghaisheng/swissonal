@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Apfel",
+      "description": "draußen am Ende des Monats"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen am Ende des Monats"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen am Ende des Monats"
+    }
+  ]
+}
