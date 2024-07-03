@@ -5,6 +5,7 @@ import {
   presetUno,
   presetWebFonts,
   transformerDirectives,
+  transformerVariantGroup,
 } from 'unocss'
 import { appBreakpoints } from './breakpoints'
 
@@ -15,12 +16,7 @@ export default defineConfig({
     presetIcons(),
     presetWebFonts(),
   ],
-  transformers: [
-    transformerDirectives({
-      applyVariable: ['--at-apply'],
-    }),
-  ],
-  
+
   theme: {
     fontFamily: {
       base: 'Neue Haas Grotesk Display Pro',
@@ -51,6 +47,13 @@ export default defineConfig({
       },
     },
   },
+
+  transformers: [
+    transformerDirectives({
+      applyVariable: ['--at-apply'],
+    }),
+    transformerVariantGroup(),
+  ],
 
   content: {
     filesystem: [
