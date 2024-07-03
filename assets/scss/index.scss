@@ -1,0 +1,6 @@
+@import './font.scss';
+@import './reset.scss';
+
+body * {
+  --at-apply: font-base text-black-200;
+}
