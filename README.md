@@ -1,75 +1,32 @@
-# Nuxt 3 Minimal Starter
+# Swissonal :cherries:
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Swissonal is a project dedicated to empowering Swiss gardeners, plant lovers, and anyone passionate about growing their own food
+
+---- 
+
+## Project Overview
+
+- Purpose: seasonal calendary to swiss gardeners
+- Main features: Filter by month and category 
+
+---- 
+
+## To-Do List
+
+To manage tasks and track progress, refer to our [Notion to-do list](https://www.notion.so/Swissonal-a8b9666a20c7478484478f3ca963f566).
+
+---- 
+
+## Code Conventions
+
+Follow our [code conventions](https://www.notion.so/Code-conventions-69458f59bd5c46bda4a44a1d9010ff52) to maintain consistency and readability across the codebase.
+
+---- 
 
 ## Setup
 
-Make sure to install the dependencies:
+Ensure you have [Bun](https://bun.io/) installed as your package manager.
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
+# Install dependencies
 bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
