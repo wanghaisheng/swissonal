@@ -1,0 +1,24 @@
+{
+  "herbs": [
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Basilico",
+      "description": "in serra"
+    }
+  ]
+}

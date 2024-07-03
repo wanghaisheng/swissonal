@@ -1,0 +1,24 @@
+{
+  "herbs": [
+    {
+      "title": "Petersilie",
+      "description": "draußen"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "draußen"
+    },
+    {
+      "title": "Basilikum",
+      "description": "im Gewächshaus"
+    }
+  ]
+}

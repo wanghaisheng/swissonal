@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Strawberry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Apple",
+      "description": "outdoors"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoors"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoors"
+    }
+  ]
+}

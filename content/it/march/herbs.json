@@ -1,0 +1,20 @@
+{
+  "herbs": [
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "in serra"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "fruits": [
+    {
+      "title": "Mela",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Pera",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Lampone",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Ciliegia",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Ribes",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Mora",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Prugna",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Mirtillo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Kiwi",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Albicocca",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Nectarina",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Melograno",
+      "description": "in serra"
+    },
+    {
+      "title": "Carambola",
+      "description": "in serra"
+    },
+    {
+      "title": "Papaya",
+      "description": "in serra"
+    },
+    {
+      "title": "Anguria",
+      "description": "in serra"
+    },
+    {
+      "title": "Ananas",
+      "description": "in serra"
+    },
+    {
+      "title": "Limone",
+      "description": "in serra"
+    },
+    {
+      "title": "Limone siciliano",
+      "description": "in serra"
+    }
+  ]
+}

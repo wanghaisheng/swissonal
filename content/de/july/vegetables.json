@@ -1,0 +1,68 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinat",
+      "description": "draußen"
+    },
+    {
+      "title": "Salat",
+      "description": "draußen"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen"
+    },
+    {
+      "title": "Rote Beete",
+      "description": "draußen"
+    },
+    {
+      "title": "Zucchini",
+      "description": "draußen"
+    },
+    {
+      "title": "Gurke",
+      "description": "draußen"
+    },
+    {
+      "title": "Tomate",
+      "description": "draußen"
+    },
+    {
+      "title": "Paprika",
+      "description": "draußen"
+    },
+    {
+      "title": "Grüne Bohne",
+      "description": "draußen"
+    },
+    {
+      "title": "Aubergine",
+      "description": "drau"
+    },
+    {
+      "title": "Mais",
+      "description": "draußen"
+    },
+    {
+      "title": "Spargel",
+      "description": "draußen"
+    },
+    {
+      "title": "Okra",
+      "description": "draußen"
+    }
+  ]
+}

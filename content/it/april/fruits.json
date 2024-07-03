@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Fragola",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Mela",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Pera",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Lampone",
+      "description": "all'aperto"
+    }
+  ]
+}

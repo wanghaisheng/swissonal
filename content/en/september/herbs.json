@@ -1,0 +1,60 @@
+{
+  "herbs": [
+    {
+      "title": "Parsley",
+      "description": "outdoor"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoor"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoor"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoor"
+    },
+    {
+      "title": "Basil",
+      "description": "outdoor"
+    },
+    {
+      "title": "Thyme",
+      "description": "outdoor"
+    },
+    {
+      "title": "Oregano",
+      "description": "outdoor"
+    },
+    {
+      "title": "Sage",
+      "description": "outdoor"
+    },
+    {
+      "title": "Tarragon",
+      "description": "outdoor"
+    },
+    {
+      "title": "Dill",
+      "description": "outdoor"
+    },
+    {
+      "title": "Fennel",
+      "description": "outdoor"
+    },
+    {
+      "title": "Lavender",
+      "description": "outdoor"
+    },
+    {
+      "title": "Chamomile",
+      "description": "outdoor"
+    },
+    {
+      "title": "Lemon balm",
+      "description": "outdoor"
+    }
+  ]
+}
