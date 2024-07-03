@@ -1,0 +1,32 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinaci",
+      "description": "in serra o all'aperto a fine mese"
+    },
+    {
+      "title": "Lattuga",
+      "description": "in serra o all'aperto a fine mese"
+    },
+    {
+      "title": "Carota",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Cipolla",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Aglio",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Barbabietola",
+      "description": "all'aperto a fine mese"
+    }
+  ]
+}

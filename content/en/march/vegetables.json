@@ -1,0 +1,32 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinach",
+      "description": "in greenhouse or outdoors at the end of the month"
+    },
+    {
+      "title": "Lettuce",
+      "description": "in greenhouse or outdoors at the end of the month"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoors at the end of the month"
+    }
+  ]
+}

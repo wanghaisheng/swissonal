@@ -1,0 +1,60 @@
+{
+  "herbs": [
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Basilico",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Timo",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Origano",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Salvia",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Dragoncello",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Aneto",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Finocchio",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Lavanda",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Camomilla",
+      "description": "all'aperto"
+    },
+    {
+      "title": "Melissa",
+      "description": "all'aperto"
+    }
+  ]
+}

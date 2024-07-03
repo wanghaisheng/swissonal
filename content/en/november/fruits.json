@@ -1,0 +1,76 @@
+{
+  "fruits": [
+    {
+      "title": "Apple",
+      "description": "outdoor"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoor"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoor"
+    },
+    {
+      "title": "Currant",
+      "description": "outdoor"
+    },
+    {
+      "title": "Cherry",
+      "description": "outdoor"
+    },
+    {
+      "title": "Blackberry",
+      "description": "outdoor"
+    },
+    {
+      "title": "Plum",
+      "description": "outdoor"
+    },
+    {
+      "title": "Blueberry",
+      "description": "outdoor"
+    },
+    {
+      "title": "Kiwi",
+      "description": "outdoor"
+    },
+    {
+      "title": "Apricot",
+      "description": "outdoor"
+    },
+    {
+      "title": "Nectarine",
+      "description": "outdoor"
+    },
+    {
+      "title": "Pomegranate",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Starfruit",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Papaya",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Watermelon",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Pineapple",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Lemon",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Sicilian lemon",
+      "description": "in greenhouse"
+    }
+  ]
+}

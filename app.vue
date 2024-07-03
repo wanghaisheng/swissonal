@@ -1,6 +1,10 @@
+<script setup>
+</script>
+
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <ContentList v-slot="{ list }" path="de/january" fields="title,description">
+      {{ list }}
+    </ContentList>
   </div>
 </template>

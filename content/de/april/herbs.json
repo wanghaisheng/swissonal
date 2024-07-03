@@ -1,0 +1,20 @@
+{
+  "herbs": [
+    {
+      "title": "Petersilie",
+      "description": "draußen"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "draußen"
+    }
+  ]
+}
