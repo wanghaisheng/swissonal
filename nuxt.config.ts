@@ -1,19 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
+  experimental: {
+    componentIslands: true,
+  },
   modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
-
   ssr: true,
-
   css: [
     '@/assets/scss/index.scss',
   ],
-
   typescript: {
     typeCheck: true,
   },
-
   i18n: {
     defaultLocale: 'en',
     langDir: 'locales/',
