@@ -1,0 +1,68 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinach",
+      "description": "outdoor"
+    },
+    {
+      "title": "Lettuce",
+      "description": "outdoor"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoor"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoor"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoor"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoor"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoor"
+    },
+    {
+      "title": "Zucchini",
+      "description": "outdoor"
+    },
+    {
+      "title": "Cucumber",
+      "description": "outdoor"
+    },
+    {
+      "title": "Tomato",
+      "description": "outdoor"
+    },
+    {
+      "title": "Bell pepper",
+      "description": "outdoor"
+    },
+    {
+      "title": "Green beans",
+      "description": "outdoor"
+    },
+    {
+      "title": "Eggplant",
+      "description": "outdoor"
+    },
+    {
+      "title": "Corn",
+      "description": "outdoor"
+    },
+    {
+      "title": "Asparagus",
+      "description": "outdoor"
+    },
+    {
+      "title": "Okra",
+      "description": "outdoor"
+    }
+  ]
+}

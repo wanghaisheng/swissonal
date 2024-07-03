@@ -1,0 +1,16 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Apfel",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Birne",
+      "description": "im Gewächshaus"
+    }
+  ]
+}

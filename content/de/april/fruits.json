@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "draußen"
+    },
+    {
+      "title": "Apfel",
+      "description": "draußen"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen"
+    }
+  ]
+}

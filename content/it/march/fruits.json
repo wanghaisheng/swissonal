@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Fragola",
+      "description": "in serra"
+    },
+    {
+      "title": "Mela",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Pera",
+      "description": "all'aperto a fine mese"
+    },
+    {
+      "title": "Lampone",
+      "description": "all'aperto a fine mese"
+    }
+  ]
+}

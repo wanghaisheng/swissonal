@@ -1,0 +1,76 @@
+{
+  "fruits": [
+    {
+      "title": "Apfel",
+      "description": "im Freien"
+    },
+    {
+      "title": "Birne",
+      "description": "im Freien"
+    },
+    {
+      "title": "Himbeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Johannisbeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Kirsche",
+      "description": "im Freien"
+    },
+    {
+      "title": "Brombeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Pflaume",
+      "description": "im Freien"
+    },
+    {
+      "title": "Blaubeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Kiwi",
+      "description": "im Freien"
+    },
+    {
+      "title": "Aprikose",
+      "description": "im Freien"
+    },
+    {
+      "title": "Nektarine",
+      "description": "im Freien"
+    },
+    {
+      "title": "Granatapfel",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Karambola",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Papaya",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Wassermelone",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Ananas",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Zitrone",
+      "description": "in Gewächshaus"
+    },
+    {
+      "title": "Sizilianische Zitrone",
+      "description": "in Gewächshaus"
+    }
+  ]
+}

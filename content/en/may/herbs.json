@@ -1,0 +1,24 @@
+{
+  "herbs": [
+    {
+      "title": "Parsley",
+      "description": "outdoors"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoors"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoors"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoors"
+    },
+    {
+      "title": "Basil",
+      "description": "in greenhouse"
+    }
+  ]
+}

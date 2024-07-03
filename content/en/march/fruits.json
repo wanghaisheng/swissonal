@@ -1,0 +1,20 @@
+{
+  "fruits": [
+    {
+      "title": "Strawberry",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Apple",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoors at the end of the month"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoors at the end of the month"
+    }
+  ]
+}
