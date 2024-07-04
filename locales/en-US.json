@@ -1,4 +1,10 @@
 {
+  "header": {
+    "calendar": "Calendar",
+    "about": "About",
+    "benefits": "Benefits"
+  },
+
   "months": {
     "january": "Januar",
     "february": "Februar",
