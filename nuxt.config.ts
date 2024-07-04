@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
   ssr: true,
   css: [
+    '@unocss/reset/tailwind.css',
     '@/assets/scss/index.scss',
   ],
   typescript: {
@@ -41,5 +42,5 @@ export default defineNuxtConfig({
         file: 'it-IT.json',
       },
     ],
-  }
+  },
 })
