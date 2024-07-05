@@ -1,9 +1,9 @@
 {
-  "header": {
-    "calendar": "Calendario",
-    "about": "Informazioni",
-    "benefits": "Benefici"
-  },
+  "header": [
+    "Calendario",
+    "Informazioni",
+    "Benefici"
+  ],
 
   "months": [
     "Gennaio",
@@ -20,9 +20,9 @@
     "Dicembre"
   ],
 
-  "categories": {
-    "fruits": "Frutta",
-    "vegetables": "Verdure",
-    "herbs": "Erbe"
-  }
+  "categories": [
+    "Frutta",
+    "Verdure",
+    "Erbe"
+  ]
 }
