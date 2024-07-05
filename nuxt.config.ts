@@ -4,7 +4,14 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
-  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
+  modules: [
+    '@nuxt/eslint',
+    '@unocss/nuxt',
+    '@nuxtjs/i18n',
+    '@nuxt/content',
+    'nuxt-headlessui',
+    "@nuxt/icon"
+  ],
   ssr: true,
   css: [
     '@unocss/reset/tailwind.css',
@@ -42,5 +49,9 @@ export default defineNuxtConfig({
         file: 'it-IT.json',
       },
     ],
+  },
+
+  headlessui: {
+    prefix: 'Headless',
   },
 })
