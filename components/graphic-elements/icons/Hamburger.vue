@@ -13,9 +13,9 @@ const openMenu = ref<boolean>(false)
 
 <style scoped>
 .menu-bar {
-  --at-apply: w-full h-2 w-full border-1 border-black-200 rounded-full
-    bg-white-100;
+  --at-apply: w-full h-2 w-full border-1 border-black-200 rounded-full;
   box-shadow: 1px 2px 0px 0px #1e1e1e;
+  background-color: #ffffff;
 }
 
 .one {
