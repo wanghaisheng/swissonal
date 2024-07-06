@@ -4,3 +4,7 @@
 body * {
   --at-apply: font-base text-black-200;
 }
+
+body {
+  --at-apply: overflow-x-hidden;
+}
