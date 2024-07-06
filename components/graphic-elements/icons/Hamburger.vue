@@ -1,10 +1,15 @@
 <script setup lang="ts">
-const openMenu = ref<boolean>(false)
+export interface Props {
+  isOpen?: boolean
+}
+
+defineProps<Props>()
 </script>
 
 <template>
   <div
-    class="h-full w-full flex flex-col cursor-pointer items-center justify-around" :class="{ active: openMenu }" @click="openMenu = !openMenu"
+    class="h-full w-full flex flex-col cursor-pointer items-center justify-around"
+    :class="{ active: isOpen }"
   >
     <div class="menu-bar one" />
     <div class="menu-bar two" />

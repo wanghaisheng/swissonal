@@ -10,14 +10,16 @@ const { locales, locale } = useNuxtApp().$i18n
   <div>
     <Menu
       as="div"
-      class="btn-underline relative z-2 text-base text-dark-200 font-semibold uppercase"
+      class="relative z-2 font-black uppercase lg:font-semibold lg:btn-underline"
+      text="[6vw] sm:[4vw] md:base lg:dark-200 "
     >
       <MenuButton
         as="button"
         aria-label="Language switcher"
-        class="flex items-center text-base font-base uppercase"
+        class="flex items-center font-base uppercase lg:text-base"
       >
         <span
+          text="6vw sm:[4vw] lg:base white-100 lg:dark-200"
           v-text="locale"
         />
       </MenuButton>
