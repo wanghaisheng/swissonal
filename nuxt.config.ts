@@ -1,8 +1,27 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   experimental: {
     componentIslands: true,
+  },
+  future: {
+    compatibilityVersion: 4,
+  },
+  components: {
+    global: true,
+    dirs: [
+      {
+        global: true,
+        path: './components/graphic-elements/icons',
+      },
+      {
+        global: true,
+        path: './components/graphic-elements/logos',
+      },
+      {
+        global: true,
+        path: './components/header',
+      },
+    ],
   },
   modules: [
     '@nuxt/eslint',
@@ -10,7 +29,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/content',
     'nuxt-headlessui',
-    "@nuxt/icon"
+    '@nuxt/icon',
+    '@vueuse/nuxt',
   ],
   ssr: true,
   css: [

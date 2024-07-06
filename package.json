@@ -26,6 +26,8 @@
     "@unocss/eslint-config": "^0.61.0",
     "@unocss/nuxt": "^0.61.0",
     "@unocss/preset-attributify": "^0.61.0",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
     "eslint": "^9.6.0",
     "eslint-plugin-format": "^0.1.2",
     "nuxt-headlessui": "^1.2.0",
