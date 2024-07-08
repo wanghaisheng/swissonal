@@ -7,26 +7,36 @@ const isMenuOpen = ref<boolean>(false)
 
 function resolvePath(headeIndex: number) {
   switch (headeIndex) {
-    case 0: 
+    case 0:
       return appRoutes.home
-    case 1: 
+    case 1:
       return appRoutes.about
-    case 2: 
+    case 2:
       return appRoutes.benefits
     default:
       return '/'
   }
 }
+
+definePageMeta({
+  middleware: ['set-header-background'],
+})
 </script>
 
 <template>
   <header
     class="fixed w-full flex flex-row items-center justify-between bg-white-100 px-4 py-6 shadow-md"
   >
-    <Logotype
-      class="z-2 h-10 fill-dark-200 transition-all duration-500 delay-200 ease-in-out"
-      :class="{ 'fill-white-100 ': isMenuOpen }"
-    />
+    <NuxtLink
+      :to="localePath(appRoutes.home)"
+      class="z-2 transition-all"
+      @click="isMenuOpen = false"
+    >
+      <Logotype
+        class="h-10 fill-dark-200 transition-all duration-500 delay-200 ease-in-out"
+        :class="{ 'fill-white-100 ': isMenuOpen }"
+      />
+    </NuxtLink>
 
     <button
       class="z-2 block h-10 w-10 lg:hidden"
