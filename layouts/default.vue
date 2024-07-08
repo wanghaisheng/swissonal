@@ -1,6 +1,9 @@
 <template>
   <div>
     <BHeader />
-    <slot />
+
+    <div>
+      <slot />
+    </div>
   </div>
 </template>

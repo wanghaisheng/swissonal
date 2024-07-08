@@ -1,4 +1,9 @@
 <script setup>
+const pageId = useId()
+
+await callOnce(`call-${pageId}`, () => {
+  usePageStore().setCurrentPageId('calendar')
+})
 </script>
 
 <template>

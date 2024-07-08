@@ -5,22 +5,7 @@ const localePath = useLocalePath()
 
 const isMenuOpen = ref<boolean>(false)
 
-function resolvePath(headeIndex: number) {
-  switch (headeIndex) {
-    case 0:
-      return appRoutes.home
-    case 1:
-      return appRoutes.about
-    case 2:
-      return appRoutes.benefits
-    default:
-      return '/'
-  }
-}
-
-definePageMeta({
-  middleware: ['set-header-background'],
-})
+const pagesInformation = usePageStore().getPages
 </script>
 
 <template>
@@ -28,7 +13,7 @@ definePageMeta({
     class="fixed w-full flex flex-row items-center justify-between bg-white-100 px-4 py-6 shadow-md"
   >
     <NuxtLink
-      :to="localePath(appRoutes.home)"
+      :to="localePath('/')"
       class="z-2 transition-all"
       @click="isMenuOpen = false"
     >
@@ -48,12 +33,14 @@ definePageMeta({
     <div class="hidden gap-16 lg:flex lg:flex-row">
       <ul class="flex flex-row gap-8">
         <li
-          v-for="currentIndex in 3"
-          :key="currentIndex"
+          v-for="(information, index) in pagesInformation"
+          :key="index"
           class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase btn-text"
         >
-          <NuxtLink :to="localePath(`${resolvePath(currentIndex - 1)}`)">
-            {{ $t(`header.${currentIndex - 1}`) }}
+          <NuxtLink :to="localePath(`${information.link.href}`)">
+            <p>
+              {{ $t(information.link.titleI18n) }}
+            </p>
           </NuxtLink>
         </li>
       </ul>
