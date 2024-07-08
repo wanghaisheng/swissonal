@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { appRoutes } from '~/routes'
-
 const localePath = useLocalePath()
 
 const isMenuOpen = ref<boolean>(false)

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { appBreakpoints } from '~/breakpoints'
-import { appRoutes } from '~/routes'
 
 export interface Props {
   isOpen?: boolean
@@ -27,19 +26,6 @@ function closeOnClicked() {
 }
 
 const localePath = useLocalePath()
-
-function resolvePath(headeIndex: number) {
-  switch (headeIndex) {
-    case 0:
-      return appRoutes.home
-    case 1:
-      return appRoutes.about
-    case 2:
-      return appRoutes.benefits
-    default:
-      return '/'
-  }
-}
 </script>
 
 <template>
@@ -53,7 +39,7 @@ function resolvePath(headeIndex: number) {
       class="cursor-pointer text-[10vw] font-black tracking-wide font-base uppercase md:text-[8vw]"
     >
       <NuxtLink
-        :to="localePath(`${resolvePath(currentIndex - 1)}`)"
+        :to="localePath('/')"
         @click="closeOnClicked"
       >
         <p class="text-white-100">
