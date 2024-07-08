@@ -31,12 +31,16 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@nuxt/icon',
     '@vueuse/nuxt',
+    '@pinia/nuxt',
   ],
   ssr: true,
   css: [
     '@unocss/reset/tailwind.css',
     '@/assets/scss/index.scss',
   ],
+  pinia: {
+    storesDirs: ['./stores/**'],
+  },
   typescript: {
     typeCheck: true,
   },
