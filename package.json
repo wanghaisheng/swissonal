@@ -19,6 +19,7 @@
     "@pinia/nuxt": "^0.5.1",
     "@unocss/reset": "^0.61.0",
     "nuxt": "^3.12.2",
+    "nuxt-lodash": "^2.5.3",
     "pinia": "^2.1.7",
     "vue": "latest"
   },

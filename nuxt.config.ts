@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    'nuxt-lodash',
   ],
   ssr: true,
   css: [

@@ -4,11 +4,16 @@ const localePath = useLocalePath()
 const isMenuOpen = ref<boolean>(false)
 
 const pagesInformation = usePageStore().getPages
+
+const currentPage = computed(() => usePageStore().getCurrentPage)
 </script>
 
 <template>
   <header
-    class="fixed w-full flex flex-row items-center justify-between bg-white-100 px-4 py-6 shadow-md"
+    class="fixed w-full flex flex-row items-center justify-between px-4 py-6 shadow-md"
+    :style="{
+      backgroundColor: currentPage.theme.headerColor,
+    }"
   >
     <NuxtLink
       :to="localePath('/')"
@@ -36,7 +41,11 @@ const pagesInformation = usePageStore().getPages
           class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase btn-text"
         >
           <NuxtLink :to="localePath(`${information.link.href}`)">
-            <p>
+            <p
+              :style="{
+                color: currentPage.theme.color,
+              }"
+            >
               {{ $t(information.link.titleI18n) }}
             </p>
           </NuxtLink>
