@@ -26,6 +26,8 @@ function closeOnClicked() {
 }
 
 const localePath = useLocalePath()
+
+const pagesInformation = usePageStore().getPages
 </script>
 
 <template>
@@ -34,16 +36,16 @@ const localePath = useLocalePath()
     class="fixed inset-0 h-screen w-screen flex flex-col items-end justify-center gap-12 bg-red-100 px-8 md:gap-10"
   >
     <li
-      v-for="currentIndex in 3"
-      :key="currentIndex"
+      v-for="(information, index) in pagesInformation"
+      :key="index"
       class="cursor-pointer text-[10vw] font-black tracking-wide font-base uppercase md:text-[8vw]"
     >
       <NuxtLink
-        :to="localePath('/')"
+        :to="localePath(`${information.link.href}`)"
         @click="closeOnClicked"
       >
         <p class="text-white-100">
-          {{ $t(`header.${currentIndex - 1}`) }}
+          {{ $t(information.link.titleI18n) }}
         </p>
       </NuxtLink>
     </li>
