@@ -1,7 +1,22 @@
 <script setup lang="ts">
+import { appRoutes } from '~/routes'
+
 const localePath = useLocalePath()
 
 const isMenuOpen = ref<boolean>(false)
+
+function resolvePath(headeIndex: number) {
+  switch (headeIndex) {
+    case 0: 
+      return appRoutes.home
+    case 1: 
+      return appRoutes.about
+    case 2: 
+      return appRoutes.benefits
+    default:
+      return '/'
+  }
+}
 </script>
 
 <template>
@@ -27,7 +42,7 @@ const isMenuOpen = ref<boolean>(false)
           :key="currentIndex"
           class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase btn-text"
         >
-          <NuxtLink :to="localePath('/')">
+          <NuxtLink :to="localePath(`${resolvePath(currentIndex - 1)}`)">
             {{ $t(`header.${currentIndex - 1}`) }}
           </NuxtLink>
         </li>

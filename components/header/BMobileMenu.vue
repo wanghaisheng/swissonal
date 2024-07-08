@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { appBreakpoints } from '~/breakpoints'
+import { appRoutes } from '~/routes'
 
 export interface Props {
   isOpen?: boolean
@@ -21,7 +22,24 @@ function closeOnScreenGreaterThanLg() {
   }
 }
 
+function closeOnClicked() {
+  return emits('update:isOpen', false)
+}
+
 const localePath = useLocalePath()
+
+function resolvePath(headeIndex: number) {
+  switch (headeIndex) {
+    case 0:
+      return appRoutes.home
+    case 1:
+      return appRoutes.about
+    case 2:
+      return appRoutes.benefits
+    default:
+      return '/'
+  }
+}
 </script>
 
 <template>
@@ -34,7 +52,10 @@ const localePath = useLocalePath()
       :key="currentIndex"
       class="cursor-pointer text-[10vw] font-black tracking-wide font-base uppercase md:text-[8vw]"
     >
-      <NuxtLink :to="localePath('/')">
+      <NuxtLink
+        :to="localePath(`${resolvePath(currentIndex - 1)}`)"
+        @click="closeOnClicked"
+      >
         <p class="text-white-100">
           {{ $t(`header.${currentIndex - 1}`) }}
         </p>
