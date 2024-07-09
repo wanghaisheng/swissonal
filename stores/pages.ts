@@ -10,8 +10,8 @@ export const usePageStore = defineStore('page', {
     getPages({ pages }): PageInformation[] {
       return pages
     },
-    getCurrentPage(state): PageInformation {
-      return state.pages.find(page => page.id === state.currentPageId)!
+    getCurrentPage({ pages, currentPageId }): PageInformation {
+      return pages.find(page => page.id === currentPageId)!
     },
   },
   actions: {

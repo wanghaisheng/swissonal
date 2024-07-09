@@ -4,7 +4,6 @@ const localePath = useLocalePath()
 const isMenuOpen = ref<boolean>(false)
 
 const pagesInformation = usePageStore().getPages
-
 const currentPage = computed(() => usePageStore().getCurrentPage)
 </script>
 
