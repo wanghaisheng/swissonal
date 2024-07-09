@@ -40,10 +40,11 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
         <li
           v-for="(information, index) in pagesInformation"
           :key="index"
-          class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase"
+          class="cursor-pointer"
         >
           <NuxtLink :to="localePath(`${information.link.href}`)">
             <p
+              class="text-base font-semibold tracking-wide font-base uppercase transition-all duration-500 ease hover:tracking-normal"
               :style="{
                 color: currentPage.theme.color,
               }"
