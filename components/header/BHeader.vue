@@ -21,7 +21,10 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
     >
       <Logotype
         class="h-10 fill-dark-200 transition-all duration-500 delay-200 ease-in-out"
-        :class="{ 'fill-white-100 ': isMenuOpen }"
+        :class="{ '!fill-white-100 ': isMenuOpen }"
+        :style="{
+          fill: currentPage.theme.color,
+        }"
       />
     </NuxtLink>
 
@@ -37,7 +40,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
         <li
           v-for="(information, index) in pagesInformation"
           :key="index"
-          class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase btn-text"
+          class="cursor-pointer text-base font-semibold tracking-wide font-base uppercase"
         >
           <NuxtLink :to="localePath(`${information.link.href}`)">
             <p
@@ -51,7 +54,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
         </li>
       </ul>
 
-      <BLanguageSwitcher />
+      <BLanguageSwitcher :is-menu-open="isMenuOpen" />
     </div>
 
     <transition

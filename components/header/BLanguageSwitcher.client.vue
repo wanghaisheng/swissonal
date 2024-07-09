@@ -1,16 +1,23 @@
 <script lang="ts" setup>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
+export interface Props {
+  isMenuOpen?: boolean
+}
+
+defineProps<Props>()
+
 const switchLocalePath = useSwitchLocalePath()
 
 const { locales, locale } = useNuxtApp().$i18n
+const currentPage = computed(() => usePageStore().getCurrentPage)
 </script>
 
 <template>
   <div>
     <Menu
       as="div"
-      class="relative z-2 font-black uppercase lg:font-semibold lg:btn-underline"
+      class="relative z-2 font-black uppercase lg:font-semibold"
       text="[6vw] sm:[4vw] md:base lg:dark-200 "
     >
       <MenuButton
@@ -18,8 +25,9 @@ const { locales, locale } = useNuxtApp().$i18n
         aria-label="Language switcher"
         class="flex items-center font-base uppercase lg:text-base"
       >
-        <span
-          text="6vw sm:[4vw] lg:base white-100 lg:dark-200"
+        <p
+          text="6vw sm:[4vw] lg:base"
+          :class="`${currentPage.id === 'calendar' && !isMenuOpen ? 'text-black-200' : 'text-white-100'}`"
           v-text="locale"
         />
       </MenuButton>

@@ -11,6 +11,8 @@ export const pages: PageInformation[] = [
     theme: {
       headerColor: '#FFFFFF',
       color: '#1E1E1E',
+      menuBg: '#DA291C',
+      menuText: '#FFFFFF',
     },
   },
   {
@@ -23,6 +25,8 @@ export const pages: PageInformation[] = [
     theme: {
       headerColor: '#DA291C',
       color: '#FFFFFF',
+      menuBg: '#03973A',
+      menuText: '#FFFFFF',
     },
   },
   {
@@ -35,6 +39,8 @@ export const pages: PageInformation[] = [
     theme: {
       headerColor: '#03973A',
       color: '#FFFFFF',
+      menuBg: '#DA291C',
+      menuText: '#FFFFFF',
     },
   },
 ]

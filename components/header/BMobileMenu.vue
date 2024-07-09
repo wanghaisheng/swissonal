@@ -28,12 +28,16 @@ function closeOnClicked() {
 const localePath = useLocalePath()
 
 const pagesInformation = usePageStore().getPages
+const currentPage = computed(() => usePageStore().getCurrentPage)
 </script>
 
 <template>
   <menu
     v-if="isOpen"
-    class="fixed inset-0 h-screen w-screen flex flex-col items-end justify-center gap-12 bg-red-100 px-8 md:gap-10"
+    class="fixed inset-0 h-screen w-screen flex flex-col items-end justify-center gap-12 px-8 md:gap-10"
+    :style="{
+      backgroundColor: currentPage.theme.menuBg,
+    }"
   >
     <li
       v-for="(information, index) in pagesInformation"
@@ -44,13 +48,17 @@ const pagesInformation = usePageStore().getPages
         :to="localePath(`${information.link.href}`)"
         @click="closeOnClicked"
       >
-        <p class="text-white-100">
+        <p
+          :style="{
+            color: currentPage.theme.menuText,
+          }"
+        >
           {{ $t(information.link.titleI18n) }}
         </p>
       </NuxtLink>
     </li>
     <li>
-      <BLanguageSwitcher />
+      <BLanguageSwitcher :is-menu-open="isOpen"/>
     </li>
   </menu>
 </template>

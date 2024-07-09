@@ -8,5 +8,7 @@ export interface PageInformation {
   theme: {
     headerColor: string
     color: string
+    menuBg: string
+    menuText: string
   }
 }
