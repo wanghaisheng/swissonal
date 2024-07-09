@@ -9,7 +9,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
 
 <template>
   <header
-    class="fixed w-full flex flex-row items-center justify-between px-4 py-6 shadow-md"
+    class="fixed w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
     :style="{
       backgroundColor: currentPage.theme.headerColor,
     }"
@@ -44,7 +44,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
         >
           <NuxtLink :to="localePath(`${information.link.href}`)">
             <p
-              class="text-base font-semibold tracking-wide font-base uppercase transition-all duration-500 ease hover:tracking-normal"
+              class="text-base font-semibold tracking-wide font-base uppercase"
               :style="{
                 color: currentPage.theme.color,
               }"
