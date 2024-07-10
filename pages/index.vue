@@ -7,6 +7,8 @@
       <h1 class="font-base uppercase">
         Components here
       </h1>
+
+      <BCardImageLink />
     </div>
 
     <ContentList

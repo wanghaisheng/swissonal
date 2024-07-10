@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-100dvh flex flex-col">
+  <div class="h-100dvh flex flex-col">
     <BHeader class="fixed" />
 
-    <div class="grow pt-30">
+    <div class="grow px-4 pt-30 lg:px-34">
       <slot />
     </div>
 
