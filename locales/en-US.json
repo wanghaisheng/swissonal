@@ -5,6 +5,12 @@
     "Benefits"
   ],
 
+  "footer": {
+    "your-guide": "Your practical planting guide in Switzerland.",
+    "made-by": "✨ Made by",
+    "based-on": "Based on Swiss gardening and agriculture data."
+  },
+
   "months": [
     "January",
     "February",

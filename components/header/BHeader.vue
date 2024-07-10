@@ -9,7 +9,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
 
 <template>
   <header
-    class="fixed w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
+    class="w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
     :style="{
       backgroundColor: currentPage.theme.headerColor,
     }"
