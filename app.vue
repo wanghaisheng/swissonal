@@ -8,6 +8,6 @@ onMounted(() => {
 
 <template>
   <NuxtLayout>
-    <NuxtPage class="pt-30" />
+    <NuxtPage />
   </NuxtLayout>
 </template>

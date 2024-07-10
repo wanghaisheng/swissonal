@@ -5,6 +5,12 @@
     "Vorteile"
   ],
 
+  "footer": {
+    "your-guide": "Ihr praktischer Pflanzleitfaden in der Schweiz.",
+    "made-by": "✨ Hergestellt von",
+    "based-on": "Basierend auf Schweizer Gartenbau- und Landwirtschaftsdaten."
+  },
+
   "months": [
     "Januar",
     "Februar",
