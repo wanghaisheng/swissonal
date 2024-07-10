@@ -1,10 +1,13 @@
-<script setup>
+<script lang="ts" setup>
+provideHeadlessUseId(() => useId())
+
+onMounted(() => {
+  useNuxtApp().$startLenisScrollAnimation()
+})
 </script>
 
 <template>
-  <div>
-    <ContentList v-slot="{ list }" path="de/january" fields="title,description">
-      {{ list }}
-    </ContentList>
-  </div>
+  <NuxtLayout>
+    <NuxtPage class="pt-30" />
+  </NuxtLayout>
 </template>

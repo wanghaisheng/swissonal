@@ -1,22 +1,28 @@
 {
-  "months": {
-    "january": "Januar",
-    "february": "Februar",
-    "march": "März",
-    "april": "April",
-    "may": "Mai",
-    "june": "Juni",
-    "july": "Juli",
-    "august": "August",
-    "september": "September",
-    "october": "Oktober",
-    "november": "November",
-    "december": "Dezember"
-  },
+  "header": [
+    "Calendar",
+    "About",
+    "Benefits"
+  ],
 
-  "categories": {
-    "fruits": "Fruits",
-    "vegetables": "Vegetables",
-    "herbs": "Herbs"
-  }
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+
+  "categories": [
+    "Fruits",
+    "Vegetables",
+    "Herbs"
+  ]
 }
