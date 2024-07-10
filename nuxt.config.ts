@@ -21,6 +21,10 @@ export default defineNuxtConfig({
         global: true,
         path: './components/header',
       },
+      {
+        global: true,
+        path: './components/footer',
+      },
     ],
   },
   modules: [
