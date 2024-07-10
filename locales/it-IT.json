@@ -1,22 +1,28 @@
 {
-  "months": {
-    "january": "Gennaio",
-    "february": "Febbraio",
-    "march": "Marzo",
-    "april": "Aprile",
-    "may": "Maggio",
-    "june": "Giugno",
-    "july": "Luglio",
-    "august": "Agosto",
-    "september": "Settembre",
-    "october": "Ottobre",
-    "november": "Novembre",
-    "december": "Dicembre"
-  },
+  "header": [
+    "Calendario",
+    "Informazioni",
+    "Benefici"
+  ],
 
-  "categories": {
-    "fruits": "Frutta",
-    "vegetables": "Verdure",
-    "herbs": "Erbe"
-  }
+  "months": [
+    "Gennaio",
+    "Febbraio",
+    "Marzo",
+    "Aprile",
+    "Maggio",
+    "Giugno",
+    "Luglio",
+    "Agosto",
+    "Settembre",
+    "Ottobre",
+    "Novembre",
+    "Dicembre"
+  ],
+
+  "categories": [
+    "Frutta",
+    "Verdure",
+    "Erbe"
+  ]
 }

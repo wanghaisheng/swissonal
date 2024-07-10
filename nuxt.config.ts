@@ -1,14 +1,47 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   experimental: {
     componentIslands: true,
   },
-  modules: ['@nuxt/eslint', '@unocss/nuxt', '@nuxtjs/i18n', '@nuxt/content'],
+  future: {
+    compatibilityVersion: 4,
+  },
+  components: {
+    global: true,
+    dirs: [
+      {
+        global: true,
+        path: './components/graphic-elements/icons',
+      },
+      {
+        global: true,
+        path: './components/graphic-elements/logos',
+      },
+      {
+        global: true,
+        path: './components/header',
+      },
+    ],
+  },
+  modules: [
+    '@nuxt/eslint',
+    '@unocss/nuxt',
+    '@nuxtjs/i18n',
+    '@nuxt/content',
+    'nuxt-headlessui',
+    '@nuxt/icon',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
+    'nuxt-lodash',
+  ],
   ssr: true,
   css: [
+    '@unocss/reset/tailwind.css',
     '@/assets/scss/index.scss',
   ],
+  pinia: {
+    storesDirs: ['./stores/**'],
+  },
   typescript: {
     typeCheck: true,
   },
@@ -41,5 +74,9 @@ export default defineNuxtConfig({
         file: 'it-IT.json',
       },
     ],
+  },
+
+  headlessui: {
+    prefix: 'Headless',
   },
 })
