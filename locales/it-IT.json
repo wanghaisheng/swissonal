@@ -11,6 +11,12 @@
     "based-on": "Basato su dati svizzeri di giardinaggio e agricoltura."
   },
 
+  "card-links": {
+    "benefits": "Benefici della coltivazione del proprio cibo",
+    "about": "Informazioni sul progetto",
+    "calendar": "Calendario stagionale"
+  },
+
   "months": [
     "Gennaio",
     "Febbraio",
