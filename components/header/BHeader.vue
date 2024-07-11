@@ -9,14 +9,14 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
 
 <template>
   <header
-    class="w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
+    class="w-full z-50 flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
     :style="{
       backgroundColor: currentPage.theme.headerColor,
     }"
   >
     <NuxtLink
       :to="localePath('/')"
-      class="z-2 transition-all"
+      class="z-51 transition-all"
       @click="isMenuOpen = false"
     >
       <Logotype
@@ -29,7 +29,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
     </NuxtLink>
 
     <button
-      class="z-2 block h-10 w-10 lg:hidden"
+      class="z-51 block h-10 w-10 lg:hidden"
       @click="isMenuOpen = !isMenuOpen"
     >
       <Hamburger :is-open="isMenuOpen" />
@@ -68,7 +68,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
     >
       <BMobileMenu
         v-model:is-open="isMenuOpen"
-        class="z-1"
+        class="z-50"
       />
     </transition>
   </header>

@@ -11,6 +11,12 @@
     "based-on": "Based on Swiss gardening and agriculture data."
   },
 
+  "card-links": {
+    "benefits": "Benefits of growing your food",
+    "about": "About the project",
+    "calendar": "Seasonal calendar"
+  },
+
   "months": [
     "January",
     "February",

@@ -11,6 +11,12 @@
     "based-on": "Basierend auf Schweizer Gartenbau- und Landwirtschaftsdaten."
   },
 
+  "card-links": {
+    "benefits": "Vorteile des Eigenanbaus von Lebensmitteln",
+    "about": "Über das Projekt",
+    "calendar": "Saisonkalender"
+  },
+
   "months": [
     "Januar",
     "Februar",

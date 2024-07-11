@@ -25,6 +25,10 @@ export default defineNuxtConfig({
         global: true,
         path: './components/footer',
       },
+      {
+        global: true,
+        path: './components/',
+      },
     ],
   },
   modules: [
@@ -37,6 +41,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     'nuxt-lodash',
+    '@nuxt/image',
   ],
   ssr: true,
   css: [
@@ -82,5 +87,9 @@ export default defineNuxtConfig({
 
   headlessui: {
     prefix: 'Headless',
+  },
+
+  image: {
+    // Options
   },
 })
