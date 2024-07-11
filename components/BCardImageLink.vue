@@ -1,21 +1,34 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+export interface Props {
+  text: string
+  link: string
+  imagePath: string
+}
+
+defineProps<Props>()
+
+const localePath = useLocalePath()
+</script>
 
 <template>
-  <NuxtLink class="max-w-[550px] w-full cursor-pointer">
+  <NuxtLink
+    class="max-w-[550px] w-full cursor-pointer"
+    :to="localePath(link)"
+  >
     <NuxtImg
-      class="max-h-[410px] w-full rounded-lg object-cover shadow-md"
-      src="/images/vegetables-garden.webp"
+      class="max-h-[410px] md:h-100 w-full rounded-lg object-cover shadow-md transition-all duration-500 ease hover:brightness-75"
+      :src="imagePath"
     />
 
-    <div class="flex items-center justify-between py-4">
+    <div class="flex items-center justify-between gap-4 py-4">
       <p
-        class="text-base text-base text-black-200 font-black tracking-wide uppercase md:text-lg"
+        class="text-sm text-black-200 font-black tracking-wide uppercase md:text-base"
       >
-        Benefits of growing your food
+        {{ text }}
       </p>
-      <span class="h-[32px] w-[32px] flex items-center justify-center border-1 border-black-200 rounded-full bg-white-100 shadow-[1px_1px_0px_0px_rgb(30,30,30)] transition-all duration-200 ease-in md:h-8 md:w-8 hover:bg-red-10">
+      <span class="flex items-center justify-center border-1 border-black-200 rounded-full bg-white-100 shadow-[1px_1px_0px_0px_rgb(30,30,30)] transition-all duration-200 ease-in hover:bg-red-10">
         <Icon
-          class="w-3 text-black-200 sm:w-4"
+          class="m-1 w-4 text-black-200"
           name="i-material-symbols:arrow-right-alt-rounded"
         /></span>
     </div>
