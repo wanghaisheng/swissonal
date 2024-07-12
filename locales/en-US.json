@@ -32,11 +32,12 @@
     "December"
   ],
 
-  "categories": [
-    "Fruits",
-    "Vegetables",
-    "Herbs"
-  ],
+  "categories": {
+    "all": "All",
+    "vegetables": "Vegetables",
+    "fruits": "Fruits",
+    "herbs": "Herbs"
+  },
 
   "discover-what-to-plant": "Discover what to plant now in Swizerland"
 }

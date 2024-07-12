@@ -32,11 +32,12 @@
     "Dezember"
   ],
 
-  "categories": [
-    "Früchte",
-    "Gemüse",
-    "Kräuter"
-  ],
+  "categories": {
+    "all": "Alle",
+    "vegetables": "Gemüse",
+    "fruits": "Obst",
+    "herbs": "Kräuter"
+  },
 
   "discover-what-to-plant": "Entdecken Sie, was man jetzt in der Schweiz pflanzen kann"
 }
