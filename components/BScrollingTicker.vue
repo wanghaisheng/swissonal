@@ -2,24 +2,43 @@
 
 <template>
   <div
-    class="min-w-100dvw flex items-center justify-start gap-8 truncate border-y border-black-200 bg-white-100 py-2 -translate-x-[calc(calc(100dvw-1224px)/2)]"
+    class="w-100dvw flex items-center justify-center gap-8 overflow-x-hidden truncate border-y border-black-200 -translate-x-4 2lg:-translate-x-[calc(calc(100dvw-1194px)/2)]"
   >
     <div
-      v-for="paragraph in 5"
+      v-for="paragraph in 10"
       :key="paragraph"
-      class="flex items-center gap-8"
+      class="animate-scrolling-ticker flex items-center gap-4"
     >
-      <img
-        class="h-16 w-16 flex-shrink-0 object-contain"
-        src="/images/emojis/swiss-flag.webp"
-      >
-      <img
-        class="h-16 w-16 flex-shrink-0 object-contain"
-        src="/images/emojis/plant.webp"
-      >
+      <div class="h-full w-max flex flex-row justify-between gap-2">
+        <NuxtImg
+          width="16px"
+          height="16px"
+          src="/images/emojis/swiss-flag.webp"
+        />
+        <NuxtImg
+          width="16px"
+          height="16px"
+          src="/images/emojis/plant.webp"
+        />
+      </div>
       <p text="base">
         {{ $t('discover-what-to-plant') }}
       </p>
     </div>
   </div>
 </template>
+
+<style scoped>
+@keyframes ticker {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scrolling-ticker {
+  animation: ticker 8s linear infinite;
+}
+</style>
