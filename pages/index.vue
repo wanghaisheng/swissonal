@@ -3,8 +3,9 @@
 
 <template>
   <div>
-    <section class="flex justify-center">
+    <section class="flex flex-col items-center gap-20 justify-center">
       <BTab />
+      <BMonthsFilter />
     </section>
 
     <BScrollingTicker class="my-20" />
