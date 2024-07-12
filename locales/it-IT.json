@@ -32,11 +32,12 @@
     "Dicembre"
   ],
 
-  "categories": [
-    "Frutta",
-    "Verdure",
-    "Erbe"
-  ],
+  "categories": {
+    "all": "Tutti",
+    "vegetables": "Verdure",
+    "fruits": "Frutta",
+    "herbs": "Erbe"
+  },
 
   "discover-what-to-plant": "Scopri cosa piantare ora in Svizzera"
 }
