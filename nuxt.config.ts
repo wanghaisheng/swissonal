@@ -42,6 +42,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-lodash',
     '@nuxt/image',
+    'nuxt-swiper',
   ],
   ssr: true,
   css: [
@@ -89,7 +90,9 @@ export default defineNuxtConfig({
     prefix: 'Headless',
   },
 
-  image: {
-    // Options
+  image: {},
+  
+  swiper: {
+    prefix: 'Swiper',
   },
 })
