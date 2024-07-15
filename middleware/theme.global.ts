@@ -3,7 +3,8 @@ export default defineNuxtRouteMiddleware((to) => {
 
   let pageId = lastRouteName
 
-  if (isEmpty(lastRouteName) || lastRouteName === 'de' || lastRouteName === 'it')
+
+  if (to.name?.toString().includes('slug'))
     pageId = 'calendar'
 
   usePageStore().setCurrentPageId(pageId!)

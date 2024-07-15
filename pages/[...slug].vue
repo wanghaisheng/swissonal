@@ -1,9 +1,18 @@
 <script setup lang="ts">
+const route = useRoute()
+
+//pegar parametros e salvar store
+//usar parametros salvos para filtrar
+//na primeira entrada pega mes atual e all
+
+console.log(
+  route.params.slug,
+)
 </script>
 
 <template>
   <div>
-    <section class="flex flex-col items-center gap-20 justify-center">
+    <section class="w-full flex flex-col items-center justify-center gap-20">
       <BTab />
       <BMonthsFilter />
     </section>
