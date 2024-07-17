@@ -1,6 +1,27 @@
 <script setup lang="ts">
 const currentCategory = computed(() => useFilterStore().getCategory)
-const currentUserMonth = computed(() => useFilterStore().getMonth)
+const currentMonth = computed(() => useFilterStore().getMonth)
+
+const localePath = useLocalePath()
+const router = useRouter()
+const route = useRoute()
+
+const pageId = useId()
+
+callOnce(pageId, () => {
+  const { slug } = route.params
+
+  if (typeof slug !== 'string' && slug?.length) {
+    useFilterStore().setCurrentCategory(slug[0])
+    const month = slug[1]
+    if (month)
+      useFilterStore().setCurrentMonth(month)
+  }
+})
+
+watch([currentCategory, currentMonth], () => {
+  router.push(localePath(`/${currentCategory.value}/${currentMonth.value}`))
+})
 </script>
 
 <template>
@@ -8,11 +29,11 @@ const currentUserMonth = computed(() => useFilterStore().getMonth)
     <section class="w-full flex flex-col items-center justify-center gap-20">
       <BTab
         :current-category="currentCategory"
-        :current-user-month="currentUserMonth"
+        :current-user-month="currentMonth"
       />
       <BMonthsFilter
         :current-category="currentCategory"
-        :current-user-month="currentUserMonth"
+        :current-user-month="currentMonth"
       />
     </section>
 

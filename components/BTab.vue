@@ -7,8 +7,6 @@ export interface Props {
 const props = defineProps<Props>()
 
 const { t } = useI18n()
-const localePath = useLocalePath()
-const router = useRouter()
 
 const categories = {
   all: t('categories.all'),
@@ -21,11 +19,6 @@ async function handleWithCategory(newCategory: string | number) {
   useFilterStore().setCurrentCategory(newCategory)
 
   setActiveTab(newCategory)
-  nextTick(pushRoute)
-}
-
-async function pushRoute() {
-  return await router.push(localePath(`/${props.currentCategory}/${props.currentUserMonth}`))
 }
 
 const activeTab = ref(props.currentCategory)
@@ -37,7 +30,7 @@ function setActiveTab(tabName: any) {
 
 <template>
   <HeadlessTabGroup>
-    <HeadlessTabList class="w-full flex border-1 border-black-200 rounded-full bg-white-100 shadow-[3px_3px_0px_0px_rgb(30,30,30)] md:w-[566px]">
+    <HeadlessTabList class="w-full flex select-none border-1 border-black-200 rounded-full bg-white-100 shadow-[3px_3px_0px_0px_rgb(30,30,30)] md:w-[566px]">
       <HeadlessTab
         v-for="(category, index) in categories"
         :key="index"

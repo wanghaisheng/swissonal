@@ -7,8 +7,6 @@ export interface Props {
 const props = defineProps<Props>()
 
 const { t } = useI18n()
-const localePath = useLocalePath()
-const router = useRouter()
 
 export interface IMonth {
   name: string
@@ -87,16 +85,11 @@ async function handleWithMonth(newMonth: string | number) {
   useFilterStore().setCurrentMonth(newMonth)
 
   setActiveMonth(newMonth)
-  nextTick(pushRoute)
 }
 
-async function pushRoute() {
-  return await router.push(localePath(`/${props.currentCategory}/${props.currentUserMonth}`))
-}
+const activeMonth = ref<string | number>(props.currentUserMonth)
 
-const activeMonth = ref(props.currentUserMonth)
-
-function setActiveMonth(monthName: any) {
+function setActiveMonth(monthName: string | number) {
   activeMonth.value = monthName
 }
 
@@ -150,7 +143,7 @@ function prev() {
         :key="key"
       >
         <button
-          class="w-full border-2 border-transparent rounded-sm pb-4 pt-1 text-sm font-semibold tracking-wider transition-all duration-300 ease-out lg:w-max"
+          class="w-full select-none border-2 border-transparent rounded-sm pb-4 pt-1 text-sm font-semibold tracking-wider transition-all duration-300 ease-out lg:w-max"
           :class="[
             activeMonth === key
               ? 'border-b-red-100'
