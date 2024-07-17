@@ -95,6 +95,22 @@ function setActiveMonth(monthName: string | number) {
 
 const monthSwiperInstance = ref<any>()
 
+function updateArrows(swiper: any) {
+  const prevButton = document.querySelector('.prev-button') as HTMLButtonElement
+  const nextButton = document.querySelector('.next-button') as HTMLButtonElement
+
+  prevButton.classList.toggle('opacity-20', swiper.isBeginning)
+  prevButton.disabled = swiper.isBeginning
+
+  nextButton.classList.toggle('opacity-20', swiper.isEnd)
+  nextButton.disabled = swiper.isEnd
+}
+
+onMounted(() => {
+  monthSwiperInstance.value.on('slideChange', () => updateArrows(monthSwiperInstance.value))
+  updateArrows(monthSwiperInstance.value)
+})
+
 function next() {
   monthSwiperInstance.value!.slideNext()
 }
@@ -110,7 +126,7 @@ function prev() {
   >
     <div class="invisible absolute top-0 z-10 h-full bg-white-100 md:visible xl:invisible -left-3">
       <button
-        class="z-50 h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 ease-in hover:shadow-md"
+        class="prev-button z-50 h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 ease-in hover:shadow-md"
         @click="prev"
       >
         <Icon
@@ -121,7 +137,7 @@ function prev() {
     </div>
     <div class="arrow-background-shadow invisible absolute top-0 z-10 h-full md:visible xl:invisible -right-3">
       <button
-        class="ease-i h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 hover:scale-101 hover:shadow-md"
+        class="next-button h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 ease-in hover:scale-101 hover:shadow-md"
         @click="next"
       >
         <Icon
