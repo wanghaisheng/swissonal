@@ -1,20 +1,19 @@
 <script setup lang="ts">
-const route = useRoute()
-
-//pegar parametros e salvar store
-//usar parametros salvos para filtrar
-//na primeira entrada pega mes atual e all
-
-console.log(
-  route.params.slug,
-)
+const currentCategory = computed(() => useFilterStore().getCategory)
+const currentUserMonth = computed(() => useFilterStore().getMonth)
 </script>
 
 <template>
   <div>
     <section class="w-full flex flex-col items-center justify-center gap-20">
-      <BTab />
-      <BMonthsFilter />
+      <BTab
+        :current-category="currentCategory"
+        :current-user-month="currentUserMonth"
+      />
+      <BMonthsFilter
+        :current-category="currentCategory"
+        :current-user-month="currentUserMonth"
+      />
     </section>
 
     <BScrollingTicker class="my-20" />
