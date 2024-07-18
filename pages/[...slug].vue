@@ -35,6 +35,16 @@ watch([currentCategory, currentMonth], () => {
         :current-category="currentCategory"
         :current-user-month="currentMonth"
       />
+
+      <div class="grid-container w-full rounded-lg bg-red-100 p-2">
+        <BCard />
+        <BCard />
+        <BCard />
+        <BCard />
+        <BCard />
+        <BCard />
+        <BCard />
+      </div>
     </section>
 
     <BScrollingTicker class="my-20" />
@@ -54,13 +64,13 @@ watch([currentCategory, currentMonth], () => {
         link="/about"
       />
     </section>
-
-    <ContentList
-      v-slot="{ list }"
-      path="de/january"
-      fields="title,description"
-    >
-      {{ list }}
-    </ContentList>
   </div>
 </template>
+
+<style lang="scss">
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+</style>
