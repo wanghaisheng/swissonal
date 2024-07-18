@@ -19,10 +19,8 @@ callOnce(pageId, () => {
 })
 
 watch([currentCategory, currentMonth], () => {
-  navigateTo({
-    path: localePath(`/${currentCategory.value}/${currentMonth.value}`),
-    replace: true,
-  })
+  const newUrl = localePath(`/${currentCategory.value}/${currentMonth.value}`)
+  history.pushState({}, '', newUrl)
 })
 </script>
 
@@ -41,7 +39,10 @@ watch([currentCategory, currentMonth], () => {
 
     <BScrollingTicker class="my-20" />
 
-    <section class="flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-between md:gap-4">
+    <section
+      v-once
+      class="flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-between md:gap-4"
+    >
       <BCardImageLink
         image-path="/images/vegetables-garden.webp"
         :text="$t('card-links.benefits')"
