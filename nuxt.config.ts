@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
+
   future: {
     compatibilityVersion: 4,
   },
@@ -31,6 +32,7 @@ export default defineNuxtConfig({
       },
     ],
   },
+
   modules: [
     '@nuxt/eslint',
     '@unocss/nuxt',
@@ -42,18 +44,25 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-lodash',
     '@nuxt/image',
+    'nuxt-swiper',
   ],
+
   ssr: true,
+
   css: [
     '@unocss/reset/tailwind.css',
     '@/assets/scss/index.scss',
   ],
+
   pinia: {
     storesDirs: ['./stores/**'],
   },
+
   typescript: {
     typeCheck: true,
+    strict: true,
   },
+
   i18n: {
     defaultLocale: 'en',
     langDir: 'locales/',
@@ -89,7 +98,11 @@ export default defineNuxtConfig({
     prefix: 'Headless',
   },
 
-  image: {
-    // Options
+  image: {},
+
+  swiper: {
+    prefix: 'Swiper',
   },
+
+  compatibilityDate: '2024-07-16',
 })
