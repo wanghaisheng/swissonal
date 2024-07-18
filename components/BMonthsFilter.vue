@@ -81,19 +81,21 @@ const swiperParams = {
   },
 }
 
+const activeMonth = ref<string | number>(props.currentUserMonth)
+const monthSwiperInstance = ref<any>()
+
 async function handleWithMonth(newMonth: string | number) {
   useFilterStore().setCurrentMonth(newMonth)
 
   setActiveMonth(newMonth)
-}
 
-const activeMonth = ref<string | number>(props.currentUserMonth)
+  const monthIndex = Object.keys(months).indexOf(newMonth.toString())
+  monthSwiperInstance.value.slideTo(monthIndex)
+}
 
 function setActiveMonth(monthName: string | number) {
   activeMonth.value = monthName
 }
-
-const monthSwiperInstance = ref<any>()
 
 function updateArrows(swiper: any) {
   const prevButton = document.querySelector('.prev-button') as HTMLButtonElement
@@ -106,11 +108,6 @@ function updateArrows(swiper: any) {
   nextButton.disabled = swiper.isEnd
 }
 
-onMounted(() => {
-  monthSwiperInstance.value.on('slideChange', () => updateArrows(monthSwiperInstance.value))
-  updateArrows(monthSwiperInstance.value)
-})
-
 function next() {
   monthSwiperInstance.value!.slideNext()
 }
@@ -118,6 +115,17 @@ function next() {
 function prev() {
   monthSwiperInstance.value!.slidePrev()
 }
+
+onMounted(() => {
+  monthSwiperInstance.value.on('slideChange', () => updateArrows(monthSwiperInstance.value))
+  updateArrows(monthSwiperInstance.value)
+
+  const initialMonthIndex = Object.keys(months).indexOf(props.currentUserMonth)
+
+  if (initialMonthIndex >= 0) {
+    monthSwiperInstance.value.slideTo(initialMonthIndex)
+  }
+})
 </script>
 
 <template>
@@ -126,6 +134,7 @@ function prev() {
   >
     <div class="invisible absolute top-0 z-10 h-full bg-white-100 md:visible xl:invisible -left-3">
       <button
+
         class="prev-button z-50 h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 ease-in hover:shadow-md"
         @click="prev"
       >
@@ -148,7 +157,7 @@ function prev() {
     </div>
     <Swiper
       :modules="[SwiperNavigation]"
-      slides-per-view="auto"
+      :slides-per-view="3"
       :space-between="30"
       :breakpoints="swiperParams.breakpoints"
       class="grid auto-rows-max grid-flow-row"
