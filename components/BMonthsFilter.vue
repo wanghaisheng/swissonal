@@ -86,11 +86,7 @@ const monthSwiperInstance = ref<any>()
 
 async function handleWithMonth(newMonth: string | number) {
   useFilterStore().setCurrentMonth(newMonth)
-
   setActiveMonth(newMonth)
-
-  const monthIndex = Object.keys(months).indexOf(newMonth.toString())
-  monthSwiperInstance.value.slideTo(monthIndex)
 }
 
 function setActiveMonth(monthName: string | number) {
@@ -134,7 +130,6 @@ onMounted(() => {
   >
     <div class="invisible absolute top-0 z-10 h-full bg-white-100 md:visible xl:invisible -left-3">
       <button
-
         class="prev-button z-50 h-6 w-6 flex translate-y-[80%] items-center justify-center border-1 border-black-200 rounded-full bg-white-100 transition-all duration-200 ease-in hover:shadow-md"
         @click="prev"
       >
@@ -156,11 +151,15 @@ onMounted(() => {
       </button>
     </div>
     <Swiper
+      class="transition-opacity duration-1000"
+      :class="{
+        'opacity-0': !monthSwiperInstance,
+        'opacity-100': monthSwiperInstance,
+      }"
       :modules="[SwiperNavigation]"
-      :slides-per-view="3"
+      slides-per-view="auto"
       :space-between="30"
       :breakpoints="swiperParams.breakpoints"
-      class="grid auto-rows-max grid-flow-row"
       @swiper="monthSwiperInstance = $event"
     >
       <SwiperSlide
@@ -180,7 +179,7 @@ onMounted(() => {
             class="text-black-200"
             :name="month.icon"
           />
-          <p>{{ month.name }} </p>
+          <p v-text="month.name" />
         </button>
       </SwiperSlide>
     </Swiper>

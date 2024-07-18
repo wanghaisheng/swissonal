@@ -1,7 +1,6 @@
-<script setup lang="ts"></script>
-
 <template>
   <div
+    v-once
     class="w-100dvw flex select-none items-center justify-center gap-8 overflow-x-hidden truncate border-y border-black-200 -translate-x-4 2lg:-translate-x-[calc(calc(100dvw-1194px)/2)]"
   >
     <div
