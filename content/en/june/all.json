@@ -1,0 +1,200 @@
+{
+  "all": [
+    {
+      "title": "Apple",
+      "description": "outdoors"
+    },
+    {
+      "title": "Apricot",
+      "description": "outdoors"
+    },
+    {
+      "title": "Asparagus",
+      "description": "outdoors"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoors"
+    },
+    {
+      "title": "Bell Pepper",
+      "description": "outdoors"
+    },
+    {
+      "title": "Blackberry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Blueberry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Basil",
+      "description": "outdoors"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoors"
+    },
+    {
+      "title": "Cauliflower",
+      "description": "outdoors"
+    },
+    {
+      "title": "Chamomile",
+      "description": "outdoors"
+    },
+    {
+      "title": "Cherry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoors"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoors"
+    },
+    {
+      "title": "Corn",
+      "description": "outdoors"
+    },
+    {
+      "title": "Currant",
+      "description": "outdoors"
+    },
+    {
+      "title": "Cucumber",
+      "description": "outdoors"
+    },
+    {
+      "title": "Dill",
+      "description": "outdoors"
+    },
+    {
+      "title": "Eggplant",
+      "description": "outdoors"
+    },
+    {
+      "title": "Fennel",
+      "description": "outdoors"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoors"
+    },
+    {
+      "title": "Green Bean",
+      "description": "outdoors"
+    },
+    {
+      "title": "Kiwi",
+      "description": "outdoors"
+    },
+    {
+      "title": "Lavender",
+      "description": "outdoors"
+    },
+    {
+      "title": "Lemon",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Lemon Balm",
+      "description": "outdoors"
+    },
+    {
+      "title": "Lettuce",
+      "description": "outdoors"
+    },
+    {
+      "title": "Nectarine",
+      "description": "outdoors"
+    },
+    {
+      "title": "Oregano",
+      "description": "outdoors"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoors"
+    },
+    {
+      "title": "Papaya",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Parsley",
+      "description": "outdoors"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoors"
+    },
+    {
+      "title": "Pineapple",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Plum",
+      "description": "outdoors"
+    },
+    {
+      "title": "Pomegranate",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "in serra"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoors"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoors"
+    },
+    {
+      "title": "Sage",
+      "description": "outdoors"
+    },
+    {
+      "title": "Spinach",
+      "description": "outdoors"
+    },
+    {
+      "title": "Starfruit",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Strawberry",
+      "description": "outdoors"
+    },
+    {
+      "title": "Tarragon",
+      "description": "outdoors"
+    },
+    {
+      "title": "Thyme",
+      "description": "outdoors"
+    },
+    {
+      "title": "Tomato",
+      "description": "outdoors"
+    },
+    {
+      "title": "Watermelon",
+      "description": "in greenhouse"
+    },
+    {
+      "title": "Zucchini",
+      "description": "outdoors"
+    }
+  ]
+}
