@@ -3,7 +3,6 @@ const currentCategory = computed(() => useFilterStore().getCategory)
 const currentMonth = computed(() => useFilterStore().getMonth)
 
 const localePath = useLocalePath()
-const router = useRouter()
 const route = useRoute()
 
 const pageId = useId()
@@ -20,7 +19,10 @@ callOnce(pageId, () => {
 })
 
 watch([currentCategory, currentMonth], () => {
-  router.push(localePath(`/${currentCategory.value}/${currentMonth.value}`))
+  navigateTo({
+    path: localePath(`/${currentCategory.value}/${currentMonth.value}`),
+    replace: true,
+  })
 })
 </script>
 
