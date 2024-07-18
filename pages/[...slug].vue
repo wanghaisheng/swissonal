@@ -4,8 +4,15 @@ const currentMonth = computed(() => useFilterStore().getMonth)
 
 const localePath = useLocalePath()
 const route = useRoute()
+const { locale } = useI18n()
 
 const pageId = useId()
+
+const filter = ref()
+
+async function loadData() {
+  filter.value = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
+}
 
 callOnce(pageId, () => {
   const { slug } = route.params
@@ -21,7 +28,16 @@ callOnce(pageId, () => {
 watch([currentCategory, currentMonth], () => {
   const newUrl = localePath(`/${currentCategory.value}/${currentMonth.value}`)
   history.pushState({}, '', newUrl)
+
+  loadData()
 })
+
+onMounted(() => {
+  loadData()
+})
+
+//img card
+// talvez colocar um lloading more ou algo9 assim. Ou uma seta que leva de volta ao topo
 </script>
 
 <template>
@@ -36,14 +52,53 @@ watch([currentCategory, currentMonth], () => {
         :current-user-month="currentMonth"
       />
 
-      <div class="grid-container w-full rounded-lg bg-red-100 p-2">
-        <BCard />
-        <BCard />
-        <BCard />
-        <BCard />
-        <BCard />
-        <BCard />
-        <BCard />
+      <div
+        v-if="filter?.fruits"
+        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
+      >
+        <BCard
+          v-for="(fruit, index) in filter.fruits"
+          :key="index"
+          food-image="/images/fruits/apple.webp"
+          :food-name="fruit.title"
+          :food-specification="fruit.description"
+        />
+      </div>
+      <div
+        v-else-if="filter?.vegetables"
+        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
+      >
+        <BCard
+          v-for="(vegetable, index) in filter.vegetables"
+          :key="index"
+          food-image="/images/fruits/apple.webp"
+          :food-name="vegetable.title"
+          :food-specification="vegetable.description"
+        />
+      </div>
+      <div
+        v-else-if="filter?.herbs"
+        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
+      >
+        <BCard
+          v-for="(herb, index) in filter.herbs"
+          :key="index"
+          food-image="/images/fruits/apple.webp"
+          :food-name="herb.title"
+          :food-specification="herb.description"
+        />
+      </div>
+      <div
+        v-else-if="filter?.all"
+        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
+      >
+        <BCard
+          v-for="(all, index) in filter.all"
+          :key="index"
+          food-image="/images/fruits/apple.webp"
+          :food-name="all.title"
+          :food-specification="all.description"
+        />
       </div>
     </section>
 
@@ -68,7 +123,7 @@ watch([currentCategory, currentMonth], () => {
 </template>
 
 <style lang="scss">
-.grid-container {
+.grid-container-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px;
