@@ -2,23 +2,28 @@
   "vegetables": [
     {
       "title": "Spinach",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Lettuce",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Carrot",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radish",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Onion",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/vegetables/onion.webp"
     }
   ]
 }

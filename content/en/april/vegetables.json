@@ -2,39 +2,48 @@
   "vegetables": [
     {
       "title": "Spinach",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Lettuce",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Carrot",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radish",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Onion",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Garlic",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Beetroot",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Cauliflower",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/cauliflower.webp"
     },
     {
       "title": "Broccoli",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/vegetables/broccoli.webp"
     }
   ]
 }

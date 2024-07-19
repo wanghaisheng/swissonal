@@ -2,59 +2,73 @@
   "herbs": [
     {
       "title": "Parsley",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Cilantro",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Chives",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Rosemary",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Basil",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/basil.webp"
     },
     {
       "title": "Thyme",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/thyme.webp"
     },
     {
       "title": "Oregano",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/oregano.webp"
     },
     {
       "title": "Sage",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/sage.webp"
     },
     {
       "title": "Tarragon",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/tarragon.webp"
     },
     {
       "title": "Dill",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/dill.webp"
     },
     {
       "title": "Fennel",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/fennel.webp"
     },
     {
       "title": "Lavender",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/lavender.webp"
     },
     {
       "title": "Chamomile",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/chamomile.webp"
     },
     {
       "title": "Lemon Balm",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/herbs/mint.webp"
     }
   ]
 }

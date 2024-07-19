@@ -2,15 +2,18 @@
   "herbs": [
     {
       "title": "Prezzemolo",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Coriandolo",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Erba cipollina",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/herbs/chives.webp"
     }
   ]
 }

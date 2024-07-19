@@ -36,7 +36,7 @@ onMounted(() => {
   loadData()
 })
 
-//img card
+// img card
 // talvez colocar um lloading more ou algo9 assim. Ou uma seta que leva de volta ao topo
 </script>
 
@@ -59,7 +59,7 @@ onMounted(() => {
         <BCard
           v-for="(fruit, index) in filter.fruits"
           :key="index"
-          food-image="/images/fruits/apple.webp"
+          :food-image="fruit.image"
           :food-name="fruit.title"
           :food-specification="fruit.description"
         />
@@ -71,7 +71,7 @@ onMounted(() => {
         <BCard
           v-for="(vegetable, index) in filter.vegetables"
           :key="index"
-          food-image="/images/fruits/apple.webp"
+          :food-image="vegetable.image"
           :food-name="vegetable.title"
           :food-specification="vegetable.description"
         />
@@ -83,7 +83,7 @@ onMounted(() => {
         <BCard
           v-for="(herb, index) in filter.herbs"
           :key="index"
-          food-image="/images/fruits/apple.webp"
+          :food-image="herb.image"
           :food-name="herb.title"
           :food-specification="herb.description"
         />
@@ -95,7 +95,7 @@ onMounted(() => {
         <BCard
           v-for="(all, index) in filter.all"
           :key="index"
-          food-image="/images/fruits/apple.webp"
+          :food-image="all.image"
           :food-name="all.title"
           :food-specification="all.description"
         />
