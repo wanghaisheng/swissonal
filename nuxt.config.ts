@@ -20,6 +20,10 @@ export default defineNuxtConfig({
       },
       {
         global: true,
+        path: './components/graphic-elements/',
+      },
+      {
+        global: true,
         path: './components/header',
       },
       {

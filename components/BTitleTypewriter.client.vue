@@ -27,14 +27,14 @@ onMounted(() => {
 <template>
   <div class="flex flex-wrap items-center justify-center gap-2 text-center text-black-200 font-900 font-base uppercase md:text-5xl">
     <div
-      text="5xl md:7xl xl:8xl"
-      class="min-h-12 min-w-40 md:min-h-18 md:min-w-60 xl:min-h-24 xl:min-w-80"
+      text="5xl md:7xl "
+      class="min-h-12 min-w-40 md:min-h-18 md:min-w-60"
     >
       <span v-text="currentPhrase" />
       <span v-if="showBall">|</span>
     </div>
     <p
-      text="5xl md:7xl xl:8xl"
+      text="5xl md:7xl "
       v-text="toPlant"
     />
   </div>
