@@ -36,8 +36,7 @@ onMounted(() => {
   loadData()
 })
 
-// img card
-// talvez colocar um lloading more ou algo9 assim. Ou uma seta que leva de volta ao topo
+// talvez colocar um loading more ou algo assim. Ou uma seta que leva de volta ao topo (versão mobile que tem muitas opções)
 </script>
 
 <template>
@@ -126,6 +125,6 @@ onMounted(() => {
 .grid-container-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
+  gap: 0.5rem;
 }
 </style>
