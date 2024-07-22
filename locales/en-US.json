@@ -11,6 +11,12 @@
     "based-on": "Based on Swiss gardening and agriculture data."
   },
 
+  "what-when-plant": {
+    "what": "What",
+    "when": "When",
+    "to-plant": "to plant?"
+  },
+
   "card-links": {
     "benefits": "Benefits of growing your food",
     "about": "About the project",

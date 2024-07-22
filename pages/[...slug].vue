@@ -39,6 +39,7 @@ onMounted(() => {
 
 <template>
   <div>
+    <SWhatWhenPlant />
     <section class="w-full flex flex-col items-center justify-center gap-20">
       <BTab
         :current-category="currentCategory"

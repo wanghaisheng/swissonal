@@ -11,6 +11,12 @@
     "based-on": "Basierend auf Schweizer Gartenbau- und Landwirtschaftsdaten."
   },
 
+  "what-when-plant": {
+    "what": "Was",
+    "when": "Wann",
+    "to-plant": "wird gepflanzt?"
+  },
+
   "card-links": {
     "benefits": "Vorteile des Eigenanbaus von Lebensmitteln",
     "about": "Über das Projekt",

@@ -1,4 +1,5 @@
 {
+
   "header": [
     "Calendario",
     "Informazioni",
@@ -9,6 +10,12 @@
     "your-guide": "La tua guida pratica alla piantagione in Svizzera.",
     "made-by": "✨ Realizzato da",
     "based-on": "Basato su dati svizzeri di giardinaggio e agricoltura."
+  },
+
+  "what-when-plant": {
+    "what": "Cosa",
+    "when": "Quando",
+    "to-plant": "piantare?"
   },
 
   "card-links": {
