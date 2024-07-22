@@ -28,6 +28,10 @@ export default defineNuxtConfig({
       },
       {
         global: true,
+        path: './components/sections',
+      },
+      {
+        global: true,
         path: './components/',
       },
     ],
