@@ -39,5 +39,10 @@
     "herbs": "Kräuter"
   },
 
+  "current-month-text": {
+    "text1": "Im",
+    "text2": "können Sie pflanzen"
+  },
+
   "discover-what-to-plant": "Entdecken Sie, was man jetzt in der Schweiz pflanzen kann"
 }

@@ -1,0 +1,48 @@
+{
+  "all": [
+    {
+      "title": "Apfel",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Karotte",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Koriander",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Salat",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Petersilie",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Birne",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Rettich",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Spinat",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus"
+    }
+  ]
+}

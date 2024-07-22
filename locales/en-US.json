@@ -39,5 +39,10 @@
     "herbs": "Herbs"
   },
 
+  "current-month-text": {
+    "text1": "in",
+    "text2": "you can plant"
+  },
+
   "discover-what-to-plant": "Discover what to plant now in Swizerland"
 }

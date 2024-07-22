@@ -157,7 +157,7 @@ onMounted(() => {
         'opacity-100': monthSwiperInstance,
       }"
       :modules="[SwiperNavigation]"
-      slides-per-view="auto"
+      :slides-per-view="3"
       :space-between="30"
       :breakpoints="swiperParams.breakpoints"
       @swiper="monthSwiperInstance = $event"

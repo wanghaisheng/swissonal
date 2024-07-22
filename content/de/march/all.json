@@ -1,0 +1,200 @@
+{
+  "all": [
+    {
+      "title": "Apfel",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Aprikose",
+      "description": "draußen"
+    },
+    {
+      "title": "Spargel",
+      "description": "draußen"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Paprika",
+      "description": "draußen"
+    },
+    {
+      "title": "Brombeere",
+      "description": "draußen"
+    },
+    {
+      "title": "Heidelbeere",
+      "description": "draußen"
+    },
+    {
+      "title": "Basilikum",
+      "description": "draußen"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Blumenkohl",
+      "description": "draußen"
+    },
+    {
+      "title": "Kamille",
+      "description": "draußen"
+    },
+    {
+      "title": "Kirsche",
+      "description": "draußen"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Mais",
+      "description": "draußen"
+    },
+    {
+      "title": "Johannisbeere",
+      "description": "draußen"
+    },
+    {
+      "title": "Gurke",
+      "description": "draußen"
+    },
+    {
+      "title": "Dill",
+      "description": "draußen"
+    },
+    {
+      "title": "Aubergine",
+      "description": "draußen"
+    },
+    {
+      "title": "Fenchel",
+      "description": "draußen"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Grüne Bohne",
+      "description": "draußen"
+    },
+    {
+      "title": "Kiwi",
+      "description": "draußen"
+    },
+    {
+      "title": "Lavendel",
+      "description": "draußen"
+    },
+    {
+      "title": "Zitrone",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Zitronenmelisse",
+      "description": "draußen"
+    },
+    {
+      "title": "Kopfsalat",
+      "description": "im Gewächshaus oder draußen am Monatsende"
+    },
+    {
+      "title": "Nektarine",
+      "description": "draußen"
+    },
+    {
+      "title": "Oregano",
+      "description": "draußen"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Papaya",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Petersilie",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Ananas",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Pflaume",
+      "description": "draußen"
+    },
+    {
+      "title": "Granatapfel",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "in serra"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen am Monatsende"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Salbei",
+      "description": "draußen"
+    },
+    {
+      "title": "Spinat",
+      "description": "im Gewächshaus oder draußen am Monatsende"
+    },
+    {
+      "title": "Sternfrucht",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Estragon",
+      "description": "draußen"
+    },
+    {
+      "title": "Thymian",
+      "description": "draußen"
+    },
+    {
+      "title": "Tomate",
+      "description": "draußen"
+    },
+    {
+      "title": "Wassermelone",
+      "description": "im Gewächshaus"
+    },
+    {
+      "title": "Zucchini",
+      "description": "draußen"
+    }
+  ]
+}
