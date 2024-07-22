@@ -35,8 +35,6 @@ watch([currentCategory, currentMonth], () => {
 onMounted(() => {
   loadData()
 })
-
-// talvez colocar um loading more ou algo assim. Ou uma seta que leva de volta ao topo (versão mobile que tem muitas opções)
 </script>
 
 <template>
@@ -49,6 +47,12 @@ onMounted(() => {
       <BMonthsFilter
         :current-category="currentCategory"
         :current-user-month="currentMonth"
+      />
+
+      <BTitleCurrentMonth
+        :month="currentMonth"
+        :text1="$t('current-month-text.text1')"
+        :text2="$t('current-month-text.text2')"
       />
 
       <div
