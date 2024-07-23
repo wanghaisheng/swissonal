@@ -53,6 +53,7 @@ export default defineNuxtConfig({
     'nuxt-lodash',
     '@nuxt/image',
     'nuxt-swiper',
+    '@primevue/nuxt-module',
   ],
 
   ssr: true,
@@ -112,5 +113,7 @@ export default defineNuxtConfig({
     prefix: 'Swiper',
   },
 
+  primevue: {
+  },
   compatibilityDate: '2024-07-16',
 })

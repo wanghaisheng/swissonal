@@ -51,5 +51,13 @@
     "text2": "können Sie pflanzen"
   },
 
-  "discover-what-to-plant": "Entdecken Sie, was man jetzt in der Schweiz pflanzen kann"
+  "discover-what-to-plant": "Entdecken Sie, was man jetzt in der Schweiz pflanzen kann",
+
+  "form-newsletter": {
+    "title": "Der Beste Freund Ihres Gartens",
+    "description": "Erhalten Sie kostenlose schnelle Tipps und saisonale Pflanzanleitungen für Schweizer Gärten per E-Mail 2x im Monat",
+    "name": "Name",
+    "email": "E-Mail",
+    "send": "Senden"
+  }
 }
