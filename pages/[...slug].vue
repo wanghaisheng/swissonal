@@ -123,6 +123,8 @@ onMounted(() => {
         link="/about"
       />
     </section>
+
+    <SFormNewsletter />
   </div>
 </template>
 
