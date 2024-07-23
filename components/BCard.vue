@@ -62,7 +62,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
       v-text="foodName"
     />
     <p
-      class="font-300 normal-case"
+      class="paragraph font-300 normal-case"
       v-text="foodSpecification"
     />
   </div>

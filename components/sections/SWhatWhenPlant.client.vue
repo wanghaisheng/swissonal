@@ -9,7 +9,7 @@
     />
     <Plant class="z-3 w-50dvw sm:w-60 xl:w-65 xl:-transform-translate-y-10" />
     <div class="flex-inline flex-wrap items-center justify-center gap-2 text-center">
-      <p class="text-base xl:text-lg">
+      <p class="paragraph">
         {{ $t('what-when-plant.description') }}
       </p>
       <NuxtImg
