@@ -6,7 +6,7 @@ const value = ''
 
 <template>
   <section class="my-20 w-full flex flex-col items-center justify-center gap-8 rounded-md bg-green-100 px-4 py-8 text-center">
-    <p class="text-3xl text-white-100 font-900 font-base uppercase md:text-5xl">
+    <p class="title-lg text-white-100">
       {{ $t('form-newsletter.title') }}
     </p>
     <p class="text-sm text-white-100 font-600 leading-4 tracking-wide font-base">

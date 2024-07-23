@@ -20,7 +20,7 @@
           src="/images/emojis/plant.webp"
         />
       </div>
-      <p text="base">
+      <p class="paragraph">
         {{ $t('discover-what-to-plant') }}
       </p>
     </div>

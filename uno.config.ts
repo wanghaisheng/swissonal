@@ -56,6 +56,13 @@ export default defineConfig({
     // styles
     'btn-outline-white':
       'btn border border-white-100 text-white-100 shadow-[1.5px_1.5px_0px_0px_rgb(255,255,255)] hover-btn-transition hover:shadow-[-1.5px_-1.5px_0px_0px_rgb(255,255,255)] ',
+
+    // TITLES
+    'title-xl': 'font-900 font-base uppercase text-5xl md:7xl',
+    'title-lg': 'text-3xl font-900 font-base uppercase md:text-5xl',
+    'paragraph': 'text-base xl:text-lg',
+    'paragraph-bold': 'text-sm font-semibold tracking-wider md:text-base',
+
   },
 
   transformers: [
