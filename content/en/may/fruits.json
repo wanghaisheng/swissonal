@@ -2,35 +2,38 @@
   "fruits": [
     {
       "title": "Strawberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Apple",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pear",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Raspberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Cherry",
-      "description": "outdoors"
-    },
-    {
-      "title": "Currant",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/cherry.webp"
     },
     {
       "title": "Blackberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Plum",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/plum.webp"
     }
   ]
 }

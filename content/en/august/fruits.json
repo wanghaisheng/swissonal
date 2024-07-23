@@ -2,75 +2,88 @@
   "fruits": [
     {
       "title": "Apple",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pear",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Raspberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Cherry",
-      "description": "outdoors"
-    },
-    {
-      "title": "Currant",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/cherry.webp"
     },
     {
       "title": "Blackberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Plum",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/plum.webp"
     },
     {
       "title": "Blueberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/blueberry.webp"
     },
     {
       "title": "Kiwi",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/kiwi.webp"
     },
     {
       "title": "Apricot",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/apricot.webp"
     },
     {
       "title": "Nectarine",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/nectarine.webp"
     },
     {
       "title": "Pomegranate",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/pomegranate.webp"
     },
     {
       "title": "Starfruit",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/star_fruit.webp"
     },
     {
       "title": "Papaya",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/papaya.webp"
     },
     {
       "title": "Watermelon",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/watermelon.webp"
     },
     {
       "title": "Pineapple",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/pineapple.webp"
     },
     {
       "title": "Lemon",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/lemon.webp"
     },
     {
       "title": "Sicilian lemon",
-      "description": "in greenhouse"
+      "description": "in greenhouse",
+      "image": "/images/fruits/sicilian_lemon.webp"
     }
   ]
 }

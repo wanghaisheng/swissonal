@@ -1,4 +1,5 @@
 {
+
   "header": [
     "Calendario",
     "Informazioni",
@@ -11,32 +12,44 @@
     "based-on": "Basato su dati svizzeri di giardinaggio e agricoltura."
   },
 
+  "what-when-plant": {
+    "what": "Cosa",
+    "when": "Quando",
+    "to-plant": "piantare?",
+    "description": "Scoprite il calendario essenziale per coltivare il vostro cibo in Svizzera!"
+  },
+
   "card-links": {
     "benefits": "Benefici della coltivazione del proprio cibo",
     "about": "Informazioni sul progetto",
     "calendar": "Calendario stagionale"
   },
 
-  "months": [
-    "Gennaio",
-    "Febbraio",
-    "Marzo",
-    "Aprile",
-    "Maggio",
-    "Giugno",
-    "Luglio",
-    "Agosto",
-    "Settembre",
-    "Ottobre",
-    "Novembre",
-    "Dicembre"
-  ],
+  "months": {
+    "january": "Gennaio",
+    "february": "Febbraio",
+    "march": "Marzo",
+    "april": "Aprile",
+    "may": "Maggio",
+    "june": "Giugno",
+    "july": "Luglio",
+    "august": "Agosto",
+    "september": "Settembre",
+    "october": "Ottobre",
+    "november": "Novembre",
+    "december": "Dicembre"
+  },
 
   "categories": {
     "all": "Tutti",
     "vegetables": "Verdure",
     "fruits": "Frutta",
     "herbs": "Erbe"
+  },
+
+  "current-month-text": {
+    "text1": "in",
+    "text2": "si può piantare"
   },
 
   "discover-what-to-plant": "Scopri cosa piantare ora in Svizzera"

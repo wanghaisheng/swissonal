@@ -11,32 +11,44 @@
     "based-on": "Based on Swiss gardening and agriculture data."
   },
 
+  "what-when-plant": {
+    "what": "What",
+    "when": "When",
+    "to-plant": "to plant?",
+    "description": "Discover the essential calendar for growing your own food in Switzerland!"
+  },
+
   "card-links": {
     "benefits": "Benefits of growing your food",
     "about": "About the project",
     "calendar": "Seasonal calendar"
   },
 
-  "months": [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-  ],
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
 
   "categories": {
     "all": "All",
     "vegetables": "Vegetables",
     "fruits": "Fruits",
     "herbs": "Herbs"
+  },
+
+  "current-month-text": {
+    "text1": "in",
+    "text2": "you can plant"
   },
 
   "discover-what-to-plant": "Discover what to plant now in Swizerland"

@@ -11,32 +11,44 @@
     "based-on": "Basierend auf Schweizer Gartenbau- und Landwirtschaftsdaten."
   },
 
+  "what-when-plant": {
+    "what": "Was",
+    "when": "Wann",
+    "to-plant": "wird gepflanzt?",
+    "description": "Entdecken Sie den unverzichtbaren Kalender für den Eigenanbau in der Schweiz!"
+  },
+
   "card-links": {
     "benefits": "Vorteile des Eigenanbaus von Lebensmitteln",
     "about": "Über das Projekt",
     "calendar": "Saisonkalender"
   },
 
-  "months": [
-    "Januar",
-    "Februar",
-    "März",
-    "April",
-    "Mai",
-    "Juni",
-    "Juli",
-    "August",
-    "September",
-    "Oktober",
-    "November",
-    "Dezember"
-  ],
+  "months": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "März",
+    "april": "April",
+    "may": "Mai",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "december": "Dezember"
+  },
 
   "categories": {
     "all": "Alle",
     "vegetables": "Gemüse",
     "fruits": "Obst",
     "herbs": "Kräuter"
+  },
+
+  "current-month-text": {
+    "text1": "Im",
+    "text2": "können Sie pflanzen"
   },
 
   "discover-what-to-plant": "Entdecken Sie, was man jetzt in der Schweiz pflanzen kann"

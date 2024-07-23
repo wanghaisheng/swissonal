@@ -2,19 +2,23 @@
   "fruits": [
     {
       "title": "Strawberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Apple",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pear",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Raspberry",
-      "description": "outdoors"
+      "description": "outdoors",
+      "image": "/images/fruits/raspberry.webp"
     }
   ]
 }

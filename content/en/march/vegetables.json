@@ -2,31 +2,38 @@
   "vegetables": [
     {
       "title": "Spinach",
-      "description": "in greenhouse or outdoors at the end of the month"
+      "description": "in greenhouse or outdoors at the end of the month",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Lettuce",
-      "description": "in greenhouse or outdoors at the end of the month"
+      "description": "in greenhouse or outdoors at the end of the month",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Carrot",
-      "description": "outdoors at the end of the month"
+      "description": "outdoors at the end of the month",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radish",
-      "description": "outdoors at the end of the month"
+      "description": "outdoors at the end of the month",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Onion",
-      "description": "outdoors at the end of the month"
+      "description": "outdoors at the end of the month",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Garlic",
-      "description": "outdoors at the end of the month"
+      "description": "outdoors at the end of the month",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Beetroot",
-      "description": "outdoors at the end of the month"
+      "description": "outdoors at the end of the month",
+      "image": "/images/vegetables/beetroot.webp"
     }
   ]
 }
