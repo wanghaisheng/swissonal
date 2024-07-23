@@ -5,8 +5,8 @@ const value = ''
 </script>
 
 <template>
-  <section class="my-20 w-full flex flex-col items-center justify-center gap-8 rounded-md bg-green-100 px-4 py-8 text-center">
-    <p class="title-lg text-white-100">
+  <section class="my-20 w-full flex flex-col items-center justify-center gap-8 rounded-md bg-green-100 px-4 py-8 text-center lg:px-64 md:px-32">
+    <p class="text-white-100 title-lg">
       {{ $t('form-newsletter.title') }}
     </p>
     <p class="text-sm text-white-100 font-600 leading-4 tracking-wide font-base">
@@ -41,14 +41,15 @@ const value = ''
         >{{ $t('form-newsletter.email') }}</label>
       </FloatLabel>
     </div>
-
-    <button class="btn-outline-white">
-      {{ $t('form-newsletter.send') }}
-      <Icon
-        class="text-white-100"
-        name="i-material-symbols:arrow-right-alt-rounded"
-      />
-    </button>
+    <div class="w-full flex justify-center md:justify-end">
+      <button class="btn-outline-white">
+        {{ $t('form-newsletter.send') }}
+        <Icon
+          class="text-white-100"
+          name="i-material-symbols:arrow-right-alt-rounded"
+        />
+      </button>
+    </div>
   </section>
 </template>
 
