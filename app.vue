@@ -15,6 +15,7 @@ callOnce(() => {
 
 <template>
   <NuxtLayout>
+    <BCustomCursor />
     <NuxtPage />
   </NuxtLayout>
 </template>

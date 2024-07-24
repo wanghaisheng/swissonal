@@ -37,7 +37,7 @@ function setActiveTab(tabName: any) {
         as="template"
       >
         <button
-          class="paragraph-bold w-full flex cursor-pointer items-center justify-center rounded-full px-2 py-1 text-black-200 transition-all duration-300 ease-out md:px-0 md:py-1.5"
+          class="w-full flex cursor-pointer items-center justify-center rounded-full px-2 py-1 text-black-200 transition-all duration-300 ease-out md:px-0 md:py-1.5 paragraph-bold"
           :class="[
             activeTab === index
               ? 'bg-red-100 text-white-100'
