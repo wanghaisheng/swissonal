@@ -58,7 +58,7 @@ onMounted(() => {
       :text1="$t('current-month-text.text1')"
       :text2="$t('current-month-text.text2')"
     />
-    <div class="relative w-full bg-green">
+    <div class="relative w-full">
       <NuxtImg
         id="sticker1"
         class="absolute z-11 w-15 -right-4 -top-8 lg:w-28 md:w-20 lg:-right-8 lg:-top-20 md:-top-12"
@@ -120,3 +120,11 @@ onMounted(() => {
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+.grid-container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+</style>
