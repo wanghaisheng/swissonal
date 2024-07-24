@@ -44,7 +44,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
 <template>
   <div
     ref="card"
-    class="relative w-full flex flex-col cursor-pointer items-center justify-start gap-5 overflow-hidden rounded-md bg-white-100 px-4 py-10 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
+    class="relative w-full flex flex-row cursor-pointer items-center justify-start gap-8 md:gap-5 overflow-hidden rounded-md bg-white-100 px-6 py-4 md:px-4 md:py-10 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear md:flex-col hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
     @mousemove="move"
     @mouseleave="leave"
     @mouseover="over"
@@ -54,16 +54,18 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
       class="absolute left-0 top-0 h-full w-full opacity-0 mix-blend-soft-light transition-all ease-linear"
     />
     <NuxtImg
-      class="h-24 w-24"
+      class="h-16 w-16 md:h-24 md:w-24"
       :src="foodImage"
     />
-    <p
-      class="text-3xl font-600 capitalize"
-      v-text="foodName"
-    />
-    <p
-      class="paragraph font-300 normal-case"
-      v-text="foodSpecification"
-    />
+    <div class="flex flex-col items-start gap-2 text-start md:items-center md:text-center">
+      <p
+        class="text-xl font-600 capitalize md:text-3xl"
+        v-text="foodName"
+      />
+      <p
+        class="font-300 normal-case paragraph"
+        v-text="foodSpecification"
+      />
+    </div>
   </div>
 </template>
