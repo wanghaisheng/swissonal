@@ -1,8 +1,13 @@
 <script lang="ts" setup>
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 provideHeadlessUseId(() => useId())
 
 onMounted(() => {
   useNuxtApp().$startLenisScrollAnimation()
+  
+  gsap.registerPlugin(ScrollTrigger)
 })
 
 const today = new Date()
