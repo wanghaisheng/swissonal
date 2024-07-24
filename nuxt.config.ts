@@ -53,6 +53,8 @@ export default defineNuxtConfig({
     'nuxt-lodash',
     '@nuxt/image',
     'nuxt-swiper',
+    '@primevue/nuxt-module',
+    '@hypernym/nuxt-gsap',
   ],
 
   ssr: true,
@@ -110,6 +112,14 @@ export default defineNuxtConfig({
 
   swiper: {
     prefix: 'Swiper',
+  },
+
+  primevue: {
+  },
+
+  gsap: {
+    composables: true,
+    provide: false,
   },
 
   compatibilityDate: '2024-07-16',

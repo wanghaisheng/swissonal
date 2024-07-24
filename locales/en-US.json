@@ -51,5 +51,13 @@
     "text2": "you can plant"
   },
 
-  "discover-what-to-plant": "Discover what to plant now in Swizerland"
+  "discover-what-to-plant": "Discover what to plant now in Swizerland",
+
+  "form-newsletter": {
+    "title": "Your Garden's Best Friend",
+    "description": "Receive free quick tips and seasonal planting guides adapted for Swiss gardens by email 2x a month",
+    "name": "Name",
+    "email": "Email",
+    "send": "Send"
+  }
 }

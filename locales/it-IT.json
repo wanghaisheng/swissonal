@@ -52,5 +52,13 @@
     "text2": "si può piantare"
   },
 
-  "discover-what-to-plant": "Scopri cosa piantare ora in Svizzera"
+  "discover-what-to-plant": "Scopri cosa piantare ora in Svizzera",
+
+  "form-newsletter": {
+    "title": "Il Miglior Amico del Tuo Giardino",
+    "description": "Ricevi consigli rapidi gratuiti e guide stagionali per la semina adattate ai giardini svizzeri via email 2x al mese",
+    "name": "Nome",
+    "email": "Email",
+    "send": "Invia"
+  }
 }
