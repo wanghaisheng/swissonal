@@ -44,7 +44,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
 <template>
   <div
     ref="card"
-    class="relative w-full flex flex-row cursor-pointer items-center justify-start gap-8 md:gap-5 overflow-hidden rounded-md bg-white-100 px-6 py-4 md:px-4 md:py-10 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear md:flex-col hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
+    class="relative w-full flex flex-row cursor-pointer items-center justify-start gap-8 overflow-hidden rounded-md bg-white-100 px-6 py-4 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear md:flex-col md:gap-5 md:px-4 md:py-10 hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
     @mousemove="move"
     @mouseleave="leave"
     @mouseover="over"
@@ -54,7 +54,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
       class="absolute left-0 top-0 h-full w-full opacity-0 mix-blend-soft-light transition-all ease-linear"
     />
     <NuxtImg
-      class="h-16 w-16 md:h-24 md:w-24"
+      class="h-16 w-16 select-none md:h-24 md:w-24"
       :src="foodImage"
     />
     <div class="flex flex-col items-start gap-2 text-start md:items-center md:text-center">
