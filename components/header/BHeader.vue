@@ -9,7 +9,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
 
 <template>
   <header
-    class="z-50 w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out"
+    class="z-50 w-full flex flex-row items-center justify-between px-4 py-6 shadow-md transition-all duration-500 ease-in-out selection:bg-red-100 selection:text-white-100"
     :style="{
       backgroundColor: currentPage.theme.headerColor,
     }"
@@ -66,7 +66,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
       leave-from-class="transform translate-x-0"
       leave-to-class="transform translate-x-full"
     >
-      <BMobileMenu
+      <LazyBMobileMenu
         v-model:is-open="isMenuOpen"
         class="z-50"
       />
