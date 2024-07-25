@@ -27,10 +27,12 @@ function checkIfMobile() {
   isMobile.value = window.innerWidth <= 744
 }
 
+const isLoading = ref(true)
 async function loadData() {
   const data = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
-
   allItems.value = data?.fruits || data?.vegetables || data?.herbs || data?.all || []
+  
+  isLoading.value = false
 }
 
 function loadMore() {
@@ -100,16 +102,20 @@ onUnmounted(() => {
       <div
         class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
       >
+        <BSkeletonCard
+          v-for="index in itemsPerBlock"
+          v-show="isLoading"
+          :key="index"
+        />
+
         <BCard
           v-for="(item, index) in displayedItems"
           :key="index"
-          class=""
           :food-image="item.image"
           :food-name="item.title"
           :food-specification="item.description"
         />
-
-        <div class="col-auto flex justify-center py-2">
+        <div class="col-auto flex justify-center py-2 md:py-0">
           <button
             v-if="isMobile && displayedItems.length < allItems.length"
             class="w-full border border-white-100 rounded-sm py-2 text-white-100 font-100 tracking-wide paragraph"

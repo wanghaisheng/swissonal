@@ -2,7 +2,7 @@
 
 <template>
   <footer
-    class="relative w-screen flex flex-col items-center gap-12 bg-red-100 px-2 py-6.5 lg:flex-row lg:justify-center lg:gap-32 lg:py-16"
+    class="relative w-screen flex flex-col items-center gap-12 bg-red-100 px-2 py-6.5 lg:flex-row lg:justify-center lg:gap-32 selection:bg-green-100 lg:py-16 selection:text-white-100"
     text="sm sm:base xl:lg"
   >
     <NuxtImg
