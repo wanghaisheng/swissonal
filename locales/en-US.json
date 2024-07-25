@@ -59,5 +59,8 @@
     "name": "Name",
     "email": "Email",
     "send": "Send"
-  }
+  },
+
+  "load-more": "+ Load more",
+  "load-less": "- Load Less"
 }
