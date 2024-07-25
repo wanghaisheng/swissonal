@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     componentIslands: true,
   },
 
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
+
   future: {
     compatibilityVersion: 4,
   },
