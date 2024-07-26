@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="selection:bg-red-100 selection:text-white-100">
     <SWhatWhenPlant />
 
     <SFoodFilter />
