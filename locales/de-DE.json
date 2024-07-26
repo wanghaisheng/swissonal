@@ -62,5 +62,35 @@
   },
 
   "load-more": "+ Mehr laden",
-  "load-less": "- Weniger laden"
+  "load-less": "- Weniger laden",
+
+  "about": {
+    "title": "about",
+    "subtitle": "das Projekt",
+
+    "description": {
+      "title": "🌱  Ein Projekt für Nachhaltiges Gärtnern",
+      "description": "Swissonal ist ein Projekt, das sich der Unterstützung von Schweizer Gärtnern, Pflanzenliebhabern und allen, die leidenschaftlich gern ihr eigenes Essen anbauen, widmet. Unsere Mission ist es, nachhaltige und gesunde Gartenpraktiken in der ganzen Schweiz zu fördern, indem wir die notwendigen Werkzeuge und das Wissen für einen gedeihenden Garten das ganze Jahr über bereitstellen."
+    },
+
+    "purpose": {
+      "title": "🌍  Unser Zweck",
+      "description": "Dich zu ermutigen, dein eigenes Essen mit Blick auf deine Gesundheit und die Welt anzubauen"
+    },
+
+    "who": {
+      "title": "✨  Wer",
+      "description": "Swissonal wurde von EM ITALICOP BRUNA gegründet",
+      "description2": "eine Designerin, Programmiererin und Gartenbegeisterte aus der Schweiz"
+    },
+
+    "inspiration": {
+      "title": "🔎  Was Hat Swissonal Inspiriert?",
+      "description": "Bruna war oft frustriert über das Fehlen einer zentralen Quelle für pflanzenspezifische Informationen für die Schweiz. Sie musste durch mehrere Websites navigieren, aber keine bot umfassende, auf die Schweiz fokussierte Anleitungen dazu, was man wann pflanzen sollte.",
+      "description2": "'Warum nicht meine Fähigkeiten nutzen, um ein Problem zu lösen, mit dem so viele Menschen konfrontiert sind?'",
+      "description3": "dachte sie.",
+      "description4": "Und so wurde Swissonal geboren – eine zentrale Ressource, die darauf ausgelegt ist, die Gartenarbeit für Schweizer Pflanzenliebhaber zu vereinfachen und zu verbessern."
+    }
+  }
+
 }
