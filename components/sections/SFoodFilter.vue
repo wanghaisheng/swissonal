@@ -31,7 +31,7 @@ const isLoading = ref(true)
 async function loadData() {
   const data = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
   allItems.value = data?.fruits || data?.vegetables || data?.herbs || data?.all || []
-  
+
   isLoading.value = false
 }
 
@@ -90,12 +90,10 @@ onUnmounted(() => {
     />
     <div class="relative w-full">
       <NuxtImg
-        id="sticker1"
         class="absolute z-11 w-15 -right-4 -top-8 lg:w-28 md:w-20 lg:-right-8 lg:-top-20 md:-top-12"
         src="/images/stickers/bioemeglio.webp"
       />
       <NuxtImg
-        id="sticker2"
         class="invisible absolute z-11 md:visible lg:w-22 md:w-20 xl:w-28 lg:-bottom-10 lg:-left-8 md:-bottom-12 md:-left-4 xl:-left-22"
         src="/images/stickers/organischisbeter.webp"
       />
