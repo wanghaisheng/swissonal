@@ -2,8 +2,6 @@
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
-
 onMounted(() => {
   gsap.to('[data-speed]', {
     y: (i, el) => (1 - Number.parseFloat(el.getAttribute('data-speed'))) * ScrollTrigger.maxScroll(window),

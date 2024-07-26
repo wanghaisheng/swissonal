@@ -60,5 +60,8 @@
     "name": "Nome",
     "email": "Email",
     "send": "Invia"
-  }
+  },
+
+  "load-more": "+ Carica altro",
+  "load-less": "- Carica meno"
 }

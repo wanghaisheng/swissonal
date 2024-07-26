@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+interface Item {
+  image: string
+  title: string
+  description: string
+}
 
 const currentCategory = computed(() => useFilterStore().getCategory)
 const currentMonth = computed(() => useFilterStore().getMonth)
@@ -13,10 +14,33 @@ const { locale } = useI18n()
 
 const pageId = useId()
 
-const filter = ref()
+const allItems = ref<Item[]>([])
+const itemsPerBlock = 15
+const currentNumberOfBlocks = ref(1)
 
+const displayedItems = computed(() => {
+  return allItems.value.slice(0, currentNumberOfBlocks.value * itemsPerBlock)
+})
+
+const isMobile = ref(false)
+function checkIfMobile() {
+  isMobile.value = window.innerWidth <= 744
+}
+
+const isLoading = ref(true)
 async function loadData() {
-  filter.value = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
+  const data = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
+  allItems.value = data?.fruits || data?.vegetables || data?.herbs || data?.all || []
+
+  isLoading.value = false
+}
+
+function loadMore() {
+  currentNumberOfBlocks.value++
+}
+
+function loadLess() {
+  currentNumberOfBlocks.value = 1
 }
 
 callOnce(pageId, () => {
@@ -39,6 +63,12 @@ watch([currentCategory, currentMonth], () => {
 
 onMounted(() => {
   loadData()
+  checkIfMobile()
+  window.addEventListener('resize', checkIfMobile)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkIfMobile)
 })
 </script>
 
@@ -58,65 +88,60 @@ onMounted(() => {
       :text1="$t('current-month-text.text1')"
       :text2="$t('current-month-text.text2')"
     />
-    <div class="relative w-full bg-green">
+    <div class="relative w-full">
       <NuxtImg
-        id="sticker1"
         class="absolute z-11 w-15 -right-4 -top-8 lg:w-28 md:w-20 lg:-right-8 lg:-top-20 md:-top-12"
         src="/images/stickers/bioemeglio.webp"
       />
       <NuxtImg
-        id="sticker2"
-        class="absolute z-11 w-15 -bottom-8 -left-4 lg:w-22 md:w-20 xl:w-28 lg:-bottom-10 lg:-left-8 md:-bottom-12 xl:-left-22"
+        class="invisible absolute z-11 md:visible lg:w-22 md:w-20 xl:w-28 lg:-bottom-10 lg:-left-8 md:-bottom-12 md:-left-4 xl:-left-22"
         src="/images/stickers/organischisbeter.webp"
       />
       <div
-        v-if="filter?.fruits"
         class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
       >
-        <BCard
-          v-for="(fruit, index) in filter.fruits"
+        <BSkeletonCard
+          v-for="index in itemsPerBlock"
+          v-show="isLoading"
           :key="index"
-          :food-image="fruit.image"
-          :food-name="fruit.title"
-          :food-specification="fruit.description"
         />
-      </div>
-      <div
-        v-else-if="filter?.vegetables"
-        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
-      >
+
         <BCard
-          v-for="(vegetable, index) in filter.vegetables"
+          v-for="(item, index) in displayedItems"
           :key="index"
-          :food-image="vegetable.image"
-          :food-name="vegetable.title"
-          :food-specification="vegetable.description"
+          :food-image="item.image"
+          :food-name="item.title"
+          :food-specification="item.description"
         />
-      </div>
-      <div
-        v-else-if="filter?.herbs"
-        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
-      >
-        <BCard
-          v-for="(herb, index) in filter.herbs"
-          :key="index"
-          :food-image="herb.image"
-          :food-name="herb.title"
-          :food-specification="herb.description"
-        />
-      </div>
-      <div
-        v-else-if="filter?.all"
-        class="grid-container-cards w-full rounded-lg bg-red-100 p-2"
-      >
-        <BCard
-          v-for="(all, index) in filter.all"
-          :key="index"
-          :food-image="all.image"
-          :food-name="all.title"
-          :food-specification="all.description"
-        />
+        <div class="col-auto flex justify-center py-2 md:py-0">
+          <button
+            v-if="isMobile && displayedItems.length < allItems.length"
+            class="w-full border border-white-100 rounded-sm py-2 text-white-100 font-100 tracking-wide paragraph"
+            @click="loadMore"
+          >
+            {{ $t('load-more') }}
+          </button>
+          <button
+            v-if="isMobile && displayedItems.length === allItems.length"
+            class="w-full py-2 text-white-100 font-100 tracking-wide italic paragraph"
+            @click="loadLess"
+          >
+            {{ $t('load-less') }}
+          </button>
+        </div>
       </div>
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+.grid-container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+
+  @media (max-width: 744px) {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
