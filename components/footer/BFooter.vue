@@ -10,7 +10,8 @@
       src="/images/stickers/cow.webp"
     />
     <Logo class="w-50 fill-white-100 lg:w-60 xl:w-70" />
-    <ul class="flex flex-col gap-8 text-start">
+    <ul class="flex flex-col gap-8 text-start
+    ">
       <li>
         <p
           class="footer-base-style font-600"
