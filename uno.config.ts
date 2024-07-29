@@ -67,6 +67,12 @@ export default defineConfig({
     'paragraph-text-bold': 'font-semibold tracking-wider paragraph-text',
     'paragraph-text-light': 'font-light tracking-wide paragraph-text',
 
+    // GLOBAL
+    'page-base-aligment': 'max-w-[1224px] px-4 pt-40 w-full grow',
+    'section-full-width-aligment-parent': 'flex justify-center w-full grow px-4',
+    'section-full-width-aligment-child-first-section': 'max-w-[1224px] w-full grow pt-40',
+    'section-full-width-aligment-child': 'max-w-[1224px] w-full grow',
+
   },
 
   transformers: [

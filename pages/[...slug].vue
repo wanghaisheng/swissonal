@@ -1,5 +1,5 @@
 <template>
-  <div class="selection:bg-red-100 selection:text-white-100">
+  <div class="page-base-aligment selection:bg-red-100 selection:text-white-100">
     <SWhatWhenPlant />
 
     <SFoodFilter />
@@ -25,4 +25,3 @@
     <SFormNewsletter />
   </div>
 </template>
-
