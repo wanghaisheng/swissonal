@@ -92,6 +92,12 @@
       "description3": "pensò.",
       "description4": "E così nacque Swissonal – una risorsa unica progettata per semplificare e migliorare l'esperienza di giardinaggio per gli appassionati di piante svizzeri."
     }
+  },
+
+  "benefits": {
+    "title": "benefici",
+    "subtitle": "di coltivare il proprio cibo",
+    "sources": "fonti"
   }
 
 }
