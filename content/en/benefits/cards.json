@@ -1,0 +1,39 @@
+{
+  "benefits": [
+    {
+      "title": "Fresh & Flavorful",
+      "description": "Enjoy the superior taste of freshly picked produce",
+      "image": "/images/benefits/watermelon.webp"
+    },
+    {
+      "title": "Eco-Friendly",
+      "description": "Lower your carbon footprint by reducing the need for transportation and packaging",
+      "image": "/images/benefits/earth.webp"
+    },
+    {
+      "title": "Stress Relief",
+      "description": "Gardening reduces stress and promotes relaxation",
+      "image": "/images/benefits/peace.webp"
+    },
+    {
+      "title": "Healthier Food",
+      "description": "Homegrown fruits and vegetables are fresher and packed with more nutrients",
+      "image": "/images/benefits/boal.webp"
+    },
+    {
+      "title": "Family Time",
+      "description": "Gardening together strengthens family bonds and creates lasting memories",
+      "image": "/images/benefits/family.webp"
+    },
+    {
+      "title": "Help Bees",
+      "description": "Growing flowers and plants supports bees and other pollinators, crucial for ecosystem health",
+      "image": "/images/benefits/bee.webp"
+    },
+    {
+      "title": "Save Money",
+      "description": "Reduce your grocery bills by harvesting your own produce",
+      "image": "/images/benefits/coins.webp"
+    }
+  ]
+}
