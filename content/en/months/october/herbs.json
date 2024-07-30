@@ -1,0 +1,74 @@
+{
+  "herbs": [
+    {
+      "title": "Parsley",
+      "description": "outdoor",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoor",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoor",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoor",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Basil",
+      "description": "outdoor",
+      "image": "/images/herbs/basil.webp"
+    },
+    {
+      "title": "Thyme",
+      "description": "outdoor",
+      "image": "/images/herbs/thyme.webp"
+    },
+    {
+      "title": "Oregano",
+      "description": "outdoor",
+      "image": "/images/herbs/oregano.webp"
+    },
+    {
+      "title": "Sage",
+      "description": "outdoor",
+      "image": "/images/herbs/sage.webp"
+    },
+    {
+      "title": "Tarragon",
+      "description": "outdoor",
+      "image": "/images/herbs/tarragon.webp"
+    },
+    {
+      "title": "Dill",
+      "description": "outdoor",
+      "image": "/images/herbs/dill.webp"
+    },
+    {
+      "title": "Fennel",
+      "description": "outdoor",
+      "image": "/images/herbs/fennel.webp"
+    },
+    {
+      "title": "Lavender",
+      "description": "outdoor",
+      "image": "/images/herbs/lavender.webp"
+    },
+    {
+      "title": "Chamomile",
+      "description": "outdoor",
+      "image": "/images/herbs/chamomile.webp"
+    },
+    {
+      "title": "Lemon balm",
+      "description": "outdoor",
+      "image": "/images/herbs/mint.webp"
+    }
+  ]
+}

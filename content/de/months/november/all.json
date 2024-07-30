@@ -1,0 +1,120 @@
+{
+  "all": [
+    {
+      "title": "Apfel",
+      "description": "im Freien"
+    },
+    {
+      "title": "Spargel",
+      "description": "im Freien"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "im Freien"
+    },
+    {
+      "title": "Paprika",
+      "description": "im Freien"
+    },
+    {
+      "title": "Brombeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Basilikum",
+      "description": "im Freien"
+    },
+    {
+      "title": "Karotte",
+      "description": "im Freien"
+    },
+    {
+      "title": "Kirsche",
+      "description": "im Freien"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "im Freien"
+    },
+    {
+      "title": "Koriander",
+      "description": "im Freien"
+    },
+    {
+      "title": "Mais",
+      "description": "im Freien"
+    },
+    {
+      "title": "Johannisbeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Gurke",
+      "description": "im Freien"
+    },
+    {
+      "title": "Aubergine",
+      "description": "im Freien"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "im Freien"
+    },
+    {
+      "title": "Bohnen",
+      "description": "im Freien"
+    },
+    {
+      "title": "Lattich",
+      "description": "im Freien"
+    },
+    {
+      "title": "Okra",
+      "description": "im Freien"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "im Freien"
+    },
+    {
+      "title": "Petersilie",
+      "description": "im Freien"
+    },
+    {
+      "title": "Birne",
+      "description": "im Freien"
+    },
+    {
+      "title": "Pflaume",
+      "description": "im Freien"
+    },
+    {
+      "title": "Radieschen",
+      "description": "im Freien"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "im Freien"
+    },
+    {
+      "title": "Spinat",
+      "description": "im Freien"
+    },
+    {
+      "title": "Erdbeere",
+      "description": "im Freien"
+    },
+    {
+      "title": "Tomate",
+      "description": "im Freien"
+    },
+    {
+      "title": "Wassermelone",
+      "description": "in einem Gewächshaus"
+    },
+    {
+      "title": "Zucchini",
+      "description": "im Freien"
+    }
+  ]
+}

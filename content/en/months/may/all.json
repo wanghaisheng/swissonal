@@ -1,0 +1,119 @@
+{
+  "all": [
+    {
+      "title": "Apple",
+      "description": "outdoors",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Basil",
+      "description": "in greenhouse",
+      "image": "/images/herbs/basil.webp"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoors",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Blackberry",
+      "description": "outdoors",
+      "image": "/images/fruits/mulberry.webp"
+    },
+    {
+      "title": "Bell Pepper",
+      "description": "outdoors",
+      "image": "/images/vegetables/bell_pepper.webp"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoors",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoors",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoors",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Cucumber",
+      "description": "outdoors",
+      "image": "/images/vegetables/cucumber.webp"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoors",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Green Bean",
+      "description": "outdoors",
+      "image": "/images/vegetables/green_beans.webp"
+    },
+    {
+      "title": "Lettuce",
+      "description": "outdoors",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoors",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Parsley",
+      "description": "outdoors",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoors",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Plum",
+      "description": "outdoors",
+      "image": "/images/fruits/plum.webp"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoors",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoors",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoors",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Spinach",
+      "description": "outdoors",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Strawberry",
+      "description": "outdoors",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Tomato",
+      "description": "outdoors",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Zucchini",
+      "description": "outdoors",
+      "image": "/images/vegetables/zucchini.webp"
+    }
+  ]
+}

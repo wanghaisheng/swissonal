@@ -1,0 +1,69 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinach",
+      "description": "outdoors",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Lettuce",
+      "description": "outdoors",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoors",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoors",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoors",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoors",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoors",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Zucchini",
+      "description": "outdoors",
+      "image": "/images/vegetables/zucchini.webp"
+    },
+    {
+      "title": "Cucumber",
+      "description": "outdoors",
+      "image": "/images/vegetables/cucumber.webp"
+    },
+    {
+      "title": "Tomato",
+      "description": "outdoors",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Bell Pepper",
+      "description": "outdoors",
+      "image": "/images/vegetables/bell_pepper.webp"
+    },
+    {
+      "title": "Green Bean",
+      "description": "outdoors",
+      "image": "/images/vegetables/green_beans.webp"
+    },
+    {
+      "title": "Eggplant",
+      "description": "outdoors",
+      "image": "/images/vegetables/eggplant.webp"
+    }
+  ]
+}
