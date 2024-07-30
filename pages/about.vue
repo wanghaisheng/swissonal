@@ -1,10 +1,22 @@
 <script setup lang="ts">
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+onMounted(() => {
+  ScrollTrigger.create({
+    trigger: '#section-parallax',
+    start: '+=45% top',
+    pin: true,
+    pinSpacing: false,
+  })
+})
 </script>
 
 <template>
   <div class="selection:text-white-200 w-screen flex flex-col items-center justify-center selection:bg-red-100">
     <section
       v-once
+      id="section-parallax"
       class="section-full-width-aligment-parent bg-red-100 selection:bg-white-100 selection:text-black-200"
     >
       <div class="section-full-width-aligment-child-first-section">
@@ -17,7 +29,7 @@
         <BTitleParagraph
           :title="$t('about.description.title')"
           text-white
-          class="mb-24"
+          class="mb-8 md:mb-24"
         >
           <p class="text-white-100 paragraph-text-light">
             {{ $t('about.description.description') }}
@@ -27,8 +39,9 @@
     </section>
 
     <NuxtImg
+      quality="10"
       src="/images/landscape-swiss.webp"
-      class=""
+      class="2xl:40vh mb-10 w-full object-cover object-bottom lg:h-100vh"
     />
 
     <section
@@ -100,14 +113,14 @@
       </div>
     </section>
 
-    <div class="section-full-width-aligment-child">
+    <div class="max-w-[1224px] w-full grow">
       <BScrollingTicker class="my-20" />
     </div>
 
     <section class="section-full-width-aligment-parent">
       <div
         v-once
-        class="mb-20 max-w-[1224px] flex grow flex-col items-center gap-8 md:flex-row md:items-start md:justify-between md:gap-4"
+        class="mb-20 max-w-[1024px] flex grow flex-col items-center gap-8 px-8 md:flex-row md:items-start md:justify-between md:gap-4"
       >
         <BCardImageLink
           image-path="/images/calendar.webp"
@@ -115,9 +128,9 @@
           link="/"
         />
         <BCardImageLink
-          image-path="/images/planting-tomatos.webp"
-          :text="$t('card-links.about')"
-          link="/about"
+          image-path="/images/vegetables-garden.webp"
+          :text="$t('card-links.benefits')"
+          link="/benefits"
         />
       </div>
     </section>

@@ -69,9 +69,9 @@ export default defineConfig({
 
     // GLOBAL
     'page-base-aligment': 'max-w-[1224px] px-4 pt-40 w-full grow',
-    'section-full-width-aligment-parent': 'flex justify-center w-full grow px-4',
-    'section-full-width-aligment-child-first-section': 'max-w-[1224px] w-full grow pt-40',
-    'section-full-width-aligment-child': 'max-w-[1224px] w-full grow',
+    'section-full-width-aligment-parent': 'flex justify-center w-full grow',
+    'section-full-width-aligment-child-first-section': 'max-w-[1024px] w-full grow pt-40 px-8',
+    'section-full-width-aligment-child': 'max-w-[1024px] w-full grow px-8',
 
   },
 
