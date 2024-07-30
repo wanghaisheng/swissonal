@@ -9,7 +9,7 @@
   "footer": {
     "your-guide": "La tua guida pratica alla piantagione in Svizzera.",
     "made-by": "✨ Realizzato da",
-    "based-on": "Basato su dati svizzeri di giardinaggio e agricoltura."
+    "based-on": "I microclimi svizzeri possono influenzare i risultati."
   },
 
   "what-when-plant": {
@@ -63,5 +63,35 @@
   },
 
   "load-more": "+ Carica altro",
-  "load-less": "- Carica meno"
+  "load-less": "- Carica meno",
+
+  "about": {
+    "title": "about",
+    "subtitle": "il progetto",
+
+    "description": {
+      "title": "🌱  Un Progetto per il Giardinaggio Sostenibile",
+      "description": "Swissonal è un progetto dedicato a dare potere ai giardinieri svizzeri, agli amanti delle piante e a chiunque sia appassionato di coltivare il proprio cibo. La nostra missione è promuovere pratiche di giardinaggio sostenibili e salutari in tutta la Svizzera, fornendo gli strumenti e le conoscenze necessari per un giardino rigoglioso tutto l'anno."
+    },
+
+    "purpose": {
+      "title": "🌍  Il Nostro Scopo",
+      "description": "Incoraggiarti a coltivare il tuo cibo pensando alla tua salute e al mondo"
+    },
+
+    "who": {
+      "title": "✨  Chi",
+      "description": "Swissonal è stato creato da",
+      "description2": "una designer, programmatrice ed entusiasta del giardinaggio dalla Svizzera"
+    },
+
+    "inspiration": {
+      "title": "🔎  Cosa Ha Ispirato Swissonal?",
+      "description": "Bruna si trovava spesso frustrata dalla mancanza di una fonte centralizzata di informazioni sulla piantagione specifica per la Svizzera. Doveva navigare attraverso più siti web, ma nessuno offriva una guida completa e focalizzata sulla Svizzera su cosa piantare e quando.",
+      "description2": "'Perché non usare le mie competenze per risolvere un problema che molte persone affrontano?'",
+      "description3": "pensò.",
+      "description4": "E così nacque Swissonal – una risorsa unica progettata per semplificare e migliorare l'esperienza di giardinaggio per gli appassionati di piante svizzeri."
+    }
+  }
+
 }

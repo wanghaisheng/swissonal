@@ -59,9 +59,19 @@ export default defineConfig({
 
     // TITLES
     'title-xl': 'font-900 font-base uppercase text-5xl md:text-7xl',
+    'subtitle-xl': 'font-600 lowercase text-2xl md:text-4xl ',
     'title-lg': 'text-3xl font-900 font-base uppercase md:text-5xl',
     'paragraph': 'text-base xl:text-lg',
-    'paragraph-bold': 'text-sm font-semibold tracking-wider md:text-base',
+    'paragraph-bold-tab': 'text-sm font-semibold tracking-wider md:text-base',
+    'paragraph-text': 'text-sm md:text-base lg:text-lg',
+    'paragraph-text-bold': 'font-semibold tracking-wider paragraph-text',
+    'paragraph-text-light': 'font-light tracking-wide paragraph-text',
+
+    // GLOBAL
+    'page-base-aligment': 'max-w-[1224px] px-4 pt-40 w-full grow',
+    'section-full-width-aligment-parent': 'flex justify-center w-full grow',
+    'section-full-width-aligment-child-first-section': 'max-w-[1024px] w-full grow pt-40 px-8',
+    'section-full-width-aligment-child': 'max-w-[1024px] w-full grow px-8',
 
   },
 
