@@ -21,7 +21,7 @@ callOnce(() => {
 <template>
   <NuxtLayout>
     <BPageLoader />
-    <BCustomCursor />
+    <BCustomCursor class="hidden 2lg:block" />
     <NuxtPage />
   </NuxtLayout>
 </template>
@@ -29,7 +29,7 @@ callOnce(() => {
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s; 
+  transition: all 0.4s;
 }
 .page-enter-from,
 .page-leave-to {
@@ -37,4 +37,3 @@ callOnce(() => {
   filter: blur(1rem);
 }
 </style>
- 

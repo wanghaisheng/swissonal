@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
   }
 
   .custom-cursor__ball {
-    --at-apply: top-4 left-0 -rotate-18	fixed w-32px h-32px  z-10000 opacity-0
+    --at-apply: top-4 left-0 -rotate-18	fixed w-24px h-24px  z-10000 opacity-0
       pointer-events-none transition-opacity duration-100 ease-in;
   }
 }
