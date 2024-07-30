@@ -42,8 +42,9 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="custom-cursor">
-    <div
+    <NuxtImg
       id="cursor-small"
+      src="/bee.svg"
       class="custom-cursor__ball"
     />
   </div>
@@ -56,7 +57,7 @@ onBeforeUnmount(() => {
   }
 
   .custom-cursor__ball {
-    --at-apply: bg-red-100 -top-1 left-0 fixed w-6px h-6px rounded-full z-10000 opacity-0
+    --at-apply: top-4 left-0 -rotate-18	fixed w-24px h-24px  z-10000 opacity-0
       pointer-events-none transition-opacity duration-100 ease-in;
   }
 }

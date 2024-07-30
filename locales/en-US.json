@@ -8,7 +8,7 @@
   "footer": {
     "your-guide": "Your practical planting guide in Switzerland.",
     "made-by": "✨ Made by",
-    "based-on": "Based on Swiss gardening and agriculture data."
+    "based-on": "Swiss microclimates may affect the results."
   },
 
   "what-when-plant": {
@@ -62,5 +62,34 @@
   },
 
   "load-more": "+ Load more",
-  "load-less": "- Load Less"
+  "load-less": "- Load Less",
+
+  "about": {
+    "title": "about",
+    "subtitle": "the project",
+
+    "description": {
+      "title": "🌱  A Project for Sustainable Gardening",
+      "description": "Swissonal is a project dedicated to empowering Swiss gardeners, plant lovers, and anyone passionate about growing their own food. Our mission is to promote sustainable and healthy gardening practices throughout Switzerland, providing the tools and knowledge needed for a thriving garden all year round."
+    },
+
+    "purpose": {
+      "title": "🌍  Our Purpose",
+      "description": "Encouraging you to grow your own food with your health and the world in mind"
+    },
+
+    "who": {
+      "title": "✨  Who",
+      "description": "Swissonal was created by",
+      "description2": "a designer and programmer and gardening enthusiast from Switzerland"
+    },
+
+    "inspiration": {
+      "title": "🔎  What Inspired Swissonal?",
+      "description": "Bruna often found herself frustrated by the lack of a centralized source for planting information specific to Switzerland. She had to navigate through multiple websites, yet none offered comprehensive, Swiss-focused guidance on what to plant and when.",
+      "description2": "'Why not use my skills to solve a problem that so many people face?'",
+      "description3": "she thought.",
+      "description4": "And thus, Swissonal was born – a one-stop resource designed to simplify and enhance the gardening experience for Swiss plant enthusiasts."
+    }
+  }
 }
