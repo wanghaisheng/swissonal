@@ -36,6 +36,15 @@ onMounted(() => {
     })
   })
 })
+
+const links: string[] = [
+  'https://www.sge-ssn.ch/',
+  'https://www.konsumentenschutz.ch/',
+  'https://www.sbv-usp.ch/en/',
+  'https://bienen.ch/ueber-uns/apisuisse/',
+  'https://www.pronatura.ch/en',
+  'https://www.epa.gov/sustainable-management-food/composting',
+]
 </script>
 
 <template>
@@ -57,7 +66,7 @@ onMounted(() => {
     >
       <div
         ref="containerCards"
-        class="container-cards relative inset-x-5 mx-10 w-dvw flex flex-row flex-nowrap justify-start gap-4 md:left-30% sm:left-10% md:mr-0"
+        class="relative inset-x-5 mx-10 w-dvw flex flex-row flex-nowrap justify-start gap-4 md:left-30% sm:left-10% md:mr-0"
       >
         <BCardBenefit
           v-for="(item, index) in benefitItems"
@@ -67,6 +76,43 @@ onMounted(() => {
           :benefit-description="item.description"
           :benefit-image="item.image"
         />
+      </div>
+    </section>
+
+    <section
+      v-once
+      class="section-full-width-aligment-parent"
+    >
+      <div class="section-full-width-aligment-child">
+        <BTitleParagraph
+          :title="$t('benefits.sources')"
+          class="my-20"
+        >
+          <ul
+            class="flex flex-col gap-4"
+          >
+            <li
+              v-for="(link, i) in links"
+              :key="i"
+            >
+              <a
+                :href="link"
+                target="_blank"
+                class="flex flex-row items-center gap-2 text-black-200 underline underline-black-200 paragraph-text-light"
+              >
+                <span class="flex">
+                  <Icon
+                    class="text-black-200 opacity-60"
+                    width="24px"
+                    height="24px"
+                    name="i-material-symbols:arrow-outward-rounded"
+                  />
+                </span>
+                <p>{{ link }}</p>
+              </a>
+            </li>
+          </ul>
+        </BTitleParagraph>
       </div>
     </section>
 
