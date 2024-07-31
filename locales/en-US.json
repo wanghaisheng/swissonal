@@ -91,5 +91,11 @@
       "description3": "she thought.",
       "description4": "And thus, Swissonal was born – a one-stop resource designed to simplify and enhance the gardening experience for Swiss plant enthusiasts."
     }
+  },
+
+  "benefits": {
+    "title": "benefits",
+    "subtitle": "of growing your food",
+    "sources": "📚 sources"
   }
 }

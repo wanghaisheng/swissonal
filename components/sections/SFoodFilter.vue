@@ -29,7 +29,7 @@ function checkIfMobile() {
 
 const isLoading = ref(true)
 async function loadData() {
-  const data = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
+  const data = await queryContent(`${locale.value}/months/${currentMonth.value}/${currentCategory.value}`).findOne()
   allItems.value = data?.fruits || data?.vegetables || data?.herbs || data?.all || []
 
   isLoading.value = false

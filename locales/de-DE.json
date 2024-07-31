@@ -91,6 +91,12 @@
       "description3": "dachte sie.",
       "description4": "Und so wurde Swissonal geboren – eine zentrale Ressource, die darauf ausgelegt ist, die Gartenarbeit für Schweizer Pflanzenliebhaber zu vereinfachen und zu verbessern."
     }
+  },
+
+  "benefits": {
+    "title": "Vorteile",
+    "subtitle": "des eigenen Anbaus von Lebensmitteln",
+    "sources": "📚 Quellen"
   }
 
 }

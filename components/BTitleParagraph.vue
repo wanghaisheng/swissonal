@@ -10,7 +10,7 @@ defineProps<Props>()
 <template>
   <div class="flex flex-col items-start gap-2">
     <p
-      class="paragraph-text-bold select-text selection:bg-white-100 selection:text-black-200"
+      class="select-text capitalize selection:bg-white-100 paragraph-text-bold selection:text-black-200"
       :class="textWhite ? 'text-white-100' : 'text-black-200'"
     >
       {{ title }}
