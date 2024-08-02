@@ -2,19 +2,23 @@
   "fruits": [
     {
       "title": "Erdbeere",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Apfel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Birne",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Himbeere",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
     }
   ]
 }

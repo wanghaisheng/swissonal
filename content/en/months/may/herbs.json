@@ -2,22 +2,22 @@
   "herbs": [
     {
       "title": "Parsley",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Cilantro",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Chives",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Rosemary",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/herbs/rosemary.webp"
     },
     {

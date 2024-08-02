@@ -4,16 +4,6 @@
       "title": "Strawberry",
       "description": "in greenhouse",
       "image": "/images/fruits/strawberry.webp"
-    },
-    {
-      "title": "Apple",
-      "description": "in greenhouse",
-      "image": "/images/fruits/apple.webp"
-    },
-    {
-      "title": "Pear",
-      "description": "in greenhouse",
-      "image": "/images/fruits/pear.webp"
     }
   ]
 }

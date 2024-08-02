@@ -2,75 +2,68 @@
   "fruits": [
     {
       "title": "Apfel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Birne",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Himbeere",
-      "description": "im Freien"
-    },
-    {
-      "title": "Johannisbeere",
-      "description": "im Freien"
-    },
-    {
-      "title": "Kirsche",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Brombeere",
-      "description": "im Freien"
-    },
-    {
-      "title": "Pflaume",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Blaubeere",
-      "description": "im Freien"
-    },
-    {
-      "title": "Kiwi",
-      "description": "im Freien"
-    },
-    {
-      "title": "Aprikose",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/blueberry.webp"
     },
     {
       "title": "Nektarine",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/fruits/nectarine.webp"
     },
     {
       "title": "Granatapfel",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/pomegranate.webp"
     },
     {
-      "title": "Karambola",
-      "description": "in Gewächshaus"
+      "title": "Sternfrucht",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/star_fruit.webp"
     },
     {
       "title": "Papaya",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/papaya.webp"
     },
     {
       "title": "Wassermelone",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/watermelon.webp"
     },
     {
       "title": "Ananas",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/pineapple.webp"
     },
     {
       "title": "Zitrone",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/lemon.webp"
     },
     {
       "title": "Sizilianische Zitrone",
-      "description": "in Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/sicilian_lemon.webp"
     }
   ]
 }

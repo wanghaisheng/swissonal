@@ -2,15 +2,8 @@
   "fruits": [
     {
       "title": "Fragola",
-      "description": "in serra"
-    },
-    {
-      "title": "Mela",
-      "description": "in serra"
-    },
-    {
-      "title": "Pera",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
     }
   ]
 }

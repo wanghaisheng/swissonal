@@ -2,19 +2,23 @@
   "fruits": [
     {
       "title": "Fragola",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Mela",
-      "description": "all'aperto a fine mese"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pera",
-      "description": "all'aperto a fine mese"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Lampone",
-      "description": "all'aperto a fine mese"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/raspberry.webp"
     }
   ]
 }

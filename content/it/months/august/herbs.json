@@ -1,60 +1,74 @@
 {
   "herbs": [
     {
-      "title": "Prezzemolo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Coriandolo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Erba cipollina",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Rosmarino",
-      "description": "all'aperto"
-    },
-    {
       "title": "Basilico",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Timo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Origano",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Salvia",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Estragone",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Aneto",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Finocchio",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Lavanda",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/basil.webp"
     },
     {
       "title": "Camomilla",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/chamomile.webp"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Aneto",
+      "description": "all'aperto",
+      "image": "/images/herbs/dill.webp"
+    },
+    {
+      "title": "Finocchio",
+      "description": "all'aperto",
+      "image": "/images/herbs/fennel.webp"
+    },
+    {
+      "title": "Lavanda",
+      "description": "all'aperto",
+      "image": "/images/herbs/lavender.webp"
     },
     {
       "title": "Melissa",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/mint.webp"
+    },
+    {
+      "title": "Origano",
+      "description": "all'aperto",
+      "image": "/images/herbs/oregano.webp"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "all'aperto",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Salvia",
+      "description": "all'aperto",
+      "image": "/images/herbs/sage.webp"
+    },
+    {
+      "title": "Estragone",
+      "description": "all'aperto",
+      "image": "/images/herbs/tarragon.webp"
+    },
+    {
+      "title": "Timo",
+      "description": "all'aperto",
+      "image": "/images/herbs/thyme.webp"
     }
   ]
 }
