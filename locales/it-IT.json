@@ -59,7 +59,13 @@
     "description": "Ricevi consigli rapidi gratuiti e guide stagionali per la semina adattate ai giardini svizzeri via email 2x al mese",
     "name": "Nome",
     "email": "Email",
-    "send": "Invia"
+    "send": "Invia",
+
+    "message": {
+      "enter-valid-email": "Oops, sembra che tu debba inserire un indirizzo email valido! 🫣",
+      "success-subscription": "Congratulazioni 🎉 Ora fai parte di questa comunità 🌻",
+      "unknown-error": "La nostra iscrizione è temporaneamente non disponibile. Riprova tra qualche minuto... ⏰"
+    }
   },
 
   "load-more": "+ Carica altro",
