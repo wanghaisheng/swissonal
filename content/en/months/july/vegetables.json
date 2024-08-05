@@ -2,82 +2,82 @@
   "vegetables": [
     {
       "title": "Spinach",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Lettuce",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Carrot",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radish",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Onion",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Garlic",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Beetroot",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Zucchini",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/zucchini.webp"
     },
     {
       "title": "Cucumber",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/cucumber.webp"
     },
     {
       "title": "Tomato",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/tomato.webp"
     },
     {
       "title": "Bell Pepper",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/bell_pepper.webp"
     },
     {
-      "title": "Green Bean",
-      "description": "outdoors",
+      "title": "Green Beans",
+      "description": "outdoor",
       "image": "/images/vegetables/green_beans.webp"
     },
     {
       "title": "Eggplant",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/eggplant.webp"
     },
     {
       "title": "Corn",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/corn.webp"
     },
     {
       "title": "Asparagus",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/asparagus.webp"
     },
     {
       "title": "Okra",
-      "description": "outdoors",
+      "description": "outdoor",
       "image": "/images/vegetables/okra.webp"
     }
   ]

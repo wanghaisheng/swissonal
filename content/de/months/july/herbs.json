@@ -2,59 +2,73 @@
   "herbs": [
     {
       "title": "Petersilie",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Koriander",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Schnittlauch",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Rosmarin",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Basilikum",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/basil.webp"
     },
     {
       "title": "Thymian",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/thyme.webp"
     },
     {
       "title": "Oregano",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/oregano.webp"
     },
     {
       "title": "Salbei",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/sage.webp"
     },
     {
       "title": "Estragon",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/tarragon.webp"
     },
     {
       "title": "Dill",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/dill.webp"
     },
     {
       "title": "Fenchel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/fennel.webp"
     },
     {
       "title": "Lavendel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/lavender.webp"
     },
     {
       "title": "Kamille",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/chamomile.webp"
     },
     {
       "title": "Zitronenmelisse",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/mint.webp"
     }
   ]
 }

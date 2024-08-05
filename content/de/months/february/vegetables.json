@@ -2,23 +2,28 @@
   "vegetables": [
     {
       "title": "Spinat",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Salat",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Karotte",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radieschen",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/onion.webp"
     }
   ]
 }

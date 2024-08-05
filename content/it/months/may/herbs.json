@@ -2,23 +2,28 @@
   "herbs": [
     {
       "title": "Prezzemolo",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Coriandolo",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Erba cipollina",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Rosmarino",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Basilico",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/herbs/basil.webp"
     }
   ]
 }

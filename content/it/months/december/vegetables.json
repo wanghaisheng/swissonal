@@ -2,67 +2,43 @@
   "vegetables": [
     {
       "title": "Spinaci",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Lattuga",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Carota",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Ravanello",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Cipolla",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Aglio",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Barbabietola",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Zucchina",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Cetriolo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Pomodoro",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Peperone",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Fagioli verdi",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Melanzana",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Mais",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Asparago",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Okra",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/vegetables/asparagus.webp"
     }
   ]
 }

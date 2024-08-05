@@ -36,49 +36,9 @@
       "image": "/images/vegetables/beetroot.webp"
     },
     {
-      "title": "Zucchini",
-      "description": "outdoor",
-      "image": "/images/vegetables/zucchini.webp"
-    },
-    {
-      "title": "Cucumber",
-      "description": "outdoor",
-      "image": "/images/vegetables/cucumber.webp"
-    },
-    {
-      "title": "Tomato",
-      "description": "outdoor",
-      "image": "/images/vegetables/tomato.webp"
-    },
-    {
-      "title": "Bell pepper",
-      "description": "outdoor",
-      "image": "/images/vegetables/bell_pepper.webp"
-    },
-    {
-      "title": "Green beans",
-      "description": "outdoor",
-      "image": "/images/vegetables/green_beans.webp"
-    },
-    {
-      "title": "Eggplant",
-      "description": "outdoor",
-      "image": "/images/vegetables/eggplant.webp"
-    },
-    {
-      "title": "Corn",
-      "description": "outdoor",
-      "image": "/images/vegetables/corn.webp"
-    },
-    {
       "title": "Asparagus",
       "description": "outdoor",
       "image": "/images/vegetables/asparagus.webp"
-    },
-    {
-      "title": "Okra",
-      "description": "outdoor",
-      "image": "/images/vegetables/okra.webp"
     }
   ]
 }

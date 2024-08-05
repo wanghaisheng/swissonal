@@ -2,39 +2,48 @@
   "vegetables": [
     {
       "title": "Spinat",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Salat",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Karotte",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radieschen",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Knoblauch",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Rote Beete",
-      "description": "draußen"
+      "title": "Rote Bete",
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Blumenkohl",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/cauliflower.webp"
     },
     {
       "title": "Brokkoli",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/broccoli.webp"
     }
   ]
 }

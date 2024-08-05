@@ -2,199 +2,128 @@
   "all": [
     {
       "title": "Apfel",
-      "description": "draußen am Monatsende"
-    },
-    {
-      "title": "Aprikose",
-      "description": "draußen"
-    },
-    {
-      "title": "Spargel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Rote Bete",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Paprika",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/bell_pepper.webp"
     },
     {
       "title": "Brombeere",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
-      "title": "Heidelbeere",
-      "description": "draußen"
-    },
-    {
-      "title": "Basilikum",
-      "description": "im Gewächshaus"
+      "title": "Brokkoli",
+      "description": "draußen",
+      "image": "/images/vegetables/broccoli.webp"
     },
     {
       "title": "Karotte",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Blumenkohl",
-      "description": "draußen"
-    },
-    {
-      "title": "Kamille",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/cauliflower.webp"
     },
     {
       "title": "Kirsche",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/cherry.webp"
     },
     {
       "title": "Schnittlauch",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Koriander",
-      "description": "draußen am Monatsende"
-    },
-    {
-      "title": "Mais",
-      "description": "draußen"
-    },
-    {
-      "title": "Johannisbeere",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Gurke",
-      "description": "draußen"
-    },
-    {
-      "title": "Dill",
-      "description": "draußen"
-    },
-    {
-      "title": "Aubergine",
-      "description": "draußen"
-    },
-    {
-      "title": "Fenchel",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/cucumber.webp"
     },
     {
       "title": "Knoblauch",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Grüne Bohne",
-      "description": "draußen"
+      "title": "Grüne Bohnen",
+      "description": "draußen",
+      "image": "/images/vegetables/green_beans.webp"
     },
     {
-      "title": "Kiwi",
-      "description": "draußen"
-    },
-    {
-      "title": "Lavendel",
-      "description": "draußen"
-    },
-    {
-      "title": "Zitrone",
-      "description": "im Gewächshaus"
-    },
-    {
-      "title": "Zitronenmelisse",
-      "description": "draußen"
-    },
-    {
-      "title": "Kopfsalat",
-      "description": "im Gewächshaus oder draußen am Monatsende"
-    },
-    {
-      "title": "Nektarine",
-      "description": "draußen"
-    },
-    {
-      "title": "Oregano",
-      "description": "draußen"
+      "title": "Salat",
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "draußen am Monatsende"
-    },
-    {
-      "title": "Papaya",
-      "description": "im Gewächshaus"
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Petersilie",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Birne",
-      "description": "draußen am Monatsende"
-    },
-    {
-      "title": "Ananas",
-      "description": "im Gewächshaus"
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Pflaume",
-      "description": "draußen"
-    },
-    {
-      "title": "Granatapfel",
-      "description": "im Gewächshaus"
-    },
-    {
-      "title": "Prezzemolo",
-      "description": "in serra"
+      "description": "draußen",
+      "image": "/images/fruits/plum.webp"
     },
     {
       "title": "Radieschen",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Himbeere",
-      "description": "draußen am Monatsende"
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Rosmarin",
-      "description": "im Gewächshaus"
-    },
-    {
-      "title": "Salbei",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Spinat",
-      "description": "im Gewächshaus oder draußen am Monatsende"
-    },
-    {
-      "title": "Sternfrucht",
-      "description": "im Gewächshaus"
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Erdbeere",
-      "description": "im Gewächshaus"
-    },
-    {
-      "title": "Estragon",
-      "description": "draußen"
-    },
-    {
-      "title": "Thymian",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Tomate",
-      "description": "draußen"
-    },
-    {
-      "title": "Wassermelone",
-      "description": "im Gewächshaus"
+      "description": "draußen",
+      "image": "/images/vegetables/tomato.webp"
     },
     {
       "title": "Zucchini",
-      "description": "draußen"
+      "description": "draußen",
+      "image": "/images/vegetables/zucchini.webp"
     }
   ]
 }

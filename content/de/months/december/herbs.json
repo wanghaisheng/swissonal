@@ -2,59 +2,68 @@
   "herbs": [
     {
       "title": "Petersilie",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Koriander",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Schnittlauch",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Rosmarin",
-      "description": "im Freien"
-    },
-    {
-      "title": "Basilikum",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Thymian",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/thyme.webp"
     },
     {
       "title": "Oregano",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/oregano.webp"
     },
     {
       "title": "Salbei",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/sage.webp"
     },
     {
       "title": "Estragon",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/tarragon.webp"
     },
     {
       "title": "Dill",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/dill.webp"
     },
     {
       "title": "Fenchel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/fennel.webp"
     },
     {
       "title": "Lavendel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/lavender.webp"
     },
     {
       "title": "Kamille",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/chamomile.webp"
     },
     {
       "title": "Zitronenmelisse",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/herbs/mint.webp"
     }
   ]
 }

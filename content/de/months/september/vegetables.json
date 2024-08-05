@@ -2,67 +2,83 @@
   "vegetables": [
     {
       "title": "Spinat",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Salat",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Karotte",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radieschen",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Knoblauch",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Rote Beete",
-      "description": "im Freien"
+      "title": "Rote Bete",
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Zucchini",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/zucchini.webp"
     },
     {
       "title": "Gurke",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/cucumber.webp"
     },
     {
       "title": "Tomate",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/tomato.webp"
     },
     {
       "title": "Paprika",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/bell_pepper.webp"
     },
     {
       "title": "Grüne Bohnen",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/green_beans.webp"
     },
     {
       "title": "Aubergine",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/eggplant.webp"
     },
     {
       "title": "Mais",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/corn.webp"
     },
     {
       "title": "Spargel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/asparagus.webp"
     },
     {
       "title": "Okra",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/okra.webp"
     }
   ]
 }

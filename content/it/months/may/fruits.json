@@ -2,35 +2,38 @@
   "fruits": [
     {
       "title": "Fragola",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Mela",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pera",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Lampone",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Ciliegia",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ribes",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/cherry.webp"
     },
     {
       "title": "Mora",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Prugna",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/plum.webp"
     }
   ]
 }

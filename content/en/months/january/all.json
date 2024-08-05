@@ -1,11 +1,6 @@
 {
   "all": [
     {
-      "title": "Apple",
-      "description": "in greenhouse",
-      "image": "/images/fruits/apple.webp"
-    },
-    {
       "title": "Carrot",
       "description": "in greenhouse",
       "image": "/images/vegetables/carrot.webp"
@@ -36,11 +31,6 @@
       "image": "/images/herbs/parsley.webp"
     },
     {
-      "title": "Pear",
-      "description": "in greenhouse",
-      "image": "/images/fruits/pear.webp"
-    },
-    {
       "title": "Radish",
       "description": "in greenhouse",
       "image": "/images/vegetables/radish.webp"
@@ -55,5 +45,5 @@
       "description": "in greenhouse",
       "image": "/images/fruits/strawberry.webp"
     }
-  ]
+  ]  
 }

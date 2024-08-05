@@ -171,9 +171,19 @@
       "image": "/images/vegetables/radish.webp"
     },
     {
+      "title": "Raspberry",
+      "description": "outdoor",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
       "title": "Rosemary",
       "description": "outdoor",
       "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Sage",
+      "description": "outdoor",
+      "image": "/images/herbs/sage.webp"
     },
     {
       "title": "Starfruit",

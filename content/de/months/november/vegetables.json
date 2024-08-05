@@ -2,67 +2,43 @@
   "vegetables": [
     {
       "title": "Spinat",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Salat",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Karotte",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Radieschen",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Knoblauch",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Rote Beete",
-      "description": "im Freien"
-    },
-    {
-      "title": "Zucchini",
-      "description": "im Freien"
-    },
-    {
-      "title": "Gurke",
-      "description": "im Freien"
-    },
-    {
-      "title": "Tomate",
-      "description": "im Freien"
-    },
-    {
-      "title": "Paprika",
-      "description": "im Freien"
-    },
-    {
-      "title": "Grüne Bohnen",
-      "description": "im Freien"
-    },
-    {
-      "title": "Aubergine",
-      "description": "im Freien"
-    },
-    {
-      "title": "Mais",
-      "description": "im Freien"
+      "title": "Rote Bete",
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Spargel",
-      "description": "im Freien"
-    },
-    {
-      "title": "Okra",
-      "description": "im Freien"
+      "description": "draußen",
+      "image": "/images/vegetables/asparagus.webp"
     }
   ]
 }

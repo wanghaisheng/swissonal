@@ -1,200 +1,79 @@
 {
   "all": [
     {
-      "title": "Mela",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Albicocca",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Asparago",
-      "description": "all'aperto"
+      "title": "Aglio",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Barbabietola",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Peperone",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Mora",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Mirtillo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Basilico",
-      "description": "all'aperto"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Carota",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Cavolfiore",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Camomilla",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ciliegia",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Erba cipollina",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Coriandolo",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Mais",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ribes",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Cetriolo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Aneto",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Melanzana",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Finocchio",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Aglio",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Fagiolini verdi",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Kiwi",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Lavanda",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Limone",
-      "description": "in serra"
-    },
-    {
-      "title": "Melissa",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Lattuga",
-      "description": "in serra o all'aperto alla fine del mese"
-    },
-    {
-      "title": "Nettarina",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Origano",
-      "description": "all'aperto"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Cipolla",
-      "description": "all'aperto alla fine del mese"
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/onion.webp"
     },
     {
-      "title": "Papaya",
-      "description": "in serra"
+      "title": "Coriandolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
-      "title": "Prezzemolo",
-      "description": "in serra"
-    },
-    {
-      "title": "Pera",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Ananas",
-      "description": "in serra"
-    },
-    {
-      "title": "Prugna",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Melograno",
-      "description": "in serra"
-    },
-    {
-      "title": "Prezzemolo",
-      "description": "in serra"
-    },
-    {
-      "title": "Ravanello",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Lampone",
-      "description": "all'aperto alla fine del mese"
-    },
-    {
-      "title": "Rosmarino",
-      "description": "in serra"
-    },
-    {
-      "title": "Salvia",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Spinaci",
-      "description": "in serra o all'aperto alla fine del mese"
-    },
-    {
-      "title": "Carambola",
-      "description": "in serra"
+      "title": "Erba cipollina",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Fragola",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
-      "title": "Dragoncello",
-      "description": "all'aperto"
+      "title": "Lampone",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
-      "title": "Timo",
-      "description": "all'aperto"
+      "title": "Lattuga",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
-      "title": "Pomodoro",
-      "description": "all'aperto"
+      "title": "Mela",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/apple.webp"
     },
     {
-      "title": "Anguria",
-      "description": "in serra"
+      "title": "Pera",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/pear.webp"
     },
     {
-      "title": "Zucchina",
-      "description": "all'aperto"
+      "title": "Prezzemolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "in serra",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Spinaci",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/spinach.webp"
     }
   ]
 }

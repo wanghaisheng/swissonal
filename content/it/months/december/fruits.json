@@ -2,75 +2,63 @@
   "fruits": [
     {
       "title": "Mela",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pera",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Lampone",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ribes",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ciliegia",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "More",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Susina",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Mirtillo",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Kiwi",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Albicocca",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Nectarina",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/blueberry.webp"
     },
     {
       "title": "Melograno",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/pomegranate.webp"
     },
     {
-      "title": "Carambola",
-      "description": "in serra"
+      "title": "Frutto stellato",
+      "description": "in serra",
+      "image": "/images/fruits/star_fruit.webp"
     },
     {
       "title": "Papaya",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/papaya.webp"
     },
     {
       "title": "Anguria",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/watermelon.webp"
     },
     {
       "title": "Ananas",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/pineapple.webp"
     },
     {
       "title": "Limone",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/lemon.webp"
     },
     {
       "title": "Limone siciliano",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/sicilian_lemon.webp"
     }
   ]
 }

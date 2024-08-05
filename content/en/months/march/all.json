@@ -2,63 +2,53 @@
   "all": [
     {
       "title": "Apple",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Beetroot",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/vegetables/beetroot.webp"
     },
     {
       "title": "Carrot",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Chives",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Cilantro",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Garlic",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/vegetables/garlic.webp"
     },
     {
       "title": "Lettuce",
-      "description": "in greenhouse or outdoors at the end of the month",
+      "description": "in greenhouse or outdoor at the end of the month",
       "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Onion",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Parsley",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/herbs/parsley.webp"
     },
     {
-      "title": "Pear",
-      "description": "outdoors at the end of the month",
-      "image": "/images/fruits/pear.webp"
-    },
-    {
       "title": "Radish",
-      "description": "outdoors at the end of the month",
+      "description": "outdoor at the end of the month",
       "image": "/images/vegetables/radish.webp"
-    },
-    {
-      "title": "Raspberry",
-      "description": "outdoors at the end of the month",
-      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Rosemary",
@@ -66,14 +56,24 @@
       "image": "/images/herbs/rosemary.webp"
     },
     {
+      "title": "Raspberry",
+      "description": "outdoor at the end of the month",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
       "title": "Spinach",
-      "description": "in greenhouse or outdoors at the end of the month",
+      "description": "in greenhouse or outdoor at the end of the month",
       "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Strawberry",
       "description": "in greenhouse",
       "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoor at the end of the month",
+      "image": "/images/fruits/pear.webp"
     }
   ]
 }

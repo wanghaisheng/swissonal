@@ -1,48 +1,49 @@
 {
   "all": [
     {
-      "title": "Apfel",
-      "description": "im Gewächshaus"
-    },
-    {
       "title": "Karotte",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Schnittlauch",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Koriander",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Salat",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/lettuce.webp"
     },
     {
       "title": "Zwiebel",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Petersilie",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/parsley.webp"
     },
     {
-      "title": "Birne",
-      "description": "im Gewächshaus"
-    },
-    {
-      "title": "Rettich",
-      "description": "im Gewächshaus"
+      "title": "Radieschen",
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Spinat",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Erdbeere",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/strawberry.webp"
     }
   ]
 }

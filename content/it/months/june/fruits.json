@@ -2,63 +2,73 @@
   "fruits": [
     {
       "title": "Fragola",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/strawberry.webp"
     },
     {
       "title": "Mela",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Pera",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Lampone",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Ciliegia",
-      "description": "all'aperto"
-    },
-    {
-      "title": "Ribes",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/cherry.webp"
     },
     {
       "title": "Mora",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Prugna",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/plum.webp"
     },
     {
       "title": "Mirtillo",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/blueberry.webp"
     },
     {
       "title": "Kiwi",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/kiwi.webp"
     },
     {
       "title": "Albicocca",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/apricot.webp"
     },
     {
       "title": "Nettarina",
-      "description": "all'aperto"
+      "description": "all'aperto",
+      "image": "/images/fruits/nectarine.webp"
     },
     {
-      "title": "Melagrana",
-      "description": "in serra"
+      "title": "Melograno",
+      "description": "in serra",
+      "image": "/images/fruits/pomegranate.webp"
     },
     {
-      "title": "Carambola",
-      "description": "in serra"
+      "title": "Frutto Stellato",
+      "description": "in serra",
+      "image": "/images/fruits/star_fruit.webp"
     },
     {
       "title": "Papaya",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/papaya.webp"
     }
   ]
 }

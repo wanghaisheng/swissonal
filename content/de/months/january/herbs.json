@@ -2,15 +2,18 @@
   "herbs": [
     {
       "title": "Petersilie",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/parsley.webp"
     },
     {
       "title": "Koriander",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
       "title": "Schnittlauch",
-      "description": "im Gewächshaus"
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/chives.webp"
     }
   ]
 }

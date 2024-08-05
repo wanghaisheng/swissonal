@@ -44,7 +44,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
 <template>
   <div
     ref="card"
-    class="relative w-full flex flex-row cursor-pointer items-center justify-start gap-8 overflow-hidden rounded-md bg-white-100 px-6 py-4 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear md:flex-col md:gap-5 md:px-4 md:py-10 hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
+    class="relative w-full flex flex-row cursor-default items-center justify-start gap-8 overflow-hidden rounded-md bg-white-100 px-6 py-4 text-center tracking-wide shadow-[0_0_5px_rgba(0,0,0,0)] transition-all ease-linear md:flex-col md:gap-5 md:px-4 md:py-10 hover:shadow-[0px_0px_4px_rgba(0,0,0,0.5)]"
     @mousemove="move"
     @mouseleave="leave"
     @mouseover="over"

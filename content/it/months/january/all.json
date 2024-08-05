@@ -1,48 +1,49 @@
 {
   "all": [
     {
-      "title": "Mela",
-      "description": "in serra"
-    },
-    {
       "title": "Carota",
-      "description": "in serra"
-    },
-    {
-      "title": "Erba cipollina",
-      "description": "in serra"
-    },
-    {
-      "title": "Coriandolo",
-      "description": "in serra"
-    },
-    {
-      "title": "Lattuga",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Cipolla",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/vegetables/onion.webp"
     },
     {
-      "title": "Prezzemolo",
-      "description": "in serra"
+      "title": "Coriandolo",
+      "description": "in serra",
+      "image": "/images/herbs/cilantro.webp"
     },
     {
-      "title": "Pera",
-      "description": "in serra"
-    },
-    {
-      "title": "Ravanello",
-      "description": "in serra"
-    },
-    {
-      "title": "Spinaci",
-      "description": "in serra"
+      "title": "Erba cipollina",
+      "description": "in serra",
+      "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Fragola",
-      "description": "in serra"
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "in serra",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "in serra",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "in serra",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Spinaci",
+      "description": "in serra",
+      "image": "/images/vegetables/spinach.webp"
     }
   ]
 }
