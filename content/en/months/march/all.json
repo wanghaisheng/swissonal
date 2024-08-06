@@ -1,0 +1,79 @@
+{
+  "all": [
+    {
+      "title": "Apple",
+      "description": "outdoor at the end of the month",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Beetroot",
+      "description": "outdoor at the end of the month",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Carrot",
+      "description": "outdoor at the end of the month",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoor at the end of the month",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoor at the end of the month",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Garlic",
+      "description": "outdoor at the end of the month",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Lettuce",
+      "description": "in greenhouse or outdoor at the end of the month",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Onion",
+      "description": "outdoor at the end of the month",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Parsley",
+      "description": "outdoor at the end of the month",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Radish",
+      "description": "outdoor at the end of the month",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Rosemary",
+      "description": "in greenhouse",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoor at the end of the month",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Spinach",
+      "description": "in greenhouse or outdoor at the end of the month",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Strawberry",
+      "description": "in greenhouse",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoor at the end of the month",
+      "image": "/images/fruits/pear.webp"
+    }
+  ]
+}

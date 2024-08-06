@@ -1,0 +1,79 @@
+{
+  "all": [
+    {
+      "title": "Apfel",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Salat",
+      "description": "im Gewächshaus oder draußen Ende des Monats",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Petersilie",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Spinat",
+      "description": "im Gewächshaus oder draußen Ende des Monats",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/pear.webp"
+    }
+  ]
+}

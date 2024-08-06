@@ -1,0 +1,9 @@
+{
+  "fruits": [
+    {
+      "title": "Fragola",
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
+    }
+  ]
+}

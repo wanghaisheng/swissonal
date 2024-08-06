@@ -1,0 +1,24 @@
+{
+  "herbs": [
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "in serra",
+      "image": "/images/herbs/rosemary.webp"
+    }
+  ]
+}

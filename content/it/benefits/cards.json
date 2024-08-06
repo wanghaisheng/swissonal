@@ -1,0 +1,39 @@
+{
+  "benefits": [
+    {
+      "title": "Fresco e Gustoso",
+      "description": "Goditi il sapore superiore dei prodotti appena raccolti",
+      "image": "/images/benefits/watermelon.webp"
+    },
+    {
+      "title": "Eco-Friendly",
+      "description": "Riduci la tua impronta di carbonio diminuendo la necessità di trasporti e imballaggi",
+      "image": "/images/benefits/earth.webp"
+    },
+    {
+      "title": "Sollievo dallo Stress",
+      "description": "Il giardinaggio riduce lo stress e promuove il rilassamento",
+      "image": "/images/benefits/peace.webp"
+    },
+    {
+      "title": "Cibo Più Sano",
+      "description": "Frutta e verdura coltivate in casa sono più fresche e ricche di nutrienti",
+      "image": "/images/benefits/boal.webp"
+    },
+    {
+      "title": "Tempo in Famiglia",
+      "description": "Fare giardinaggio insieme rafforza i legami familiari e crea ricordi duraturi",
+      "image": "/images/benefits/family.webp"
+    },
+    {
+      "title": "Aiuta le Api",
+      "description": "Coltivare fiori e piante supporta le api e altri impollinatori, cruciali per la salute dell'ecosistema",
+      "image": "/images/benefits/bee.webp"
+    },
+    {
+      "title": "Risparmiare Denaro",
+      "description": "Riduci le tue spese alimentari raccogliendo i tuoi prodotti",
+      "image": "/images/benefits/coins.webp"
+    }
+  ]
+}

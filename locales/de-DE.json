@@ -58,7 +58,14 @@
     "description": "Erhalten Sie kostenlose schnelle Tipps und saisonale Pflanzanleitungen für Schweizer Gärten per E-Mail 2x im Monat",
     "name": "Name",
     "email": "E-Mail",
-    "send": "Senden"
+    "send": "Senden",
+    
+    "message": {
+      "enter-valid-email": "Ups, es sieht so aus, als müsstest du eine gültige E-Mail-Adresse eingeben! 🫣",
+      "success-subscription": "Herzlichen Glückwunsch 🎉 Jetzt bist du Teil dieser Community 🌻",
+      "unknown-error": "Unser Abonnement ist vorübergehend nicht verfügbar. Bitte versuche es in ein paar Minuten noch einmal... ⏰"
+    }
+
   },
 
   "load-more": "+ Mehr laden",
@@ -91,6 +98,12 @@
       "description3": "dachte sie.",
       "description4": "Und so wurde Swissonal geboren – eine zentrale Ressource, die darauf ausgelegt ist, die Gartenarbeit für Schweizer Pflanzenliebhaber zu vereinfachen und zu verbessern."
     }
+  },
+
+  "benefits": {
+    "title": "Vorteile",
+    "subtitle": "des eigenen Anbaus von Lebensmitteln",
+    "sources": "📚 Quellen"
   }
 
 }

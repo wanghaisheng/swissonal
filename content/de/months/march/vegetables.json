@@ -1,0 +1,39 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinat",
+      "description": "im Gewächshaus oder draußen Ende des Monats",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Salat",
+      "description": "im Gewächshaus oder draußen Ende des Monats",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "draußen Ende des Monats",
+      "image": "/images/vegetables/beetroot.webp"
+    }
+  ]
+}

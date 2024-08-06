@@ -1,0 +1,64 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinat",
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Salat",
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Zucchini",
+      "description": "draußen",
+      "image": "/images/vegetables/zucchini.webp"
+    },
+    {
+      "title": "Gurke",
+      "description": "draußen",
+      "image": "/images/vegetables/cucumber.webp"
+    },
+    {
+      "title": "Tomate",
+      "description": "draußen",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Paprika",
+      "description": "draußen",
+      "image": "/images/vegetables/bell_pepper.webp"
+    },
+    {
+      "title": "Grüne Bohnen",
+      "description": "draußen",
+      "image": "/images/vegetables/green_beans.webp"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "draußen",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Apfel",
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Kirsche",
+      "description": "draußen",
+      "image": "/images/fruits/cherry.webp"
+    },
+    {
+      "title": "Brombeere",
+      "description": "draußen",
+      "image": "/images/fruits/mulberry.webp"
+    },
+    {
+      "title": "Pflaume",
+      "description": "draußen",
+      "image": "/images/fruits/plum.webp"
+    }
+  ]
+}

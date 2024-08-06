@@ -1,0 +1,9 @@
+{
+  "fruits": [
+    {
+      "title": "Strawberry",
+      "description": "in greenhouse",
+      "image": "/images/fruits/strawberry.webp"
+    }
+  ]
+}

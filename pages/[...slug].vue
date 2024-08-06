@@ -1,3 +1,22 @@
+<script setup lang="ts">
+const { t } = useI18n()
+
+useHead({
+  title: t('header[0]'),
+  meta: [
+    { name: t('header[0]'), content: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland' },
+  ],
+  script: [{ innerHTML: 'console.log(\'Grow food, grow knowledge\')' }],
+})
+
+useSeoMeta({
+  title: t('header[0]'),
+  ogTitle: t('header[0]'),
+  description: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland',
+  ogDescription: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland',
+})
+</script>
+
 <template>
   <div class="page-base-aligment selection:bg-red-100 selection:text-white-100">
     <SWhatWhenPlant />

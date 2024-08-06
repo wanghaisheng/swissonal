@@ -1,0 +1,79 @@
+{
+  "all": [
+    {
+      "title": "Aglio",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Barbabietola",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Carota",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Cipolla",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Fragola",
+      "description": "in serra",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Lampone",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Mela",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Pera",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "in serra",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Spinaci",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/spinach.webp"
+    }
+  ]
+}

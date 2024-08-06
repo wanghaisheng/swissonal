@@ -1,0 +1,24 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Apfel",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen Ende des Monats",
+      "image": "/images/fruits/raspberry.webp"
+    }
+  ]
+}

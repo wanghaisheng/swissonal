@@ -1,0 +1,29 @@
+{
+  "herbs": [
+    {
+      "title": "Petersilie",
+      "description": "draußen",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "draußen",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Basilikum",
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/basil.webp"
+    }
+  ]
+}

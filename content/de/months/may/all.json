@@ -1,0 +1,129 @@
+{
+  "all": [
+    {
+      "title": "Apfel",
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Rote Bete",
+      "description": "draußen",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Paprika",
+      "description": "draußen",
+      "image": "/images/vegetables/bell_pepper.webp"
+    },
+    {
+      "title": "Brombeere",
+      "description": "draußen",
+      "image": "/images/fruits/mulberry.webp"
+    },
+    {
+      "title": "Brokkoli",
+      "description": "draußen",
+      "image": "/images/vegetables/broccoli.webp"
+    },
+    {
+      "title": "Karotte",
+      "description": "draußen",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Blumenkohl",
+      "description": "draußen",
+      "image": "/images/vegetables/cauliflower.webp"
+    },
+    {
+      "title": "Kirsche",
+      "description": "draußen",
+      "image": "/images/fruits/cherry.webp"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Gurke",
+      "description": "draußen",
+      "image": "/images/vegetables/cucumber.webp"
+    },
+    {
+      "title": "Knoblauch",
+      "description": "draußen",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Grüne Bohnen",
+      "description": "draußen",
+      "image": "/images/vegetables/green_beans.webp"
+    },
+    {
+      "title": "Salat",
+      "description": "draußen",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Zwiebel",
+      "description": "draußen",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Petersilie",
+      "description": "draußen",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Pflaume",
+      "description": "draußen",
+      "image": "/images/fruits/plum.webp"
+    },
+    {
+      "title": "Radieschen",
+      "description": "draußen",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "draußen",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Spinat",
+      "description": "draußen",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Erdbeere",
+      "description": "draußen",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Tomate",
+      "description": "draußen",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Zucchini",
+      "description": "draußen",
+      "image": "/images/vegetables/zucchini.webp"
+    }
+  ]
+}

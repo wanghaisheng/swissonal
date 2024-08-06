@@ -1,0 +1,9 @@
+{
+  "fruits": [
+    {
+      "title": "Erdbeere",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/strawberry.webp"
+    }
+  ]
+}

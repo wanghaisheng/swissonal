@@ -1,0 +1,29 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinaci",
+      "description": "in serra",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "in serra",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Carota",
+      "description": "in serra",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "in serra",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Cipolla",
+      "description": "in serra",
+      "image": "/images/vegetables/onion.webp"
+    }
+  ]
+}

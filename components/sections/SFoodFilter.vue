@@ -18,18 +18,21 @@ const allItems = ref<Item[]>([])
 const itemsPerBlock = 15
 const currentNumberOfBlocks = ref(1)
 
-const displayedItems = computed(() => {
-  return allItems.value.slice(0, currentNumberOfBlocks.value * itemsPerBlock)
-})
-
 const isMobile = ref(false)
 function checkIfMobile() {
   isMobile.value = window.innerWidth <= 744
 }
 
+const displayedItems = computed(() => {
+  if (isMobile.value)
+    return allItems.value.slice(0, currentNumberOfBlocks.value * itemsPerBlock)
+
+  else return allItems.value
+})
+
 const isLoading = ref(true)
 async function loadData() {
-  const data = await queryContent(`${locale.value}/${currentMonth.value}/${currentCategory.value}`).findOne()
+  const data = await queryContent(`${locale.value}/months/${currentMonth.value}/${currentCategory.value}`).findOne()
   allItems.value = data?.fruits || data?.vegetables || data?.herbs || data?.all || []
 
   isLoading.value = false
@@ -122,7 +125,7 @@ onUnmounted(() => {
             {{ $t('load-more') }}
           </button>
           <button
-            v-if="isMobile && displayedItems.length === allItems.length"
+            v-else-if="isMobile && displayedItems.length === allItems.length && displayedItems.length > 15"
             class="w-full py-2 text-white-100 font-100 tracking-wide italic paragraph"
             @click="loadLess"
           >

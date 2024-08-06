@@ -1,0 +1,39 @@
+{
+  "benefits": [
+    {
+      "title": "Frisch und Geschmackvoll",
+      "description": "Genießen Sie den überlegenen Geschmack frisch gepflückter Produkte",
+      "image": "/images/benefits/watermelon.webp"
+    },
+    {
+      "title": "Umweltfreundlich",
+      "description": "Reduzieren Sie Ihren CO2-Fußabdruck, indem Sie den Bedarf an Transport und Verpackung verringern",
+      "image": "/images/benefits/earth.webp"
+    },
+    {
+      "title": "Stressabbau",
+      "description": "Gartenarbeit reduziert Stress und fördert Entspannung",
+      "image": "/images/benefits/peace.webp"
+    },
+    {
+      "title": "Gesünderes Essen",
+      "description": "Selbst angebaute Früchte und Gemüse sind frischer und enthalten mehr Nährstoffe",
+      "image": "/images/benefits/boal.webp"
+    },
+    {
+      "title": "Familienzeit",
+      "description": "Gemeinsam gärtnern stärkt Familienbande und schafft bleibende Erinnerungen",
+      "image": "/images/benefits/family.webp"
+    },
+    {
+      "title": "Bienen Helfen",
+      "description": "Der Anbau von Blumen und Pflanzen unterstützt Bienen und andere Bestäuber, die für die Gesundheit des Ökosystems entscheidend sind",
+      "image": "/images/benefits/bee.webp"
+    },
+    {
+      "title": "Geld Sparen",
+      "description": "Reduzieren Sie Ihre Lebensmittelkosten, indem Sie Ihre eigenen Produkte ernten",
+      "image": "/images/benefits/coins.webp"
+    }
+  ]
+}

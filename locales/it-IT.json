@@ -59,7 +59,13 @@
     "description": "Ricevi consigli rapidi gratuiti e guide stagionali per la semina adattate ai giardini svizzeri via email 2x al mese",
     "name": "Nome",
     "email": "Email",
-    "send": "Invia"
+    "send": "Invia",
+
+    "message": {
+      "enter-valid-email": "Oops, sembra che tu debba inserire un indirizzo email valido! 🫣",
+      "success-subscription": "Congratulazioni 🎉 Ora fai parte di questa comunità 🌻",
+      "unknown-error": "La nostra iscrizione è temporaneamente non disponibile. Riprova tra qualche minuto... ⏰"
+    }
   },
 
   "load-more": "+ Carica altro",
@@ -92,6 +98,12 @@
       "description3": "pensò.",
       "description4": "E così nacque Swissonal – una risorsa unica progettata per semplificare e migliorare l'esperienza di giardinaggio per gli appassionati di piante svizzeri."
     }
+  },
+
+  "benefits": {
+    "title": "benefici",
+    "subtitle": "di coltivare il proprio cibo",
+    "sources": "📚 fonti"
   }
 
 }

@@ -1,0 +1,24 @@
+{
+  "fruits": [
+    {
+      "title": "Strawberry",
+      "description": "outdoor",
+      "image": "/images/fruits/strawberry.webp"
+    },
+    {
+      "title": "Apple",
+      "description": "outdoor",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Pear",
+      "description": "outdoor",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Raspberry",
+      "description": "outdoor",
+      "image": "/images/fruits/raspberry.webp"
+    }
+  ]
+}

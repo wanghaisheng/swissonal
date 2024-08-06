@@ -1,0 +1,39 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinaci",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "in serra o all'aperto alla fine del mese",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Carota",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Cipolla",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Aglio",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Barbabietola",
+      "description": "all'aperto alla fine del mese",
+      "image": "/images/vegetables/beetroot.webp"
+    }
+  ]
+}

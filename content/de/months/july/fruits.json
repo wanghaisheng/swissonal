@@ -1,0 +1,89 @@
+{
+  "fruits": [
+    {
+      "title": "Apfel",
+      "description": "draußen",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Birne",
+      "description": "draußen",
+      "image": "/images/fruits/pear.webp"
+    },
+    {
+      "title": "Himbeere",
+      "description": "draußen",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Kirsche",
+      "description": "draußen",
+      "image": "/images/fruits/cherry.webp"
+    },
+    {
+      "title": "Brombeere",
+      "description": "draußen",
+      "image": "/images/fruits/mulberry.webp"
+    },
+    {
+      "title": "Pflaume",
+      "description": "draußen",
+      "image": "/images/fruits/plum.webp"
+    },
+    {
+      "title": "Blaubeere",
+      "description": "draußen",
+      "image": "/images/fruits/blueberry.webp"
+    },
+    {
+      "title": "Kiwi",
+      "description": "draußen",
+      "image": "/images/fruits/kiwi.webp"
+    },
+    {
+      "title": "Aprikose",
+      "description": "draußen",
+      "image": "/images/fruits/apricot.webp"
+    },
+    {
+      "title": "Nektarine",
+      "description": "draußen",
+      "image": "/images/fruits/nectarine.webp"
+    },
+    {
+      "title": "Granatapfel",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/pomegranate.webp"
+    },
+    {
+      "title": "Sternfrucht",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/star_fruit.webp"
+    },
+    {
+      "title": "Papaya",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/papaya.webp"
+    },
+    {
+      "title": "Wassermelone",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/watermelon.webp"
+    },
+    {
+      "title": "Ananas",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/pineapple.webp"
+    },
+    {
+      "title": "Zitrone",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/sicilian_lemon.webp"
+    },
+    {
+      "title": "Limette",
+      "description": "im Gewächshaus",
+      "image": "/images/fruits/lemon.webp"
+    }
+  ]
+}

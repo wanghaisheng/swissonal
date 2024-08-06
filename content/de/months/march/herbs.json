@@ -1,0 +1,24 @@
+{
+  "herbs": [
+    {
+      "title": "Petersilie",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Koriander",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Schnittlauch",
+      "description": "draußen Ende des Monats",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Rosmarin",
+      "description": "im Gewächshaus",
+      "image": "/images/herbs/rosemary.webp"
+    }
+  ]
+}

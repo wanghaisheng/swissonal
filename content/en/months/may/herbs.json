@@ -1,0 +1,29 @@
+{
+  "herbs": [
+    {
+      "title": "Parsley",
+      "description": "outdoor",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Cilantro",
+      "description": "outdoor",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Chives",
+      "description": "outdoor",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Rosemary",
+      "description": "outdoor",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Basil",
+      "description": "in greenhouse",
+      "image": "/images/herbs/basil.webp"
+    }
+  ]
+}

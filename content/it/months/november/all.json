@@ -1,0 +1,179 @@
+{
+  "all": [
+    {
+      "title": "Aglio",
+      "description": "all'aperto",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Ananas",
+      "description": "in serra",
+      "image": "/images/fruits/pineapple.webp"
+    },
+    {
+      "title": "Aneto",
+      "description": "all'aperto",
+      "image": "/images/herbs/dill.webp"
+    },
+    {
+      "title": "Anguria",
+      "description": "in serra",
+      "image": "/images/fruits/watermelon.webp"
+    },
+    {
+      "title": "Asparagi",
+      "description": "all'aperto",
+      "image": "/images/vegetables/asparagus.webp"
+    },
+    {
+      "title": "Barbabietola",
+      "description": "all'aperto",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Camomilla",
+      "description": "all'aperto",
+      "image": "/images/herbs/chamomile.webp"
+    },
+    {
+      "title": "Carota",
+      "description": "all'aperto",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Cipolla",
+      "description": "all'aperto",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Coriandolo",
+      "description": "all'aperto",
+      "image": "/images/herbs/cilantro.webp"
+    },
+    {
+      "title": "Erba cipollina",
+      "description": "all'aperto",
+      "image": "/images/herbs/chives.webp"
+    },
+    {
+      "title": "Estragone",
+      "description": "all'aperto",
+      "image": "/images/herbs/tarragon.webp"
+    },
+    {
+      "title": "Finocchio",
+      "description": "all'aperto",
+      "image": "/images/herbs/fennel.webp"
+    },
+    {
+      "title": "Frutto della passione",
+      "description": "in serra",
+      "image": "/images/fruits/star_fruit.webp"
+    },
+    {
+      "title": "Lampone",
+      "description": "all'aperto",
+      "image": "/images/fruits/raspberry.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "all'aperto",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Limone",
+      "description": "in serra",
+      "image": "/images/fruits/lemon.webp"
+    },
+    {
+      "title": "Mais",
+      "description": "all'aperto",
+      "image": "/images/vegetables/corn.webp"
+    },
+    {
+      "title": "Melissa",
+      "description": "all'aperto",
+      "image": "/images/herbs/mint.webp"
+    },
+    {
+      "title": "Mela",
+      "description": "all'aperto",
+      "image": "/images/fruits/apple.webp"
+    },
+    {
+      "title": "Melograno",
+      "description": "in serra",
+      "image": "/images/fruits/pomegranate.webp"
+    },
+    {
+      "title": "Mirtillo",
+      "description": "all'aperto",
+      "image": "/images/fruits/blueberry.webp"
+    },
+    {
+      "title": "Mora",
+      "description": "all'aperto",
+      "image": "/images/fruits/mulberry.webp"
+    },
+    {
+      "title": "Nettarina",
+      "description": "all'aperto",
+      "image": "/images/fruits/nectarine.webp"
+    },
+    {
+      "title": "Origano",
+      "description": "all'aperto",
+      "image": "/images/herbs/oregano.webp"
+    },
+    {
+      "title": "Papaya",
+      "description": "in serra",
+      "image": "/images/fruits/papaya.webp"
+    },
+    {
+      "title": "Pomodoro",
+      "description": "all'aperto",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Prezzemolo",
+      "description": "all'aperto",
+      "image": "/images/herbs/parsley.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Rosmarino",
+      "description": "all'aperto",
+      "image": "/images/herbs/rosemary.webp"
+    },
+    {
+      "title": "Salvia",
+      "description": "all'aperto",
+      "image": "/images/herbs/sage.webp"
+    },
+    {
+      "title": "Spinaci",
+      "description": "all'aperto",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Susina",
+      "description": "all'aperto",
+      "image": "/images/fruits/plum.webp"
+    },
+    {
+      "title": "Timo",
+      "description": "all'aperto",
+      "image": "/images/herbs/thyme.webp"
+    },
+    {
+      "title": "Zucchina",
+      "description": "all'aperto",
+      "image": "/images/vegetables/zucchini.webp"
+    }
+  ]
+}

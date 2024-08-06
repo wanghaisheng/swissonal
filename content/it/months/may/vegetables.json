@@ -1,0 +1,64 @@
+{
+  "vegetables": [
+    {
+      "title": "Spinaci",
+      "description": "all'aperto",
+      "image": "/images/vegetables/spinach.webp"
+    },
+    {
+      "title": "Lattuga",
+      "description": "all'aperto",
+      "image": "/images/vegetables/lettuce.webp"
+    },
+    {
+      "title": "Carota",
+      "description": "all'aperto",
+      "image": "/images/vegetables/carrot.webp"
+    },
+    {
+      "title": "Ravanello",
+      "description": "all'aperto",
+      "image": "/images/vegetables/radish.webp"
+    },
+    {
+      "title": "Cipolla",
+      "description": "all'aperto",
+      "image": "/images/vegetables/onion.webp"
+    },
+    {
+      "title": "Aglio",
+      "description": "all'aperto",
+      "image": "/images/vegetables/garlic.webp"
+    },
+    {
+      "title": "Barbabietola",
+      "description": "all'aperto",
+      "image": "/images/vegetables/beetroot.webp"
+    },
+    {
+      "title": "Zucchina",
+      "description": "all'aperto",
+      "image": "/images/vegetables/zucchini.webp"
+    },
+    {
+      "title": "Cetriolo",
+      "description": "all'aperto",
+      "image": "/images/vegetables/cucumber.webp"
+    },
+    {
+      "title": "Pomodoro",
+      "description": "all'aperto",
+      "image": "/images/vegetables/tomato.webp"
+    },
+    {
+      "title": "Peperone",
+      "description": "all'aperto",
+      "image": "/images/vegetables/bell_pepper.webp"
+    },
+    {
+      "title": "Fagiolini",
+      "description": "all'aperto",
+      "image": "/images/vegetables/green_beans.webp"
+    }
+  ]
+}
