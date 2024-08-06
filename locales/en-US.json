@@ -58,7 +58,13 @@
     "description": "Receive free quick tips and seasonal planting guides adapted for Swiss gardens by email 2x a month",
     "name": "Name",
     "email": "Email",
-    "send": "Send"
+    "send": "Send",
+
+    "message": {
+      "enter-valid-email": "Oops, looks like you need to enter a valid email address! 🫣",
+      "success-subscription": "Congratulations 🎉 Now you're part of this community 🌻",
+      "unknown-error": "Our subscription is temporarily unavailable. Please try again in a few minutes... ⏰"
+    }
   },
 
   "load-more": "+ Load more",
