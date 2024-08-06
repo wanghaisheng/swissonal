@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import gsap from 'gsap'
 
+const { t } = useI18n()
+
 interface Item {
   image: string
   title: string
@@ -45,6 +47,21 @@ const links: string[] = [
   'https://www.pronatura.ch/en',
   'https://www.epa.gov/sustainable-management-food/composting',
 ]
+
+useHead({
+  title: t('header[2]'),
+  meta: [
+    { name: t('header[2]'), content: 'Benefits of gardening' },
+  ],
+  script: [{ innerHTML: 'console.log(\'Those who grow their own food harvest more than just organic produce; they reap wisdom, independence, and health: Hippocrates, Father of Medicine.\')' }],
+})
+
+useSeoMeta({
+  title: t('header[2]'),
+  ogTitle: t('header[2]'),
+  description: 'Benefits of gardening',
+  ogDescription: 'Benefits of gardening',
+})
 </script>
 
 <template>

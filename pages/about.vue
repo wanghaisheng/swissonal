@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+const { t } = useI18n()
 
 onMounted(() => {
   ScrollTrigger.create({
@@ -9,6 +10,21 @@ onMounted(() => {
     pin: true,
     pinSpacing: false,
   })
+})
+
+useHead({
+  title: t('header[1]'),
+  meta: [
+    { name: t('header[1]'), content: 'Learn more about Swissonal' },
+  ],
+  script: [{ innerHTML: 'console.log(\'To plant a garden is to believe in tomorrow\')' }],
+})
+
+useSeoMeta({
+  title: t('header[1]'),
+  ogTitle: t('header[1]'),
+  description: 'Learn more about Swissonal',
+  ogDescription: 'Learn more about Swissonal',
 })
 </script>
 
