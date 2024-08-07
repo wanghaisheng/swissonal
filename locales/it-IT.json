@@ -104,6 +104,12 @@
     "title": "benefici",
     "subtitle": "di coltivare il proprio cibo",
     "sources": "📚 fonti"
+  },
+
+  "seo": {
+    "project-description": "Promuoviamo gli strumenti e le conoscenze necessarie per coltivare il proprio cibo tutto l'anno in Svizzera.",
+    "project-about": "Scopri di più su Swissonal",
+    "benefits-plant": "Benefici del giardinaggio"
   }
 
 }

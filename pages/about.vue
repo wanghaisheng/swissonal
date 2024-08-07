@@ -15,7 +15,7 @@ onMounted(() => {
 useHead({
   title: t('header[1]'),
   meta: [
-    { name: t('header[1]'), content: 'Learn more about Swissonal' },
+    { name: t('header[1]'), content: t('seo.project-about') },
   ],
   script: [{ innerHTML: 'console.log(\'To plant a garden is to believe in tomorrow\')' }],
 })
@@ -23,8 +23,8 @@ useHead({
 useSeoMeta({
   title: t('header[1]'),
   ogTitle: t('header[1]'),
-  description: 'Learn more about Swissonal',
-  ogDescription: 'Learn more about Swissonal',
+  description: t('seo.project-about'),
+  ogDescription: t('seo.project-about'),
 })
 </script>
 

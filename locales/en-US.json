@@ -103,5 +103,11 @@
     "title": "benefits",
     "subtitle": "of growing your food",
     "sources": "📚 sources"
+  },
+
+  "seo": {
+    "project-description": "We promote tools and knowledge needed for planting your own food all year round in Switzerland",
+    "project-about": "Learn more about Swissonal",
+    "benefits-plant": "Benefits of gardening"
   }
 }
