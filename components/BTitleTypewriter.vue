@@ -25,7 +25,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="select-none title-xl flex flex-wrap items-center justify-center gap-2 text-center text-black-200">
+  <div class="flex flex-wrap select-none items-center justify-center gap-2 text-center text-black-200 title-xl">
     <div
       text="5xl md:7xl "
       class="min-h-12 min-w-40 md:min-h-18 md:min-w-60"

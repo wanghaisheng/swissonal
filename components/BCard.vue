@@ -54,6 +54,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
       class="absolute left-0 top-0 h-full w-full opacity-0 mix-blend-soft-light transition-all ease-linear"
     />
     <NuxtImg
+      :alt="foodName"
       class="h-16 w-16 select-none md:h-24 md:w-24"
       :src="foodImage"
     />

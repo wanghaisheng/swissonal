@@ -59,7 +59,7 @@
     "name": "Name",
     "email": "E-Mail",
     "send": "Senden",
-    
+
     "message": {
       "enter-valid-email": "Ups, es sieht so aus, als müsstest du eine gültige E-Mail-Adresse eingeben! 🫣",
       "success-subscription": "Herzlichen Glückwunsch 🎉 Jetzt bist du Teil dieser Community 🌻",
@@ -104,6 +104,12 @@
     "title": "Vorteile",
     "subtitle": "des eigenen Anbaus von Lebensmitteln",
     "sources": "📚 Quellen"
+  },
+
+  "seo": {
+    "project-description": "Wir fördern die Werkzeuge und das Wissen, die benötigt werden, um das ganze Jahr über in der Schweiz eigene Lebensmittel anzupflanzen.",
+    "project-about": "Erfahren Sie mehr über Swissonal",
+    "benefits-plant": "Vorteile des Gärtnerns"
   }
 
 }

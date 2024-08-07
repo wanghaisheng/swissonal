@@ -4,7 +4,7 @@ const { t } = useI18n()
 useHead({
   title: t('header[0]'),
   meta: [
-    { name: t('header[0]'), content: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland' },
+    { name: t('header[0]'), content: t('seo.project-description') },
   ],
   script: [{ innerHTML: 'console.log(\'Grow food, grow knowledge\')' }],
 })
@@ -12,8 +12,8 @@ useHead({
 useSeoMeta({
   title: t('header[0]'),
   ogTitle: t('header[0]'),
-  description: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland',
-  ogDescription: 'We promote tools and knowledge needed for planting your own food all year round in Switzerland',
+  description: t('seo.project-description'),
+  ogDescription: t('seo.project-description'),
 })
 </script>
 

@@ -95,10 +95,12 @@ onUnmounted(() => {
       <NuxtImg
         class="absolute z-11 w-15 -right-4 -top-8 lg:w-28 md:w-20 lg:-right-8 lg:-top-20 md:-top-12"
         src="/images/stickers/bioemeglio.webp"
+        alt="sticker of a cherry tree with the text bio è meglio (Organic is better)"
       />
       <NuxtImg
         class="invisible absolute z-11 md:visible lg:w-22 md:w-20 xl:w-28 lg:-bottom-10 lg:-left-8 md:-bottom-12 md:-left-4 xl:-left-22"
         src="/images/stickers/organischisbeter.webp"
+        alt="sticker of seet vegetable growing with the text organisch is beter (Organic is better)"
       />
       <div
         class="grid-container-cards w-full rounded-lg bg-red-100 p-2"

@@ -51,7 +51,7 @@ const links: string[] = [
 useHead({
   title: t('header[2]'),
   meta: [
-    { name: t('header[2]'), content: 'Benefits of gardening' },
+    { name: t('header[2]'), content: t('seo.benefits-plant') },
   ],
   script: [{ innerHTML: 'console.log(\'Those who grow their own food harvest more than just organic produce; they reap wisdom, independence, and health: Hippocrates, Father of Medicine.\')' }],
 })
@@ -59,8 +59,8 @@ useHead({
 useSeoMeta({
   title: t('header[2]'),
   ogTitle: t('header[2]'),
-  description: 'Benefits of gardening',
-  ogDescription: 'Benefits of gardening',
+  description: t('seo.benefits-plant'),
+  ogDescription: t('seo.benefits-plant'),
 })
 </script>
 

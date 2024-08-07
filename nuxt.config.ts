@@ -1,8 +1,28 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: [
+    '@nuxt/eslint',
+    '@unocss/nuxt',
+    '@nuxtjs/i18n',
+    '@nuxt/content',
+    'nuxt-headlessui',
+    '@nuxt/icon',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
+    'nuxt-lodash',
+    '@nuxt/image',
+    'nuxt-swiper',
+    '@primevue/nuxt-module',
+    '@hypernym/nuxt-gsap',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
+  ],
+
   experimental: {
     componentIslands: true,
   },
+
+  ssr: true,
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
@@ -11,6 +31,22 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
+  nitro: {
+    compressPublicAssets: true,
+    prerender: {
+      crawlLinks: true
+    }
+  },
+
+  site: {
+    url: 'https://swissonal.ch',
+    name: 'Swissonal',
+    indexable: true,
+  },
+
+  sitemap: { sources: ['/api/__sitemap__/urls'] },
+
   components: {
     global: true,
     dirs: [
@@ -44,24 +80,6 @@ export default defineNuxtConfig({
       },
     ],
   },
-
-  modules: [
-    '@nuxt/eslint',
-    '@unocss/nuxt',
-    '@nuxtjs/i18n',
-    '@nuxt/content',
-    'nuxt-headlessui',
-    '@nuxt/icon',
-    '@vueuse/nuxt',
-    '@pinia/nuxt',
-    'nuxt-lodash',
-    '@nuxt/image',
-    'nuxt-swiper',
-    '@primevue/nuxt-module',
-    '@hypernym/nuxt-gsap',
-  ],
-
-  ssr: true,
 
   css: [
     '@unocss/reset/tailwind.css',

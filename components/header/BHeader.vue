@@ -18,6 +18,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
       :to="localePath('/')"
       class="z-51 transition-all"
       @click="isMenuOpen = false"
+      aria-label="Swissonal logo bring you to the default page"
     >
       <Logotype
         class="h-10 fill-dark-200 transition-all duration-500 delay-200 ease-in-out"
@@ -29,6 +30,7 @@ const currentPage = computed(() => usePageStore().getCurrentPage)
     </NuxtLink>
 
     <button
+      aria-label="Hamburger button to open and close header menu"
       class="z-51 block h-10 w-10 lg:hidden"
       @click="isMenuOpen = !isMenuOpen"
     >
