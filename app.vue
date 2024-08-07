@@ -29,7 +29,7 @@ callOnce(() => {
 <template>
   <NuxtLayout>
     <BPageLoader />
-    <BCustomCursor class="hidden 2lg:block" />
+    <LazyBCustomCursor class="hidden 2lg:block" />
     <NuxtPage />
   </NuxtLayout>
 </template>
