@@ -1,6 +1,5 @@
 <template>
   <div
-    v-once
     class="w-100dvw flex select-none items-center justify-center gap-8 overflow-x-hidden truncate border-y border-black-200 -translate-x-4 2lg:-translate-x-[calc(calc(100dvw-1194px)/2)]"
   >
     <div
@@ -8,21 +7,26 @@
       :key="paragraph"
       class="animate-scrolling-ticker flex items-center gap-4"
     >
-      <div class="h-full w-max flex flex-row justify-between gap-2">
+      <div
+        class="h-full w-max flex flex-row justify-between gap-2"
+      >
         <NuxtImg
           width="16px"
           height="16px"
           src="/images/emojis/swiss-flag.webp"
+          alt="emoji swiss flag"
         />
         <NuxtImg
           width="16px"
           height="16px"
           src="/images/emojis/plant.webp"
+          alt="emoji green plant"
         />
       </div>
-      <p class="paragraph">
-        {{ $t('discover-what-to-plant') }}
-      </p>
+      <p
+        class="paragraph"
+        v-text="$t('discover-what-to-plant')"
+      />
     </div>
   </div>
 </template>

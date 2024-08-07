@@ -45,6 +45,7 @@ onBeforeUnmount(() => {
     <NuxtImg
       id="cursor-small"
       src="/bee.svg"
+      alt="bee following cursor"
       class="custom-cursor__ball"
     />
   </div>
