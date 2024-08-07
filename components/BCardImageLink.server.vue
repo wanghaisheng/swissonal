@@ -16,8 +16,9 @@ const localePath = useLocalePath()
     :to="localePath(link)"
   >
     <NuxtImg
-      class="max-h-[410px] md:h-100 w-full rounded-lg object-cover shadow-md transition-all duration-500 ease hover:brightness-75"
+      class="max-h-[410px] w-full rounded-lg object-cover shadow-md transition-all duration-500 ease md:h-100 hover:brightness-75"
       :src="imagePath"
+      :alt="`Image about:${text}`"
     />
 
     <div class="flex items-center justify-between gap-4 py-4">

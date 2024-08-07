@@ -48,14 +48,16 @@ async function subscribe() {
 </script>
 
 <template>
-  <section class="relative my-20 w-full flex flex-col items-center justify-center gap-8 rounded-md bg-green-100 px-4 py-8 text-center lg:px-64 md:px-32">
+  <section class="relative my-20 w-full flex flex-col items-center justify-center gap-8 rounded-md bg-green-200 px-4 py-8 text-center lg:px-64 md:px-32">
     <NuxtImg
       class="absolute w-20 -left-6 -top-8 md:w-24 xl:w-32 md:rotate-10 xl:rotate-20 md:-top-12 xl:-left-10 xl:-top-14"
       src="/images/stickers/mein-bester.webp"
+      alt="sticker of an apple and montains with the text seasonal tastes better"
     />
     <NuxtImg
       class="absolute w-15 -bottom-8 -right-4 md:w-20 xl:w-28 xl:-right-14"
       src="/images/stickers/seasonal-tastes.webp"
+      alt="sticker of a garden spade with the text mein bester freund(My best friend)"
     />
 
     {{ data }}

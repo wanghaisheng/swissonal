@@ -2,6 +2,14 @@
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+const { locale } = useI18n()
+
+useHead({
+  htmlAttrs: {
+    lang: locale.value,
+  },
+})
+
 provideHeadlessUseId(() => useId())
 
 onMounted(() => {

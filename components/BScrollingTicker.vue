@@ -14,11 +14,13 @@
           width="16px"
           height="16px"
           src="/images/emojis/swiss-flag.webp"
+          alt="emoji swiss flag"
         />
         <NuxtImg
           width="16px"
           height="16px"
           src="/images/emojis/plant.webp"
+          alt="emoji green plant"
         />
       </div>
       <p

@@ -58,6 +58,7 @@ useSeoMeta({
       quality="10"
       src="/images/landscape-swiss.webp"
       class="2xl:40vh mb-10 w-full object-cover object-bottom lg:h-100vh"
+      alt="Draw of a swiss landscape with montains in the background of a fruit and vegetable garden and a swiss flag in the right"
     />
 
     <section

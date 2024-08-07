@@ -19,6 +19,7 @@ defineProps<Props>()
     <NuxtImg
       class="h-32 w-32 select-none lg:h-64 lg:w-64 md:h-42 md:w-42"
       :src="benefitImage"
+      :alt="benefitTitle"
     />
     <p
       class="font-300 normal-case paragraph-text"
