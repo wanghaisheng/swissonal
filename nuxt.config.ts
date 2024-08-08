@@ -26,6 +26,15 @@ export default defineNuxtConfig({
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      meta: [
+        {
+          name: 'swissonal-color',
+          content: '#1E1E1E',
+        },
+      ],
+
+    },
   },
 
   future: {
@@ -35,8 +44,8 @@ export default defineNuxtConfig({
   nitro: {
     compressPublicAssets: true,
     prerender: {
-      crawlLinks: true
-    }
+      crawlLinks: true,
+    },
   },
 
   site: {
