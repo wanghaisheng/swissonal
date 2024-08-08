@@ -121,14 +121,14 @@ onUnmounted(() => {
         <div class="col-auto flex justify-center py-2 md:py-0">
           <button
             v-if="isMobile && displayedItems.length < allItems.length"
-            class="w-full border border-white-100 rounded-sm py-2 text-white-100 font-100 tracking-wide paragraph"
+            class="w-full border border-white-100 rounded-sm py-2 text-white-100 font-300 tracking-wide paragraph"
             @click="loadMore"
           >
             {{ $t('load-more') }}
           </button>
           <button
             v-else-if="isMobile && displayedItems.length === allItems.length && displayedItems.length > 15"
-            class="w-full py-2 text-white-100 font-100 tracking-wide italic paragraph"
+            class="w-full py-2 text-white-100 font-300 tracking-wide italic paragraph"
             @click="loadLess"
           >
             {{ $t('load-less') }}
