@@ -1,9 +1,11 @@
 @forward './lenis';
 @import './font.scss';
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 @import './reset.scss';
 
 body * {
   --at-apply: font-base text-black-200;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
 html,
