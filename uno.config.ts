@@ -63,7 +63,7 @@ export default defineConfig({
     'title-lg': 'text-3xl font-900 font-base uppercase md:text-5xl',
     'paragraph': 'text-base xl:text-lg',
     'paragraph-bold-tab': 'text-sm font-semibold tracking-wider md:text-base',
-    'paragraph-text': 'text-sm md:text-base lg:text-lg',
+    'paragraph-text': 'text-sm sm:text-base lg:text-lg',
     'paragraph-text-bold': 'font-semibold tracking-wider paragraph-text',
     'paragraph-text-light': 'font-light tracking-wide paragraph-text',
 
