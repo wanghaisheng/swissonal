@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     head: {
       meta: [
         {
-          name: 'swissonal-color',
+          name: 'theme-color',
           content: '#1E1E1E',
         },
       ],
