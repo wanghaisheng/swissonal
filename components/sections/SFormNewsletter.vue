@@ -4,8 +4,6 @@ import Message from 'primevue/message'
 
 const { t } = useI18n()
 
-const { data } = await useFetch('/api/subscribe')
-
 const email = ref('')
 const errorMessage = ref('')
 const successMessage = ref('')
@@ -29,12 +27,14 @@ async function subscribe() {
       },
       body: JSON.stringify({ email: email.value }),
     })
+    
     if (!response.ok)
       throw new Error(t('form-newsletter.message.unknown-error'))
-      email.value = ''
-      successMessage.value = t('form-newsletter.message.success-subscription')
 
-      setTimeout((() => {successMessage.value = ''}), 5000);
+    email.value = ''
+    successMessage.value = t('form-newsletter.message.success-subscription')
+
+    setTimeout((() => {successMessage.value = ''}), 5000);
   }
   catch (error: unknown) {
     if (error instanceof Error) {
@@ -59,14 +59,14 @@ async function subscribe() {
       src="/images/stickers/seasonal-tastes.webp"
       alt="sticker of a garden spade with the text mein bester freund(My best friend)"
     />
-
-    {{ data }}
-    <p class="text-white-100 title-lg">
-      {{ $t('form-newsletter.title') }}
-    </p>
-    <p class="text-sm text-white-100 font-600 leading-4 tracking-wide font-base">
-      {{ $t('form-newsletter.description') }}
-    </p>
+    <p 
+    class="text-white-100 title-lg" 
+      v-text="$t('form-newsletter.title')" 
+      />
+    <p 
+    class="text-sm text-white-100 font-600 leading-4 tracking-wide font-base" 
+      v-text="$t('form-newsletter.description')" 
+      />
     <div class="w-full flex flex-col gap-6">
       <FloatLabel
         class="newsletter-input"
@@ -80,7 +80,8 @@ async function subscribe() {
         <label
           for="email"
           class="newsletter-input-text"
-        >{{ $t('form-newsletter.email') }}</label>
+          v-text="$t('form-newsletter.email')"
+        />
       </FloatLabel>
 
       <Message
