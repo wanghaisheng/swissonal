@@ -31,7 +31,7 @@
 
       <li class="flex items-center gap-1">
         <p
-          class="footer-base-style font-100"
+          class="footer-base-style font-300"
           v-text="$t('footer.made-by')"
         />
         <a
@@ -44,7 +44,7 @@
       </li>
       <li>
         <p
-          class="footer-base-style font-100 italic"
+          class="footer-base-style font-300 italic"
           v-text="$t('footer.based-on')"
         />
       </li>
