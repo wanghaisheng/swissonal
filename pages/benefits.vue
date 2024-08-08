@@ -32,7 +32,6 @@ onMounted(() => {
         pin: true,
         pinSpacing: true,
         scrub: 1,
-        snap: 1 / (cards.length - 1),
         end: () => `+=${containerCards.value?.offsetWidth}`,
       },
     })
