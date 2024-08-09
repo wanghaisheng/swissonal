@@ -64,7 +64,8 @@
     "message": {
       "enter-valid-email": "Oops, sembra che tu debba inserire un indirizzo email valido! 🫣",
       "success-subscription": "Congratulazioni 🎉 Ora fai parte di questa comunità 🌻",
-      "unknown-error": "La nostra iscrizione è temporaneamente non disponibile. Riprova tra qualche minuto... ⏰"
+      "unknown-error": "La nostra iscrizione è temporaneamente non disponibile. Riprova tra qualche minuto... ⏰",
+      "email-already-subscribed": "Sei già nella lista! ✉️ Non vediamo l'ora di continuare a condividere con te!"
     }
   },
 
