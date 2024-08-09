@@ -14,10 +14,9 @@ async function subscribe() {
 
   const emailPattern = /^[^\s@]+@[^\s@][^\s.@]*\.[^\s@]+$/
 
-  if (!emailPattern.test(email.value)) {
-    errorMessage.value = t('form-newsletter.message.enter-valid-email')
-    return
-  }
+  if (!emailPattern.test(email.value))
+    return errorMessage.value = t('form-newsletter.message.enter-valid-email')
+  
 
   try {
     const response = await fetch('/api/subscribe', {

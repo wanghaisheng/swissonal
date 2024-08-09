@@ -1,14 +1,11 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import { sql } from '@vercel/postgres'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
   const { email } = body
 
-  const filePath = path.resolve('subscribers.txt')
-
   try {
-    fs.appendFileSync(filePath, `${email}\n `)
+    await sql`INSERT INTO subscribers (email) VALUES (${email});`
     return { message: 'Subscribed successfully!' }
   }
   catch (error) {
