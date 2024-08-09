@@ -8,7 +8,11 @@ export default defineEventHandler(async (event) => {
     await sql`INSERT INTO subscribers (email) VALUES (${email});`
     return { message: 'Subscribed successfully!' }
   }
-  catch (error) {
-    throw new Error('Subscription failed')
+  catch (error: any) {
+    if (error.code === '23505') {
+      throw new Error('form-newsletter.message.email-already-subscribed')
+    }
+
+    throw new Error('form-newsletter.message.unknown-error')
   }
 })

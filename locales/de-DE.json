@@ -63,7 +63,9 @@
     "message": {
       "enter-valid-email": "Ups, es sieht so aus, als müsstest du eine gültige E-Mail-Adresse eingeben! 🫣",
       "success-subscription": "Herzlichen Glückwunsch 🎉 Jetzt bist du Teil dieser Community 🌻",
-      "unknown-error": "Unser Abonnement ist vorübergehend nicht verfügbar. Bitte versuche es in ein paar Minuten noch einmal... ⏰"
+      "unknown-error": "Unser Abonnement ist vorübergehend nicht verfügbar. Bitte versuche es in ein paar Minuten noch einmal... ⏰",
+      "email-already-subscribed": "Du stehst schon auf der Liste! ✉️ Wir freuen uns darauf, weiterhin mit dir zu teilen!"
+
     }
 
   },
