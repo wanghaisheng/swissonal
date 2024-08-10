@@ -38,6 +38,7 @@
     "nuxt-lodash": "2.5.3",
     "nuxt-swiper": "1.2.2",
     "pinia": "2.1.7",
+    "posthog-js": "^1.155.0",
     "sass": "1.77.8",
     "typescript": "5.3.3",
     "vite": "5.3.3",

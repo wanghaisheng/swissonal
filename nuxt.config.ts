@@ -48,6 +48,14 @@ export default defineNuxtConfig({
     },
   },
 
+  runtimeConfig: {
+    public: {
+      posthogPublicKey: '',
+      posthogHost: '',
+      posthogDebug: '',
+    },
+  },
+
   site: {
     url: 'https://swissonal.ch',
     name: 'Swissonal',
