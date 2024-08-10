@@ -1,31 +1,31 @@
-<script lang="ts" setup>
-const isloaded = ref<boolean>(false)
+<script setup lang="ts">
+const isLoading = ref(true)
 
-onMounted (() => {
-  isloaded.value = true
+const { isLoading: isLoadingIndicator } = useLoadingIndicator()
+
+onMounted(() => {
+  watch(isLoadingIndicator, () => {
+    isLoading.value = isLoadingIndicator.value
+  }, { immediate: true })
 })
 </script>
 
 <template>
-  <transition
-    name="fade"
-    enter-active-class="transition-opacity duration-800 ease-in-out"
-    enter-from-class="opacity-0"
-    enter-to-class="opacity-100"
+  <Transition
     leave-active-class="transition-opacity duration-350 ease-in"
     leave-from-class="opacity-100"
     leave-to-class="opacity-0"
   >
     <div
-      v-if="!isloaded"
-      class="fixed left-0 top-0 z-999 h-100dvh w-100dvw flex items-center justify-center bg-red-100"
+      v-show="isLoading"
+      class="fixed left-0 top-0 z-10000 h-100dvh w-100dvw flex items-center justify-center bg-red-100"
     >
       <div class="cube" />
       <div class="cube" />
       <div class="cube" />
       <div class="cube" />
     </div>
-  </transition>
+  </Transition>
 </template>
 
 <style lang="scss" scoped>

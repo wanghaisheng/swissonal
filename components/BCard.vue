@@ -57,6 +57,7 @@ function scale(val: number, inMin: number, inMax: number, outMin: number, outMax
       :alt="foodName"
       class="h-16 w-16 select-none md:h-24 md:w-24"
       :src="foodImage"
+      sizes="64px md:96px"
     />
     <div class="flex flex-col items-start gap-2 text-start md:items-center md:text-center">
       <p

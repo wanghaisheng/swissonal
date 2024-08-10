@@ -139,12 +139,12 @@ useSeoMeta({
         v-once
         class="mb-20 max-w-[1024px] flex grow flex-col items-center gap-8 px-8 md:flex-row md:items-start md:justify-between md:gap-4"
       >
-        <BCardImageLink
+        <LazyBCardImageLink
           image-path="/images/calendar.webp"
           :text="$t('card-links.calendar')"
           link="/"
         />
-        <BCardImageLink
+        <LazyBCardImageLink
           image-path="/images/vegetables-garden.webp"
           :text="$t('card-links.benefits')"
           link="/benefits"

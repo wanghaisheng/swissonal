@@ -9,8 +9,9 @@
       class="absolute left-6 w-20 -top-10 lg:left-24 xl:left-32 lg:w-28 lg:-top-16"
       src="/images/stickers/cow.webp"
       alt="Sticker draw of a  cow black and white with swiss flag behind"
+      loading="lazy"
     />
-    <Logo class="w-50 fill-white-100 lg:w-60 xl:w-70" />
+    <LazyLogo class="w-50 fill-white-100 lg:w-60 xl:w-70" />
     <ul
       class="flex flex-col gap-8 text-start"
     >
@@ -22,11 +23,11 @@
       </li>
 
       <li>
-        <p
+        <a
           class="footer-base-style font-600"
-        >
-          ✉️ contact@swissonal.ch
-        </p>
+          href="mailto:contact@swissonal.ch"
+          v-text="'✉️ contact@swissonal.ch'"
+        />
       </li>
 
       <li class="flex items-center gap-1">
@@ -38,9 +39,8 @@
           href="https://www.linkedin.com/in/brunafusiger/"
           target="_blank"
           class="footer-base-style font-600"
-        >
-          Bruna Fusiger
-        </a>
+          v-text="'Bruna Fusiger'"
+        />
       </li>
       <li>
         <p

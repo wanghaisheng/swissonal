@@ -41,12 +41,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="custom-cursor">
+  <div>
     <NuxtImg
       id="cursor-small"
       src="/bee.svg"
       alt="bee following cursor"
-      class="custom-cursor__ball"
+      class="pointer-events-none fixed left-0 top-4 z-10000 h-24px w-24px opacity-0 transition-opacity duration-100 ease-in -rotate-18"
     />
   </div>
 </template>
@@ -55,11 +55,6 @@ onBeforeUnmount(() => {
 @media screen and (min-width: 1100px) {
   * {
     cursor: none !important;
-  }
-
-  .custom-cursor__ball {
-    --at-apply: top-4 left-0 -rotate-18	fixed w-24px h-24px  z-10000 opacity-0
-      pointer-events-none transition-opacity duration-100 ease-in;
   }
 }
 </style>
