@@ -100,6 +100,7 @@ onUnmounted(() => {
       <NuxtImg
         class="invisible absolute z-11 md:visible lg:w-22 md:w-20 xl:w-28 lg:-bottom-10 lg:-left-8 md:-bottom-12 md:-left-4 xl:-left-22"
         src="/images/stickers/organischisbeter.webp"
+        loading="lazy"
         alt="sticker of seet vegetable growing with the text organisch is beter (Organic is better)"
       />
       <div
