@@ -147,7 +147,17 @@ export default defineNuxtConfig({
     prefix: 'Headless',
   },
 
-  image: {},
+  image: {
+    quality: 95,
+    screens: {
+      'sm': 375,
+      'md': 744,
+      'lg': 1024,
+      '2lg': 1240,
+      'xl': 1440,
+      '2xl': 1700,
+    },
+  },
 
   swiper: {
     prefix: 'Swiper',
