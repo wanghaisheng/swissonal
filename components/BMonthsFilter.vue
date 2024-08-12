@@ -126,7 +126,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="relative h-max w-100dvw bg-white-100 px-4 shadow-[0px_2px_2px_0.5px_rgba(30,30,0,0.05)] md:w-full xl:px-0 lg:shadow-none"
+    class="relative h-max w-100dvw bg-white-100 px-4 py-2 shadow-[0px_2px_2px_0.5px_rgba(30,30,0,0.05)] md:w-full xl:px-0 lg:shadow-none"
   >
     <div class="invisible absolute top-0 z-10 h-full bg-white-100 md:visible xl:invisible -left-3">
       <button
