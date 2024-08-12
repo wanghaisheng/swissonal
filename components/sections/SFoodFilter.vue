@@ -76,7 +76,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section class="w-full flex flex-col items-center justify-center gap-20">
+  <section class="w-full flex flex-col items-center justify-center gap-12 lg:gap-20">
     <BTab
       :current-category="currentCategory"
       :current-user-month="currentMonth"
