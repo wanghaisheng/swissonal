@@ -31,7 +31,7 @@ onMounted(() => {
         trigger: '#benefitCardsSection',
         pin: true,
         pinSpacing: true,
-        scrub: 3,
+        scrub: 2,
         end: () => `+=${containerCards.value?.offsetWidth}`,
       },
     })
