@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayMediu.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
         { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBold.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
         { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBlack.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro.css' },
+        { rel: 'stylesheet', href: 'https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro' },
       ],
     },
   },
