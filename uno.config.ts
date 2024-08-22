@@ -17,7 +17,7 @@ export default defineConfig({
 
   theme: {
     fontFamily: {
-      base: ['"Neue Haas Grotesk Display Pro"', 'sans-serif'],
+      base: ['"neue haas grotesk display pro"', 'sans-serif'],
     },
 
     breakpoints: appBreakpoints,
