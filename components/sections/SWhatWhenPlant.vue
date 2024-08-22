@@ -44,6 +44,7 @@ onMounted(() => {
         height="16px"
         src="/images/emojis/swiss-flag.webp"
         alt="emoji of a swiss flag"
+        preload
       />
     </div>
 
@@ -53,6 +54,7 @@ onMounted(() => {
       src="/images/stickers/calendar.webp"
       alt="sticker of a calendar with a plant in a pot with the text Plant now enjoy latter"
       sizes="72px md:88px lg:112px"
+      preload
     />
     <NuxtImg
       data-speed="0.9"
@@ -60,6 +62,7 @@ onMounted(() => {
       src="/images/stickers/watering-can.webp"
       alt="sticker of a red watering can with a swiss flag draw"
       sizes="88px md:112px lg:152px"
+      preload
     />
     <NuxtImg
       data-speed="0.8"
@@ -67,6 +70,7 @@ onMounted(() => {
       src="/images/stickers/love-to-plant.webp"
       alt="sticker of hands planting tomatos with the text I love to plant"
       sizes="60px md:80px lg:112px"
+      preload
     />
   </section>
 </template>

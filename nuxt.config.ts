@@ -33,7 +33,16 @@ export default defineNuxtConfig({
           content: '#1E1E1E',
         },
       ],
-
+      link: [
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayLight.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayXThin.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayThin.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayThinItalic.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayMediu.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBold.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+        { rel: 'preload', href: 'https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBlack.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' },
+      ],
+      
     },
   },
 

@@ -10,11 +10,11 @@ defineProps<Props>()
 
 <template>
   <div class="flex flex-wrap items-center justify-center gap-2 text-black-200 title-lg">
-    <p>{{ text1 }}</p>
+    <p v-text="text1" />
     <p
       class="text-red-100"
-      v-text="month"
+      v-text="$t(`months.${month}`)"
     />
-    <p>{{ text2 }}</p>
+    <p v-text="text2" />
   </div>
 </template>
