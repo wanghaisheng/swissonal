@@ -24,17 +24,21 @@ onMounted(() => {
   loadData().then(() => {
     const cards = document.querySelectorAll('.card')
 
-    gsap.to(cards, {
-      xPercent: -100 * (cards.length - 1),
-      ease: 'none',
-      scrollTrigger: {
-        trigger: '#benefitCardsSection',
-        pin: true,
-        pinSpacing: true,
-        scrub: 2,
-        end: () => `+=${containerCards.value?.offsetWidth}`,
-      },
-    })
+    setTimeout(() => {
+      if (containerCards.value) {
+        gsap.to(cards, {
+          xPercent: -100 * (cards.length - 1),
+          ease: 'none',
+          scrollTrigger: {
+            trigger: '#benefitCardsSection',
+            pin: true,
+            pinSpacing: true,
+            scrub: 2,
+            end: () => `+=${containerCards.value!.offsetWidth * 4}`,
+          },
+        })
+      }
+    }, 100)
   })
 })
 
