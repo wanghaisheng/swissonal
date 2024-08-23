@@ -1,36 +1,6 @@
 {
   "fruits": [
     {
-      "title": "Apfel",
-      "description": "draußen",
-      "image": "/images/fruits/apple.webp"
-    },
-    {
-      "title": "Birne",
-      "description": "draußen",
-      "image": "/images/fruits/pear.webp"
-    },
-    {
-      "title": "Himbeere",
-      "description": "draußen",
-      "image": "/images/fruits/raspberry.webp"
-    },
-    {
-      "title": "Brombeere",
-      "description": "draußen",
-      "image": "/images/fruits/mulberry.webp"
-    },
-    {
-      "title": "Blaubeere",
-      "description": "draußen",
-      "image": "/images/fruits/blueberry.webp"
-    },
-    {
-      "title": "Nektarine",
-      "description": "draußen",
-      "image": "/images/fruits/nectarine.webp"
-    },
-    {
       "title": "Granatapfel",
       "description": "im Gewächshaus",
       "image": "/images/fruits/pomegranate.webp"

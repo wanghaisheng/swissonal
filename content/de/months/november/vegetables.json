@@ -2,43 +2,23 @@
   "vegetables": [
     {
       "title": "Spinat",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/spinach.webp"
     },
     {
-      "title": "Salat",
-      "description": "draußen",
-      "image": "/images/vegetables/lettuce.webp"
-    },
-    {
-      "title": "Karotte",
-      "description": "draußen",
-      "image": "/images/vegetables/carrot.webp"
-    },
-    {
-      "title": "Radieschen",
-      "description": "draußen",
-      "image": "/images/vegetables/radish.webp"
-    },
-    {
       "title": "Zwiebel",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Knoblauch",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Rote Bete",
-      "description": "draußen",
+      "title": "Rote Beete",
+      "description": "im Freien",
       "image": "/images/vegetables/beetroot.webp"
-    },
-    {
-      "title": "Spargel",
-      "description": "draußen",
-      "image": "/images/vegetables/asparagus.webp"
     }
   ]
 }

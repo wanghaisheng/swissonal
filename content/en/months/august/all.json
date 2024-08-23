@@ -11,11 +11,6 @@
       "image": "/images/fruits/apricot.webp"
     },
     {
-      "title": "Asparagus",
-      "description": "outdoor",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
       "title": "Basil",
       "description": "outdoor",
       "image": "/images/herbs/basil.webp"
@@ -194,11 +189,6 @@
       "title": "Starfruit",
       "description": "in greenhouse",
       "image": "/images/fruits/star_fruit.webp"
-    },
-    {
-      "title": "Spinach",
-      "description": "outdoor",
-      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Sicilian lemon",

@@ -21,11 +21,6 @@
       "image": "/images/herbs/rosemary.webp"
     },
     {
-      "title": "Basil",
-      "description": "outdoor",
-      "image": "/images/herbs/basil.webp"
-    },
-    {
       "title": "Thyme",
       "description": "outdoor",
       "image": "/images/herbs/thyme.webp"
@@ -49,16 +44,6 @@
       "title": "Dill",
       "description": "outdoor",
       "image": "/images/herbs/dill.webp"
-    },
-    {
-      "title": "Fennel",
-      "description": "outdoor",
-      "image": "/images/herbs/fennel.webp"
-    },
-    {
-      "title": "Lavender",
-      "description": "outdoor",
-      "image": "/images/herbs/lavender.webp"
     },
     {
       "title": "Chamomile",

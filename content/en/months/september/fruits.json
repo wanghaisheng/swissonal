@@ -16,11 +16,6 @@
       "image": "/images/fruits/raspberry.webp"
     },
     {
-      "title": "Cherry",
-      "description": "outdoor",
-      "image": "/images/fruits/cherry.webp"
-    },
-    {
       "title": "Blackberry",
       "description": "outdoor",
       "image": "/images/fruits/mulberry.webp"
@@ -39,16 +34,6 @@
       "title": "Kiwi",
       "description": "outdoor",
       "image": "/images/fruits/kiwi.webp"
-    },
-    {
-      "title": "Apricot",
-      "description": "outdoor",
-      "image": "/images/fruits/apricot.webp"
-    },
-    {
-      "title": "Nectarine",
-      "description": "outdoor",
-      "image": "/images/fruits/nectarine.webp"
     },
     {
       "title": "Pomegranate",

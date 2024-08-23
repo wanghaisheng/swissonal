@@ -11,11 +11,6 @@
       "image": "/images/fruits/apricot.webp"
     },
     {
-      "title": "Spargel",
-      "description": "draußen",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
       "title": "Basilikum",
       "description": "draußen",
       "image": "/images/herbs/basil.webp"
@@ -194,11 +189,6 @@
       "title": "Sternfrucht",
       "description": "im Gewächshaus",
       "image": "/images/fruits/star_fruit.webp"
-    },
-    {
-      "title": "Spinat",
-      "description": "draußen",
-      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Sizilianische Zitrone",
