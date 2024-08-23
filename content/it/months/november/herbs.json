@@ -6,16 +6,6 @@
       "image": "/images/herbs/parsley.webp"
     },
     {
-      "title": "Coriandolo",
-      "description": "all'aperto",
-      "image": "/images/herbs/cilantro.webp"
-    },
-    {
-      "title": "Erba cipollina",
-      "description": "all'aperto",
-      "image": "/images/herbs/chives.webp"
-    },
-    {
       "title": "Rosmarino",
       "description": "all'aperto",
       "image": "/images/herbs/rosemary.webp"
@@ -36,7 +26,7 @@
       "image": "/images/herbs/sage.webp"
     },
     {
-      "title": "Estragone",
+      "title": "Dragoncello",
       "description": "all'aperto",
       "image": "/images/herbs/tarragon.webp"
     },
@@ -44,26 +34,6 @@
       "title": "Aneto",
       "description": "all'aperto",
       "image": "/images/herbs/dill.webp"
-    },
-    {
-      "title": "Finocchio",
-      "description": "all'aperto",
-      "image": "/images/herbs/fennel.webp"
-    },
-    {
-      "title": "Lavanda",
-      "description": "all'aperto",
-      "image": "/images/herbs/lavender.webp"
-    },
-    {
-      "title": "Camomilla",
-      "description": "all'aperto",
-      "image": "/images/herbs/chamomile.webp"
-    },
-    {
-      "title": "Melissa",
-      "description": "all'aperto",
-      "image": "/images/herbs/mint.webp"
     }
   ]
 }

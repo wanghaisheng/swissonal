@@ -2,107 +2,57 @@
   "all": [
     {
       "title": "Apfel",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/apple.webp"
     },
     {
-      "title": "Aprikose",
-      "description": "draußen",
-      "image": "/images/fruits/apricot.webp"
-    },
-    {
-      "title": "Spargel",
-      "description": "draußen",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
-      "title": "Rote Bete",
-      "description": "draußen",
+      "title": "Rote Beete",
+      "description": "im Freien",
       "image": "/images/vegetables/beetroot.webp"
     },
     {
-      "title": "Paprika",
-      "description": "draußen",
-      "image": "/images/vegetables/bell_pepper.webp"
-    },
-    {
       "title": "Brombeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Blaubeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/blueberry.webp"
     },
     {
-      "title": "Basilikum",
-      "description": "draußen",
-      "image": "/images/herbs/basil.webp"
-    },
-    {
       "title": "Karotte",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/carrot.webp"
     },
     {
       "title": "Kamille",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/chamomile.webp"
     },
     {
-      "title": "Kirsche",
-      "description": "draußen",
-      "image": "/images/fruits/cherry.webp"
-    },
-    {
       "title": "Schnittlauch",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/chives.webp"
     },
     {
       "title": "Koriander",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/cilantro.webp"
     },
     {
-      "title": "Mais",
-      "description": "draußen",
-      "image": "/images/vegetables/corn.webp"
-    },
-    {
-      "title": "Gurke",
-      "description": "draußen",
-      "image": "/images/vegetables/cucumber.webp"
-    },
-    {
       "title": "Dill",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/dill.webp"
     },
     {
-      "title": "Aubergine",
-      "description": "draußen",
-      "image": "/images/vegetables/eggplant.webp"
-    },
-    {
-      "title": "Fenchel",
-      "description": "draußen",
-      "image": "/images/herbs/fennel.webp"
-    },
-    {
       "title": "Knoblauch",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/garlic.webp"
     },
     {
-      "title": "Grüne Bohnen",
-      "description": "draußen",
-      "image": "/images/vegetables/green_beans.webp"
-    },
-    {
       "title": "Kiwi",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/kiwi.webp"
     },
     {
@@ -112,32 +62,17 @@
     },
     {
       "title": "Salat",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/lettuce.webp"
     },
     {
-      "title": "Lavendel",
-      "description": "draußen",
-      "image": "/images/herbs/lavender.webp"
-    },
-    {
-      "title": "Nektarine",
-      "description": "draußen",
-      "image": "/images/fruits/nectarine.webp"
-    },
-    {
-      "title": "Okra",
-      "description": "draußen",
-      "image": "/images/vegetables/okra.webp"
-    },
-    {
       "title": "Zwiebel",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/onion.webp"
     },
     {
       "title": "Oregano",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/oregano.webp"
     },
     {
@@ -147,7 +82,7 @@
     },
     {
       "title": "Petersilie",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/parsley.webp"
     },
     {
@@ -157,7 +92,7 @@
     },
     {
       "title": "Pflaume",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/plum.webp"
     },
     {
@@ -167,22 +102,22 @@
     },
     {
       "title": "Radieschen",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/radish.webp"
     },
     {
       "title": "Himbeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/raspberry.webp"
     },
     {
       "title": "Rosmarin",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/rosemary.webp"
     },
     {
       "title": "Salbei",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/sage.webp"
     },
     {
@@ -192,7 +127,7 @@
     },
     {
       "title": "Spinat",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/vegetables/spinach.webp"
     },
     {
@@ -202,28 +137,18 @@
     },
     {
       "title": "Estragon",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/tarragon.webp"
     },
     {
-      "title": "Tomate",
-      "description": "draußen",
-      "image": "/images/vegetables/tomato.webp"
-    },
-    {
       "title": "Thymian",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/herbs/thyme.webp"
     },
     {
       "title": "Wassermelone",
       "description": "im Gewächshaus",
       "image": "/images/fruits/watermelon.webp"
-    },
-    {
-      "title": "Zucchini",
-      "description": "draußen",
-      "image": "/images/vegetables/zucchini.webp"
     }
   ]
 }

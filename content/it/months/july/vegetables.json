@@ -1,11 +1,6 @@
 {
   "vegetables": [
     {
-      "title": "Spinaci",
-      "description": "all'aperto",
-      "image": "/images/vegetables/spinach.webp"
-    },
-    {
       "title": "Lattuga",
       "description": "all'aperto",
       "image": "/images/vegetables/lettuce.webp"
@@ -69,11 +64,6 @@
       "title": "Mais",
       "description": "all'aperto",
       "image": "/images/vegetables/corn.webp"
-    },
-    {
-      "title": "Asparago",
-      "description": "all'aperto",
-      "image": "/images/vegetables/asparagus.webp"
     },
     {
       "title": "Okra",

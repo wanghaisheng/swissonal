@@ -1,11 +1,6 @@
 {
   "vegetables": [
     {
-      "title": "Spinach",
-      "description": "outdoor",
-      "image": "/images/vegetables/spinach.webp"
-    },
-    {
       "title": "Lettuce",
       "description": "outdoor",
       "image": "/images/vegetables/lettuce.webp"
@@ -69,11 +64,6 @@
       "title": "Corn",
       "description": "outdoor",
       "image": "/images/vegetables/corn.webp"
-    },
-    {
-      "title": "Asparagus",
-      "description": "outdoor",
-      "image": "/images/vegetables/asparagus.webp"
     },
     {
       "title": "Okra",

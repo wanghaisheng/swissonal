@@ -6,21 +6,6 @@
       "image": "/images/vegetables/spinach.webp"
     },
     {
-      "title": "Lattuga",
-      "description": "all'aperto",
-      "image": "/images/vegetables/lettuce.webp"
-    },
-    {
-      "title": "Carota",
-      "description": "all'aperto",
-      "image": "/images/vegetables/carrot.webp"
-    },
-    {
-      "title": "Ravanello",
-      "description": "all'aperto",
-      "image": "/images/vegetables/radish.webp"
-    },
-    {
       "title": "Cipolla",
       "description": "all'aperto",
       "image": "/images/vegetables/onion.webp"
@@ -34,11 +19,6 @@
       "title": "Barbabietola",
       "description": "all'aperto",
       "image": "/images/vegetables/beetroot.webp"
-    },
-    {
-      "title": "Asparagi",
-      "description": "all'aperto",
-      "image": "/images/vegetables/asparagus.webp"
     }
   ]
 }

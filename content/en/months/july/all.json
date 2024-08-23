@@ -11,11 +11,6 @@
       "image": "/images/fruits/apricot.webp"
     },
     {
-      "title": "Asparagus",
-      "description": "outdoor",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
       "title": "Beetroot",
       "description": "outdoor",
       "image": "/images/vegetables/beetroot.webp"
@@ -189,11 +184,6 @@
       "title": "Sage",
       "description": "outdoor",
       "image": "/images/herbs/sage.webp"
-    },
-    {
-      "title": "Spinach",
-      "description": "outdoor",
-      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Starfruit",

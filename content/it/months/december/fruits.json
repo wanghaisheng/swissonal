@@ -1,37 +1,12 @@
 {
   "fruits": [
     {
-      "title": "Mela",
-      "description": "all'aperto",
-      "image": "/images/fruits/apple.webp"
-    },
-    {
-      "title": "Pera",
-      "description": "all'aperto",
-      "image": "/images/fruits/pear.webp"
-    },
-    {
-      "title": "Lampone",
-      "description": "all'aperto",
-      "image": "/images/fruits/raspberry.webp"
-    },
-    {
-      "title": "More",
-      "description": "all'aperto",
-      "image": "/images/fruits/mulberry.webp"
-    },
-    {
-      "title": "Mirtillo",
-      "description": "all'aperto",
-      "image": "/images/fruits/blueberry.webp"
-    },
-    {
       "title": "Melograno",
       "description": "in serra",
       "image": "/images/fruits/pomegranate.webp"
     },
     {
-      "title": "Frutto stellato",
+      "title": "Carambola",
       "description": "in serra",
       "image": "/images/fruits/star_fruit.webp"
     },
@@ -56,7 +31,7 @@
       "image": "/images/fruits/lemon.webp"
     },
     {
-      "title": "Limone siciliano",
+      "title": "Limone Siciliano",
       "description": "in serra",
       "image": "/images/fruits/sicilian_lemon.webp"
     }

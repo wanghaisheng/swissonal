@@ -2,53 +2,38 @@
   "fruits": [
     {
       "title": "Apfel",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/apple.webp"
     },
     {
       "title": "Birne",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/pear.webp"
     },
     {
       "title": "Himbeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/raspberry.webp"
     },
     {
-      "title": "Kirsche",
-      "description": "draußen",
-      "image": "/images/fruits/cherry.webp"
-    },
-    {
       "title": "Brombeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/mulberry.webp"
     },
     {
       "title": "Pflaume",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/plum.webp"
     },
     {
       "title": "Blaubeere",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/blueberry.webp"
     },
     {
       "title": "Kiwi",
-      "description": "draußen",
+      "description": "im Freien",
       "image": "/images/fruits/kiwi.webp"
-    },
-    {
-      "title": "Aprikose",
-      "description": "draußen",
-      "image": "/images/fruits/apricot.webp"
-    },
-    {
-      "title": "Nektarine",
-      "description": "draußen",
-      "image": "/images/fruits/nectarine.webp"
     },
     {
       "title": "Granatapfel",

@@ -1,11 +1,6 @@
 {
   "vegetables": [
     {
-      "title": "Asparagi",
-      "description": "all'aperto",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
       "title": "Barbabietola",
       "description": "all'aperto",
       "image": "/images/vegetables/beetroot.webp"
@@ -64,11 +59,6 @@
       "title": "Ravanello",
       "description": "all'aperto",
       "image": "/images/vegetables/radish.webp"
-    },
-    {
-      "title": "Spinaci",
-      "description": "all'aperto",
-      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Pomodoro",

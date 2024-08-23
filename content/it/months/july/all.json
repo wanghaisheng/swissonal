@@ -26,11 +26,6 @@
       "image": "/images/herbs/dill.webp"
     },
     {
-      "title": "Asparago",
-      "description": "all'aperto",
-      "image": "/images/vegetables/asparagus.webp"
-    },
-    {
       "title": "Barbabietola",
       "description": "all'aperto",
       "image": "/images/vegetables/beetroot.webp"
@@ -209,11 +204,6 @@
       "title": "Salvia",
       "description": "all'aperto",
       "image": "/images/herbs/sage.webp"
-    },
-    {
-      "title": "Spinaci",
-      "description": "all'aperto",
-      "image": "/images/vegetables/spinach.webp"
     },
     {
       "title": "Susina",
