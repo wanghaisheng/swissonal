@@ -56,10 +56,11 @@
 
   "form-newsletter": {
     "title": "Il Miglior Amico del Tuo Giardino",
-    "description": "Ricevi consigli rapidi gratuiti e guide stagionali per la semina adattate ai giardini svizzeri via email 2x al mese",
+    "description": "Ricevi ogni mese via email consigli rapidi e guide stagionali per la piantagione, adattati ai giardini svizzeri",
     "name": "Nome",
     "email": "Email",
     "send": "Invia",
+    "last-editions": "Vuoi saperne di più? Guarda le edizioni passate qui.",
 
     "message": {
       "enter-valid-email": "Oops, sembra che tu debba inserire un indirizzo email valido! 🫣",
@@ -104,13 +105,14 @@
   "benefits": {
     "title": "benefici",
     "subtitle": "di coltivare il proprio cibo",
-    "sources": "📚 fonti"
+    "sources": "📚 fonti",
+    "scroll-down": "continua a scorrere verso il basso"
   },
 
   "seo": {
-    "project-description": "Promuoviamo gli strumenti e le conoscenze necessarie per coltivare il proprio cibo tutto l'anno in Svizzera.",
-    "project-about": "Scopri di più su Swissonal",
-    "benefits-plant": "Benefici del giardinaggio"
+    "project-description": "Cerchi cosa piantare in Svizzera adesso? Offriamo gli strumenti e le conoscenze necessarie per coltivare il tuo cibo tutto l'anno in Svizzera. Scopri quali verdure piantare a giugno, quali frutti piantare a settembre, quali erbe piantare a gennaio, quali insalate piantare a marzo e molto altro.",
+    "project-about": "Scopri di più su Swissonal, un progetto dedicato ad aiutare gli appassionati di giardinaggio in Svizzera.",
+    "benefits-plant": "Scopri i benefici del giardinaggio per la tua salute mentale, il tuo benessere fisico, i legami familiari e l'ambiente."
   }
 
 }
