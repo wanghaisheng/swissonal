@@ -21,26 +21,27 @@ async function loadData() {
 const containerCards = ref<HTMLDivElement | null>(null)
 
 onMounted(() => {
-  loadData().then(() => {
-    const cards = document.querySelectorAll('.card')
-
-    setTimeout(() => {
-      if (containerCards.value) {
-        gsap.to(cards, {
-          xPercent: -100 * (cards.length - 1),
-          ease: 'none',
-          scrollTrigger: {
-            trigger: '#benefitCardsSection',
-            pin: true,
-            pinSpacing: true,
-            scrub: 2,
-            end: () => `+=${containerCards.value!.offsetWidth * 4}`,
-          },
-        })
-      }
-    }, 100)
-  })
+  loadData().then(() => setTimeout(loadGsapHorizontalScroll, 100))
 })
+
+function loadGsapHorizontalScroll() {
+  if (containerCards.value) {
+    const cards = containerCards.value.querySelectorAll('.card')
+    const { offsetWidth } = containerCards.value
+
+    gsap.to(cards, {
+      xPercent: -100 * (cards.length - 1),
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '#benefitCardsSection',
+        pin: true,
+        pinSpacing: true,
+        scrub: 2,
+        end: () => `+=${offsetWidth * 4}`,
+      },
+    })
+  }
+}
 
 const links: string[] = [
   'https://www.sge-ssn.ch/',
@@ -95,6 +96,18 @@ useSeoMeta({
           :benefit-title="item.title"
           :benefit-description="item.description"
           :benefit-image="item.image"
+        />
+      </div>
+      <div
+        class="absolute inset-x-0 bottom-0 flex flex-col items-center gap-1"
+      >
+        <p
+          class="text-sm text-white-100 lowercase lg:text-base"
+          v-text="$t('benefits.scroll-down')"
+        />
+        <Icon
+          class="h-8 w-8 animate-bounce text-white-100 opacity-80"
+          name="i-material-symbols:keyboard-double-arrow-down"
         />
       </div>
     </section>

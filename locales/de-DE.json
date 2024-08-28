@@ -55,10 +55,11 @@
 
   "form-newsletter": {
     "title": "Der Beste Freund Ihres Gartens",
-    "description": "Erhalten Sie kostenlose schnelle Tipps und saisonale Pflanzanleitungen für Schweizer Gärten per E-Mail 2x im Monat",
+    "description": "Erhalten Sie jeden Monat kostenlose, schnelle Tipps und saisonale Pflanzanleitungen, angepasst an Schweizer Gärten, per E-Mail",
     "name": "Name",
     "email": "E-Mail",
     "send": "Senden",
+    "last-editions": "Möchten Sie mehr erfahren? Sehen Sie sich frühere Ausgaben hier an.",
 
     "message": {
       "enter-valid-email": "Ups, es sieht so aus, als müsstest du eine gültige E-Mail-Adresse eingeben! 🫣",
@@ -105,13 +106,14 @@
   "benefits": {
     "title": "Vorteile",
     "subtitle": "des eigenen Anbaus von Lebensmitteln",
-    "sources": "📚 Quellen"
+    "sources": "📚 Quellen",
+    "scroll-down": "weiter nach unten scrollen"
   },
 
   "seo": {
-    "project-description": "Wir fördern die Werkzeuge und das Wissen, die benötigt werden, um das ganze Jahr über in der Schweiz eigene Lebensmittel anzupflanzen.",
-    "project-about": "Erfahren Sie mehr über Swissonal",
-    "benefits-plant": "Vorteile des Gärtnerns"
+    "project-description": "Sie suchen nach dem, was Sie jetzt in der Schweiz pflanzen können? Wir bieten die Werkzeuge und das Wissen, das Sie benötigen, um das ganze Jahr über in der Schweiz Ihre eigenen Lebensmittel anzubauen. Entdecken Sie, welche Gemüse im Juni gepflanzt werden, welche Früchte im September, welche Kräuter im Januar und welche Salate im März und vieles mehr.",
+    "project-about": "Erfahren Sie mehr über Swissonal, ein Projekt, das Gartenliebhabern in der Schweiz hilft.",
+    "benefits-plant": "Entdecken Sie die Vorteile des Gärtnerns für Ihre mentale Gesundheit, Ihr körperliches Wohlbefinden, Ihre Familienbindungen und die Umwelt."
   }
 
 }

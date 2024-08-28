@@ -68,6 +68,13 @@ async function subscribe() {
       class="text-sm text-white-100 font-600 leading-4 tracking-wide font-base"
       v-text="$t('form-newsletter.description')"
     />
+    <NuxtLink
+      href="https://swissonal.beehiiv.com/"
+      target="_blank"
+      class="text-sm text-white-100 font-400 leading-4 tracking-wider font-base underline"
+    >
+      {{ $t('form-newsletter.last-editions') }} 📰✨
+    </NuxtLink>
     <div class="w-full flex flex-col gap-6">
       <FloatLabel class="newsletter-input">
         <InputText

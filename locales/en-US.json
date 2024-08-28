@@ -55,10 +55,11 @@
 
   "form-newsletter": {
     "title": "Your Garden's Best Friend",
-    "description": "Receive free quick tips and seasonal planting guides adapted for Swiss gardens by email 2x a month",
+    "description": "Receive free quick tips and seasonal planting guides tailored for Swiss gardens by email every month",
     "name": "Name",
     "email": "Email",
     "send": "Send",
+    "last-editions": "Want to know more? See past editions here.",
 
     "message": {
       "enter-valid-email": "Oops, looks like you need to enter a valid email address! 🫣",
@@ -103,12 +104,13 @@
   "benefits": {
     "title": "benefits",
     "subtitle": "of growing your food",
-    "sources": "📚 sources"
+    "sources": "📚 sources",
+    "scroll-down": "keep scrolling down"
   },
 
   "seo": {
-    "project-description": "We promote tools and knowledge needed for planting your own food all year round in Switzerland",
-    "project-about": "Learn more about Swissonal",
-    "benefits-plant": "Benefits of gardening"
+    "project-description": "Looking for what to plant in Switzerland right now? We provide the tools and knowledge you need to grow your own food year-round in Switzerland. Discover what vegetables to plant in June, which fruits to plant in September, which herbs to plant in January, which salads to plant in March, and much more.",
+    "project-about": "Learn more about Swissonal, a project dedicated to helping gardening enthusiasts in Switzerland.",
+    "benefits-plant": "Discover the benefits of gardening for your mental health, physical well-being, family connections, and the environment."
   }
 }

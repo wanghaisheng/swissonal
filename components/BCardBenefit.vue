@@ -10,7 +10,7 @@ defineProps<Props>()
 
 <template>
   <div
-    class="min-w-50 flex flex-col items-center gap-8 overflow-hidden rounded-md bg-white-100 px-4 py-4 text-center tracking-wide shadow-md lg:min-w-120 md:min-w-80 sm:min-w-60 lg:py-16"
+    class="min-w-50 flex flex-col items-center gap-8 overflow-hidden rounded-md bg-white-100 px-4 py-4 text-center tracking-wide shadow-md lg:min-w-120 md:min-w-80 sm:min-w-60 lg:py-8 2xl:py-16"
   >
     <p
       class="text-xl font-600 capitalize lg:text-4xl md:text-3xl"
@@ -22,7 +22,7 @@ defineProps<Props>()
       :alt="benefitTitle"
     />
     <p
-      class="font-300 normal-case paragraph-text"
+      class="font-300 normal-case paragraph-text lg:px-4"
       v-text="benefitDescription"
     />
   </div>
