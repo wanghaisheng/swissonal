@@ -15,7 +15,8 @@
     "what": "Was",
     "when": "Wann",
     "to-plant": "wird gepflanzt?",
-    "description": "Entdecken Sie jetzt den unverzichtbaren Saisonkalender für den Anbau Ihrer eigenen Lebensmittel in der Schweiz!"
+    "description": "Entdecken Sie jetzt den unverzichtbaren Saisonkalender für den Anbau Ihrer eigenen Lebensmittel in der Schweiz!",
+    "seo-title": "Was in der Schweiz pflanzen? Wann in der Schweiz pflanzen?"
   },
 
   "card-links": {
@@ -75,7 +76,7 @@
   "load-less": "- Weniger laden",
 
   "about": {
-    "title": "about",
+    "title": "über",
     "subtitle": "das Projekt",
 
     "description": {

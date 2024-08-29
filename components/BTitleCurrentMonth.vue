@@ -9,12 +9,12 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div class="flex flex-wrap items-center justify-center gap-2 text-black-200 title-lg">
-    <p v-text="text1" />
-    <p
+  <h2 class="flex flex-wrap items-center justify-center gap-2 text-black-200 title-lg">
+    <span v-text="text1" />
+    <span
       class="text-red-100"
       v-text="$t(`months.${month}`)"
     />
-    <p v-text="text2" />
-  </div>
+    <span v-text="text2" />
+  </h2>
 </template>

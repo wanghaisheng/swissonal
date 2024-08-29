@@ -8,12 +8,12 @@ defineProps<Props>()
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center">
-    <h1 class="text-white-100 title-xl">
+  <h1 class="flex flex-col items-center title-xl">
+    <span class="text-white-100">
       {{ title }}
-    </h1>
-    <h2 class="subtitle-xl text-white-100">
+    </span>
+    <span class="text-white-100 subtitle-xl">
       {{ subtitle }}
-    </h2>
-  </div>
+    </span>
+  </h1>
 </template>

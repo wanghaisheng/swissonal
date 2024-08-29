@@ -11,17 +11,21 @@ interface Item {
 
 const { locale } = useI18n()
 
-const benefitItems = ref<Item[]>([])
+const pageId = useId()
+
+const benefitItems = useState<Item[]>(`benefit-items-${pageId}`, () => [])
 
 async function loadData() {
   const data = await queryContent(`${locale.value}/benefits`).find()
   benefitItems.value = data[0]?.benefits
 }
 
+await callOnce(pageId, loadData)
+
 const containerCards = ref<HTMLDivElement | null>(null)
 
 onMounted(() => {
-  loadData().then(() => setTimeout(loadGsapHorizontalScroll, 100))
+  setTimeout(loadGsapHorizontalScroll, 100)
 })
 
 function loadGsapHorizontalScroll() {

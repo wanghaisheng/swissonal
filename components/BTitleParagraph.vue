@@ -9,12 +9,12 @@ defineProps<Props>()
 
 <template>
   <div class="flex flex-col items-start gap-2">
-    <p
+    <h3
       class="select-text capitalize selection:bg-white-100 paragraph-text-bold selection:text-black-200"
       :class="textWhite ? 'text-white-100' : 'text-black-200'"
     >
       {{ title }}
-    </p>
+    </h3>
     <slot />
   </div>
 </template>
