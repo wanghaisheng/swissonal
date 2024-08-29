@@ -15,7 +15,8 @@
     "what": "Was",
     "when": "Wann",
     "to-plant": "wird gepflanzt?",
-    "description": "Entdecken Sie den unverzichtbaren Kalender für den Eigenanbau in der Schweiz!"
+    "description": "Entdecken Sie jetzt den unverzichtbaren Saisonkalender für den Anbau Ihrer eigenen Lebensmittel in der Schweiz!",
+    "seo-title": "Was in der Schweiz pflanzen? Wann in der Schweiz pflanzen?"
   },
 
   "card-links": {
@@ -75,7 +76,7 @@
   "load-less": "- Weniger laden",
 
   "about": {
-    "title": "about",
+    "title": "über",
     "subtitle": "das Projekt",
 
     "description": {
@@ -111,7 +112,7 @@
   },
 
   "seo": {
-    "project-description": "Sie suchen nach dem, was Sie jetzt in der Schweiz pflanzen können? Wir bieten die Werkzeuge und das Wissen, das Sie benötigen, um das ganze Jahr über in der Schweiz Ihre eigenen Lebensmittel anzubauen. Entdecken Sie, welche Gemüse im Juni gepflanzt werden, welche Früchte im September, welche Kräuter im Januar und welche Salate im März und vieles mehr.",
+    "project-description": "Auf der Suche nach dem, was man jetzt in der Schweiz pflanzen kann? Wir bieten Ihnen einen saisonalen Kalender, Werkzeuge und das Wissen, das Sie benötigen, um das ganze Jahr über in der Schweiz Ihr eigenes Essen anzubauen. Entdecken Sie, welches Gemüse im Juni gepflanzt wird, welche Früchte im September, welche Kräuter im Januar und welche Salate im März und vieles mehr.",
     "project-about": "Erfahren Sie mehr über Swissonal, ein Projekt, das Gartenliebhabern in der Schweiz hilft.",
     "benefits-plant": "Entdecken Sie die Vorteile des Gärtnerns für Ihre mentale Gesundheit, Ihr körperliches Wohlbefinden, Ihre Familienbindungen und die Umwelt."
   }

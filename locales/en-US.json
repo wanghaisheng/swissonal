@@ -15,7 +15,8 @@
     "what": "What",
     "when": "When",
     "to-plant": "to plant?",
-    "description": "Discover the essential calendar for growing your own food in Switzerland!"
+    "description": "Discover the essential seasonal calendar for growing your own food in Switzerland now!",
+    "seo-title": "What to plant in Switzerland? When to plant in Switzerland?"
   },
 
   "card-links": {
@@ -109,7 +110,7 @@
   },
 
   "seo": {
-    "project-description": "Looking for what to plant in Switzerland right now? We provide the tools and knowledge you need to grow your own food year-round in Switzerland. Discover what vegetables to plant in June, which fruits to plant in September, which herbs to plant in January, which salads to plant in March, and much more.",
+    "project-description": "Looking for what to plant in Switzerland right now? We provide a seasonal calendar, tools and knowledge you need to grow your own food year-round in Switzerland. Discover what vegetables to plant in June, which fruits to plant in September, which herbs to plant in January, which salads to plant in March, and much more.",
     "project-about": "Learn more about Swissonal, a project dedicated to helping gardening enthusiasts in Switzerland.",
     "benefits-plant": "Discover the benefits of gardening for your mental health, physical well-being, family connections, and the environment."
   }
