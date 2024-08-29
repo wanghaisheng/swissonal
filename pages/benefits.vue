@@ -103,7 +103,7 @@ useSeoMeta({
         />
       </div>
       <div
-        class="absolute inset-x-0 bottom-0 flex flex-col items-center gap-1"
+        class="absolute inset-x-0 bottom-8 md:bottom-0 flex flex-col items-center gap-1"
       >
         <p
           class="text-sm text-white-100 lowercase lg:text-base"
