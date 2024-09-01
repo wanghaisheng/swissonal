@@ -8,7 +8,7 @@ defineProps<Props>()
 </script>
 
 <template>
-  <h1 class="flex flex-col items-center title-xl">
+  <h1 class="flex flex-col items-center text-center title-xl">
     <span class="text-white-100">
       {{ title }}
     </span>
