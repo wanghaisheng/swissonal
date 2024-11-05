@@ -18,7 +18,7 @@ Swissonal is a project dedicated to empowering Swiss gardeners, plant lovers, an
 
 ## Setup
 
-Using [Bun](https://bun.io/) as your package manager.
+Using [Bun](https://bun.io/) as package manager.
 
 Technologies:
 - Nuxt 3 (vue)
