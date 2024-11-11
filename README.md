@@ -1,3 +1,5 @@
+herb 草药
+
 # Swissonal :cherries:
 
 Swissonal is a project dedicated to empowering Swiss gardeners, plant lovers, and anyone passionate about growing their own food
